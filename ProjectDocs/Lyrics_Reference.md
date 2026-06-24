@@ -228,7 +228,7 @@ Call us all to arms and order
 ---
 
 ## Act V — Culling Voices
-*Theme: projection and false accusation — "judge, condemn and banish… without evidence, only the whispers from within." The voices do the culling: the darkness culls mankind *through itself* (paranoia, projection, self-destruction), never lifting a hand. The Phoenix reckons internally and refuses to fight (to strike would feed the darkness); its turning point is accepting that the darkness can only be *contained* as the 7empest, forever. (Framed in the treatment; a full timecoded beat-map still pending.)*
+*Theme: projection and false accusation — "judge, condemn and banish… without evidence, only the whispers from within." The voices do the culling: the darkness culls mankind *through itself* (paranoia, projection, self-destruction), never lifting a hand. The Phoenix reckons internally and refuses to fight (to strike would feed the darkness); its turning point is accepting that the darkness can only be *contained* as the 7empest, forever. (Now **beat-mapped** in the treatment: the **voices own the song until ~5:27**, then the **guitar — the Phoenix — takes it back** and the words break apart, ending at **8:11**; from there the act is wordless, and stays wordless through CCT into 7empest's intro.)*
 
 ```
 Disembodied voices deepen my suspicious tendencies

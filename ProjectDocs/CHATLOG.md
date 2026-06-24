@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-24 — Culling Voices (V) beat-mapped
+
+**What happened:** Built the full timecoded beat-map for Culling Voices, on the existing framing
+(Phoenix won't fight; the darkness culls mankind through itself; the acceptance turn; blackened
+feathers). Cues from the owner: ~0:00–1:27 instrumental open; **1:27** voices enter; **2:24–3:02**
+"Heated altercations… → misleading me over and over and over"; ~3:02–3:20 breath; **3:20–5:27**
+"Judge, condemn… → imagined interplay ×3"; **5:27** the guitar takes the song (music over words);
+**5:57** "Don't you dare" refrain returns; **6:11** guitars take off / energy shift; **8:11** the words
+end; 8:11–10:05 wordless reckoning/acceptance; transition into CCT.
+
+**Key structural insight:** the act is a contest for the song — the **voices** rule the first half
+(mankind's projection ∥ the Phoenix's inner accusations), then the **guitar (the Phoenix)** takes it
+back and the words fragment. And the words don't return after 8:11 until 7empest's "keep it calm" —
+so Culling Voices' outro + all of CCT + 7empest's intro form **one long wordless descent into the
+corruption.** (The Four Instruments principle, made structural.)
+
+**Propagated to** the lyrics hooks, the v5 revision log (clause 14), MEMORY, and TODO. All
+lyric-bearing acts (I–V, VII) are now beat-mapped; VI (CCT) stays an instrumental look-dev deferral.
+Timecodes still to be verified against the master.
+
+**State:** Culling Voices done — the last open act-development thread. No assets built yet.
+
+---
+
 ## 2026-06-24 — Aesthetic principle: the four instruments stage the image
 
 **What happened:** Captured a global production/aesthetic rule from the owner — each band voice drives

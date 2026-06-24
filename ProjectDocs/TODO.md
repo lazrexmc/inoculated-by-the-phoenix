@@ -33,8 +33,10 @@
 ## Canon / docs tasks
 - [ ] **Spec the Act VI / Chocolate Chip Trip interior** as its own look-dev asset entry and slot
       it into the build order — deliberately deferred, not a freebie. (Tracked in MEMORY.md.)
-- [ ] **Beat-map Culling Voices (V)** against its lyrics with timecodes, the way Invincible and
-      Descending were done. (Framing is in the treatment; the timecoded beat sheet is still pending.)
+- [x] **Beat-mapped Culling Voices (V)** against its lyrics with timecodes: instrumental open → voices
+      enter (1:27) → the culling (3:20–5:27) → 5:27 the guitar takes the song → 5:57–8:11 "Don't you
+      dare" collapse → wordless reckoning to 10:05 → transition into CCT. All lyric-bearing acts (I–V,
+      VII) are now beat-mapped; VI/CCT stays an instrumental look-dev deferral. Cues to verify vs. master.
 - [x] **7empest ending (~9:44 → speck) beat-mapped:** the Reckoner crisis, the two-voice Phoenix /
       Deceiver round (voice never body), the "will be / must be" overlap, the Phoenix-as-tempest
       question. (7empest's earlier gathering/sealing beats remain story-level.)
