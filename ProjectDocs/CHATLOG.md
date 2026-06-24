@@ -4,6 +4,53 @@
 
 ---
 
+## 2026-06-24 — Started the master shot list (Act I, v5-aligned)
+
+**What happened:** The owner added `Fear_Inoculum_ShotList.xlsx` (a detailed Act I shotlist from an
+earlier canon version). Reviewed it: the front half (FI-001→019, the creation sequence through the
+Egg waking) is on-canon; the back half (the Egg hatching in Act I, the hatchling exploring and
+charging the Deceiver) is the *old* canon — exactly the material we relocated this session.
+
+Created **`mastershotlist.md`** as the authoring source: per-shot blocks whose fields map 1:1 to the
+Excel columns (H/B/UE5/DR shorthand; `~` marks proposed cues). Drafted **Act I fully, v5-aligned** —
+kept FI-001→019, reworked the back half into the **sealed-Egg inoculation** (the shadow takes a shape,
+lunges at the Tree, and the **Egg's light**, no hatchling, drives it back; ends on the false peace).
+Added a "Relocated" note pointing the old hatch/explore/charge shots to the Pneuma and Invincible
+lists. Scaffolded Acts II–VII.
+
+**Flagged in the review:** the redistribution pulls ~4 min of Act I screen-content to Pneuma, so the
+new Act I back half rides the atmospheric inoculation rather than the hatchling journey — confirm it
+has enough visual event. Old-Excel lyric casing predates the audit fixes.
+
+**State:** master shot list started; Act I drafted. The `.xlsx` and `.md` are untracked in git (not
+yet committed). No assets built yet.
+
+---
+
+## 2026-06-24 — Reclaimed earlier-draft hatch/exploration detail (Act I + Pneuma)
+
+**What happened:** The owner surfaced rich beats from an earlier version — the hatch, the eaglet
+exploring, the unseen boundary, "why am I here?", the wordless Tree-recognition, and the Deceiver
+confrontation. In that draft the Egg hatched in Act I; in v5 it stays sealed. Redistributed the
+material to fit, losing almost none of it:
+- **Act I's inoculation** enriched with the confrontation staging — the shadow takes a shape, lunges
+  at the Tree, the Tree's pulse stutters, the threat is driven back — but the agent is the **Egg's
+  light (passive)**, not a hatchling. (More on-theme: the title's "inoculation" = passive immunity;
+  the old active charge slightly undercut that.)
+- **Pneuma** gains the rich hatch detail (shell in segments, the eaglet wet with starlight) and a new
+  **"First Discovery"** beat: the springs and starlight rivers, the unseen boundary, "why am I here?",
+  and the wordless cosmic recognition with the Tree.
+- The earlier active **protective charge** is **seeded** in Pneuma (the Bird torn by the shadow, a
+  protective pull toward the Tree) and **paid off** in Invincible (the Phoenix saving the Tree).
+
+**Edits:** Act I "Egg Inoculates" (the lunge + Egg's-light repel), the Pneuma hatch beat, a new Pneuma
+"First Discovery" beat, and the Pneuma looming-shadow (the torn/protective seed). Revision clause 17.
+
+**State:** earlier detail largely reclaimed; Act I stays passive/Egg-sealed, Pneuma's coming-of-age is
+richer. No assets built yet.
+
+---
+
 ## 2026-06-24 — Cleaned the CCT → 7empest transition (rise vs. seal)
 
 **What happened:** Resolved audit item #6 (the corruption reading as "gathered twice"). Split the

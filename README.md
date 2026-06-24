@@ -31,6 +31,12 @@ Produced in **Blender** (`bpy` scripting in VS Code) → **Unreal Engine 5**, wi
 | `LLM_HANDOFF.md` | Paste-ready onboarding prompt for a fresh AI session. |
 | `Lyrics_Reference.md` | Full Tool lyrics by act — source text for canon/act development. |
 
+## Production artifacts
+| File | Role |
+|---|---|
+| `mastershotlist.md` | **Master shot list** (authoring source). Canon-locked to Treatment v5; per-shot blocks whose fields map to the Excel columns. **Act I drafted**; Acts II–VII to come. |
+| `Fear_Inoculum_ShotList.xlsx` | Excel shot list — filled *from* the master `.md`. (An earlier-version Act I; being superseded by the v5-aligned master.) |
+
 ## Status
 Pre-production. Canon docs consolidated and consistent. No assets built yet — next steps are in
 [`ProjectDocs/TODO.md`](ProjectDocs/TODO.md).

@@ -33,6 +33,9 @@
 ## Canon / docs tasks
 - [ ] **Spec the Act VI / Chocolate Chip Trip interior** as its own look-dev asset entry and slot
       it into the build order — deliberately deferred, not a freebie. (Tracked in MEMORY.md.)
+- [ ] **Continue the master shot list** (`mastershotlist.md`): Act I is drafted (v5-aligned); build
+      Acts II–VII (Pneuma inherits the relocated hatch/exploration shots), then fill
+      `Fear_Inoculum_ShotList.xlsx` from it.
 - [x] **Cleaned the CCT (VI) → 7empest (VII) transition** (Audit #6): split into *rise* vs. *seal* —
       the wider world's corruption rises of its own accord and convenes across CV/CCT into one mass
       above the Tree; 7empest draws that *present* mass in and binds it (no more "gathers twice").
