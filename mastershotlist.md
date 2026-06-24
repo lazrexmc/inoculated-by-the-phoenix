@@ -648,7 +648,119 @@
 > **FEATHER NOTE:** Across the witnessing flight, feathers fall less often, their colors muting — one trampled in a city, one swept down a river. Then, at the freeze, feathers from across the film converge and ignite into the Phoenix's wings — a storm of them, not a tally.
 
 ## Act IV — Descending (~13:38) — The Phoenix's Flight
-*To come. Ocean-of-unknowing open, the descent, the layered Dire Reveille, the ~6:49 handoff to the instrumental elegy-flight.*
+
+> **v5 note.** Descending is the **Phoenix's flight** — a post-rise elegy over a world that still seems whole. It opens on the ocean of unknowing, descends through the (now dual-coded) "free fall" lyrics, sounds the **layered Dire Reveille** (the Phoenix's plea AND the darkness's muster, which most of mankind answers), then — Maynard's last lyric at **~6:49** — becomes a long, wholly **instrumental elegy-soar** over the whole built world, the beauty dimming into despair as the dark muster gathers below. The act **does not cut** at the end; it dissolves into the dark that opens Culling Voices. Palette: lingering gold → desaturating (golds→amber, blues→gray) → despair. Lyric sub-cues `~` proposed; 6:49 lyric-end is owner-given.
+
+### THE OCEAN OF UNKNOWING (0:00–1:13)
+
+**DS-001 — The Ocean of Unknowing**
+- **TC:** 0:00 → 1:13
+- **Description:** Invincible's final repetitions carry the just-risen Phoenix across the seam — it climbs out from the Tree, over roughly a minute of the album's ambient ocean soundscape, above a world that does not yet know what happened at the Tree. The reckoning there was local; everywhere else, life goes on as before. Most of the world still looks whole, still in harmony — *so it seems.* The beauty is already hollow, but only the Phoenix can see it. Feathers drift, some falling into the sea.
+- **Camera:** A continuous climb out from the Tree into a wide, high hold over a serene ocean/world.
+- **Key Assets:** `CHR_Phoenix_FireLayers`; `ENV_Water_System` (ocean); the wider world; `FX_Feather`.
+- **VFX/Software:** Lingering **full gold** (the world still seems whole); feathers falling to the sea; holographic shimmer.
+- **Audio Cue:** ~1 min ambient ocean soundscape (no lyrics) — carried in by Invincible's reprise.
+- **Notes:** **Carry-through from Invincible** (no hard cut/fade). Dramatic irony: the beauty is hollow and only the Phoenix knows it — seeing it is a grief.
+
+### THE DESCENT (1:13–5:53)
+
+**DS-002 — The Descent Begins**
+- **TC:** 1:13 → ~3:00
+- **Description:** The Phoenix flies high, watching. *"Free fall through our midnight / This epilogue of our own fable / Heedless in our slumber / Floating nescient we / Free fall through this boundlessness / This madness of our own making."* Below, mankind free-falls in heedless slumber through a madness of its own making, mistaking the collapse for progress.
+- **Camera:** The Phoenix watching from high; below, mankind in heedless decline.
+- **Key Assets:** Phoenix; `CHR_Mankind_Base`/`CHR_Troll` (declining); the world.
+- **VFX/Software:** The apparent harmony beginning to curdle; the warmth starting to thin.
+- **Audio Cue:** "Free fall through our midnight…"
+- **Notes:** **Dual-coded** — the world's fall *and* the Phoenix's own descent into fate, in the same words.
+
+**DS-003 — Falling Isn't Flying**
+- **TC:** ~3:00 → 5:53
+- **Description:** *"Falling isn't flying / Floating isn't infinite."* For all its fire and rising, the Phoenix too is **falling** — descending into its fate once more, bound to the cycle, watching the apparent harmony curdle into decline. It saved the Tree but cannot halt the wider descent it now witnesses. The grief deepens because it understands the cause: the descent is mankind's own doing.
+- **Camera:** The Phoenix's flight — the dual fall (the Phoenix descending in spirit, the world declining below).
+- **Key Assets:** Phoenix; the world (declining).
+- **VFX/Software:** Desaturation engaging — golds to amber, blues to gray.
+- **Audio Cue:** Through "Falling isn't flying / Floating isn't infinite."
+- **Notes:** The dual-meaning table (Treatment): same words read as **the Phoenix** *and* **mankind** at once (e.g., "Falling isn't flying" = *its rise is also a fall* / *mistaking collapse for progress*).
+
+### THE DIRE REVEILLE (5:53–6:49)
+
+**DS-004 — The Reveille (the Phoenix's plea)**
+- **TC:** 5:53 → ~6:25
+- **Description:** *"Sound the dread alarm / Through the primal body / Sound the reveille, to be or not to be / Rise / Stay the grand finale / Stay the reading of our swan song and epilogue… Muster every fiber / Mobilize / Stay alive / Stir us from our wanton slumber / Mitigate our ruin."* The Phoenix sounds an alarm across the descending world — a last, desperate call to rouse mankind, to *stay the swan song*, to rise and mitigate its own ruin. The Tree pulses with the cry; the sky shudders.
+- **Camera:** The Phoenix crying out across the world; the Tree pulsing; a few of mankind below looking up.
+- **Key Assets:** Phoenix; `ENV_Tree`; `CHR_Mankind_Base`.
+- **VFX/Software:** The cry rippling across the world; the Tree's answering pulse; the sky shudder.
+- **Audio Cue:** "Sound the dread alarm…"
+- **Notes:** This is the plea — *rouse to live.* Not the gathering (that's 7empest).
+
+**DS-005 — The Call Curdles**
+- **TC:** ~6:25 → 6:49
+- **Description:** *"…Call us all to arms and order."* The call carries two meanings at once. The Phoenix means *rouse to live* — but the darkness turns the very same words into a **muster of its own**, and that is the call most of mankind answers: taking up arms, unknowingly, against the good. A few hear the true reveille and look up; the rest answer the dark one. The Phoenix watches its plea become the enemy's war-drum, and cannot stop it.
+- **Camera:** Split read — a few figures looking up, the many below taking up arms; the Phoenix watching, helpless.
+- **Key Assets:** Phoenix; `CHR_Mankind_Base`/`CHR_Troll` (the few vs. the arming many).
+- **VFX/Software:** The **dark muster** beginning to form below; the few points of light still looking up.
+- **Audio Cue:** "Call us all to arms and order" (~6:49 — the act's **last lyric**).
+- **Notes:** **False hope made audible, answered in the worst way.** The layered call — the Phoenix's plea ∥ the darkness's muster. This failure is the weight it carries into everything after.
+
+### THE FLIGHT (6:49–13:35) — *wholly instrumental*
+
+**DS-006 — The Elegy Begins**
+- **TC:** 6:49 → ~8:00
+- **Description:** Maynard's last lyric falls at ~6:49; the rest of the act is wholly instrumental — and this is where the Phoenix *truly* takes to flight. A long, slow, achingly beautiful soar begins over the world the film has built, seen from the Phoenix's own eyes: the plateau, the Tree, the sacred center — held up for one last loving look.
+- **Camera:** Sweeping, elegiac, expansive flight; the most beautiful sustained sequence since Pneuma's frisson.
+- **Key Assets:** Phoenix; `ENV_Plateau`; `ENV_Tree`; the whole built world.
+- **VFX/Software:** The world at its last full beauty (still warm, just beginning to dim); `NG_HoloDissolve` shimmer.
+- **Audio Cue:** Instrumental (from ~6:49).
+- **Notes:** The act's **visual summit** — the built world's curtain-call, framed as the Phoenix's farewell, not a showcase. (Four Instruments: the guitar carries the Phoenix's flight.)
+
+**DS-007 — Over the Liquid Starlight**
+- **TC:** ~8:00 → ~9:15
+- **Description:** The Phoenix's flight carries it over the rivers and oceans of liquid starlight — and the starlight is *fading* from the water as the world declines. The veins of light that were the lifeblood of creation are dimming.
+- **Camera:** A low, loving pass over the water network, following the rivers.
+- **Key Assets:** `ENV_Water_System`; `MAT_LiquidStarlight`; Phoenix.
+- **VFX/Software:** Starlight density fading from the water (canon: starlight fades as mankind corrupts); cooling palette (blues→gray).
+- **Audio Cue:** Instrumental.
+- **Notes:** Canon callback — "as mankind corrupts, the starlight fades from the world's waters." Pays off when it *returns* in the renewal.
+
+**DS-008 — Over the Grandeur**
+- **TC:** ~9:15 → ~10:30
+- **Description:** The soar widens — over the cosmos, the vistas, the whole grandeur of everything that was given. The Phoenix sees it all again: what was created, in full, one last time.
+- **Camera:** The widest, most expansive passes of the flight — the scale of creation.
+- **Key Assets:** `ENV_Cosmos`; the world's vistas; Phoenix.
+- **VFX/Software:** Fake cosmic scale (depth cues); the grandeur held, just beginning to dim.
+- **Audio Cue:** Instrumental.
+- **Notes:** The elegy's high point — "the grandeur of everything that was given." Maximum craft; this is where the build pays off on screen.
+
+**DS-009 — The Beauty Dims, the Muster Gathers**
+- **TC:** ~10:30 → ~12:00
+- **Description:** We see how great the world was precisely as it begins to dim. The Phoenix's wingbeats slow; the light desaturates; the beauty fades, across the flight, into despair. And the despair has a shape: far below, the **dark muster gathers** — mankind taking up the call to arms, turning on the light and on itself.
+- **Camera:** The elegiac flight continuing as the world dims; intercut the dark muster forming below.
+- **Key Assets:** Phoenix; the world (dimming); the dark muster (`CHR_Troll`/`CHR_Mankind_Base`, arming).
+- **VFX/Software:** Desaturation deepening (golds→amber, blues→gray, toward despair); the muster massing below.
+- **Audio Cue:** Instrumental.
+- **Notes:** The beauty and the arming coexist — the Phoenix's farewell passes over a world arming for its own culling.
+
+**DS-010 — Arming for Its Own Culling**
+- **TC:** ~12:00 → 13:35
+- **Description:** The despair deepens. What dims beneath the Phoenix is not only the light, but the last of mankind's will to choose otherwise. The dark muster gathers fully; the Phoenix soars in mourning above it.
+- **Camera:** The Phoenix high and alone; below, the dark muster fully formed, the world gone dark.
+- **Key Assets:** Phoenix; the dark muster; the world (dark).
+- **VFX/Software:** Full desaturation into despair; the muster complete.
+- **Audio Cue:** Instrumental toward 13:35.
+- **Notes:** The elegy resolves into despair — the world has armed itself; the will to choose otherwise is spent.
+
+### THE DESCENT ENDS (13:35)
+
+**DS-011 — The Descent Ends**
+- **TC:** 13:35 → ~13:38
+- **Description:** The flight ends. The world has gone dim. The Phoenix has seen all of it again — what was given, and what was done with it — and it knows, without being able to say it, what must come next. The act does not cut. The beauty dissolves into the dark — and that dark, mankind already turning on itself and on the light, is the doorway into Culling Voices.
+- **Camera:** The Phoenix settling; the dark world; a slow dissolve into the dark (no hard cut).
+- **Key Assets:** Phoenix; the dark world.
+- **VFX/Software:** Dissolve into the dark — **continuous** into Culling Voices (no cut to black).
+- **Audio Cue:** Descending's end → Culling Voices.
+- **Notes:** **No cut** — the dark *is* the doorway into Culling Voices (the self-culling). Continuity into Act V.
+
+> **FEATHER NOTE:** Through the flight, feathers fall slower and darker — colors muting toward grey. One lands in a city, trampled. One lands in a river, swept away. One drifts past the Phoenix's eye, and it watches the very thing it is made of fall.
 
 ## Act V — Culling Voices (10:05) — Reckoning
 *To come. The dim instrumental open (to 1:27), the voices, the culling, the 5:27 guitar-takeover, the 5:57–8:11 "Don't you dare" collapse, the wordless reckoning.*
