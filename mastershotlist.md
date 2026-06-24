@@ -461,7 +461,191 @@
 - **Notes:** **FEATHER NOTE — a feather drifts past; one of many, never singled out** (no "first" feather is tracked). **Do NOT fade or cut to black** — the Bird is still growing as Pneuma gives way, *unbroken*, to Invincible.
 
 ## Act III — Invincible (~12:44) — Awareness & Crisis
-*To come. The Eagle's maturation, the witnessing flight, the troll march, the freeze/realization, the dive + eruption (Tree spared), the Ponce de Leon reprise. The protective-charge payoff lands here.*
+
+> **v5 note.** Invincible holds the whole Eagle arc: it **completes its maturation** (the growth carried unbroken from Pneuma), soars a **corrupting world** (the witnessing flight, relocated here), reaches its **near-breaking**, then the **troll march** nearly kills the Tree — until the **freeze + realization**, the **dive**, and the **eruption** of the Phoenix, which **spares** the Tree. The **9:44 / 10:49 / 10:52** climax cues are locked (owner-verified) and the act's top master-audio priority; flight sub-cues are `~` proposals. The protective instinct seeded in Pneuma **pays off here**.
+
+### THE EAGLE COMES OF AGE (0:00–~2:00)
+
+**IN-001 — The Seam (no cut from Pneuma)**
+- **TC:** 0:00 → ~0:30
+- **Description:** No cut, no fade — Pneuma flows straight into Invincible on the same world. The bird is still mid-growth as the new movement opens; the wordless intro carries the momentum across the seam.
+- **Camera:** Continuous from Pneuma's final close on the bird's eye, easing back into motion.
+- **Key Assets:** `CHR_OneBeing` (mid-growth); the established world.
+- **VFX/Software:** Seamless continuity match with PN-020 — **no black, no reset**.
+- **Audio Cue:** Pneuma's last note → Invincible's open (no gap).
+- **Notes:** The Pneuma→Invincible seam is the film's one *deliberately continuous* act-join.
+
+**IN-002 — The Growth Completes**
+- **TC:** ~0:30 → ~1:15
+- **Description:** In these wordless minutes the growth finishes — feathers lengthening to their full span, the body strengthening, the last of the juvenile burning away. It becomes the **mythical Eagle** in its true scale: radiant, powerful, conscious. Not a change of kind — it was always an eagle; now it is the whole of one.
+- **Camera:** Following the bird in flight as it comes fully into itself; reveal the full wingspan.
+- **Key Assets:** `CHR_OneBeing` (eaglet → mature Eagle; shape-key/scale to ~4–6 m wingspan); `RIG_OneBeing`.
+- **VFX/Software:** Maturation progression (continues PN-009's growth); full-scale reveal.
+- **Audio Cue:** Instrumental intro.
+- **Notes:** Same being, completing — the spine of the act's first minutes. (Four Instruments: the guitar carries the Eagle into its full power.)
+
+**IN-003 — The Weight Settles, the Fall Begins**
+- **TC:** ~1:15 → ~2:00
+- **Description:** As it comes into itself, an older weight settles — a bone-deep sense that it has flown this exact flight before and watched this exact ruin unfold, many times; the memory of prior cycles bleeds through, half-formed. Young in this turn of the world, ancient in soul. And below, the shadow that only loomed through Pneuma **takes ground**: the oneness breaks at last — mankind turns from the light, the first walls rising, the mask worn. The fall has begun, and the Eagle climbs to witness it.
+- **Camera:** The ancient-eyed Eagle; tilt down to the world starting to darken and divide.
+- **Key Assets:** Eagle; `CHR_Mankind_Base`/`CHR_Troll` (turning, walls rising); `ENV_Tree`.
+- **VFX/Software:** Half-formed cycle-memory bleed; the world's break beginning (walls, masks); **Act III palette engages** — the warmth draining to ashen/ochre. (Red is held back until the trolls — per Color-by-Act III, "red enters with the trolls.")
+- **Audio Cue:** Toward the first lyrics.
+- **Notes:** The **real fracture** (deferred out of Pneuma) lands here. By the time the first words arrive, the weariness is already in its wings. (Four Instruments: the drums darken — the world's weather turning.)
+
+### THE SOARING WITNESS, THE DELUDED WARRIOR (~2:00–9:06)
+
+**IN-004 — The Witnessing Flight Begins**
+- **TC:** ~2:00 → ~3:30
+- **Description:** The Eagle soars across the world and sees what mankind has made of it. *"Long in tooth and soul / Longing for another win / Lurch into the fray / Weapon out and belly in / Warrior / Strugglin' to remain / Consequential."* Below: empires rise and rot from within; armies gather; leaders command; cities expand and hollow out.
+- **Camera:** Long, slow, burdened flight over the rotting world.
+- **Key Assets:** `ENV_Cities_Empires` (decay parameter up); armies (`CHR_Mankind_Base`/`CHR_Troll`); Eagle.
+- **VFX/Software:** Empire-decay; holographic ghosts of cruelty replaying humanity's worst impulses.
+- **Audio Cue:** "Long in tooth and soul / Longing for another win…"
+- **Notes:** **Dual-coded** — the Eagle's exhaustion *and* mankind's hollow conquest, in one breath. (Four Instruments: guitar = the Eagle's weary flight.)
+
+**IN-005 — The Catalog of Ruin**
+- **TC:** ~3:30 → ~5:30
+- **Description:** The witnessing deepens — rivers grow turbulent, forests thin; the first signs of large-scale cruelty flicker past like holographic ghosts. Clay tablets fall from towers; ancient libraries collapse; cuneiform drifts upward like dying fireflies. Mankind tells itself stories of battles won — growing larger with each telling, until *Caligula would grin* — romanticizing conquest even as it decays.
+- **Camera:** Continued flyover; the world unraveling beneath the Eagle.
+- **Key Assets:** rivers/forests; `ENV_Cities_Empires` (collapsing libraries); `PROP_Glyphs_Cuneiform`; holographic cruelty-ghosts.
+- **VFX/Software:** Cuneiform drifting up like dying fireflies (hero image); collapsing libraries; decay.
+- **Audio Cue:** Through the warrior verses ("…Caligula would grin").
+- **Notes:** The empire-rot montage — symbolic, not graphic. "Caligula would grin" pins the decadence.
+
+**IN-006 — The Armor Wearing Thin**
+- **TC:** ~5:30 → ~7:30
+- **Description:** *"Once invincible / Now the armor's wearing thin / Heavy shield down."* The Eagle mirrors mankind — it has guarded the Tree through countless seasons and failures, and now feels the armor thinning, the guardian on the verge of laying its shield down. The thought of rising again — reborn to witness this same cycle — begins to feel less like purpose than curse. *But here I am, where I end.*
+- **Camera:** The Eagle's flagging flight; wingbeats slowing; the burden visible.
+- **Key Assets:** Eagle (weary, dulling); the world below.
+- **VFX/Software:** The Eagle's brilliance dimming; a burdened, less-confident flight path.
+- **Audio Cue:** "Once invincible / Now the armor's wearing thin / Heavy shield down."
+- **Notes:** The **guardian nearly laying down its shield.** "Where I end" — the irony: where it ends is where it begins again.
+
+**IN-007 — The Lowest Point (Ponce de Leon)**
+- **TC:** ~7:30 → 9:06
+- **Description:** *"Tears in my eyes, chasing Ponce de Leon's phantom soul / Filled with hope, I can taste mythical fountains / False hope, perhaps / But the truth never got in my way / Before now, feel the sting, feeling time bearing down."* The Eagle's lowest point — the moment it nearly breaks. The endless chase of the mythical fountain is its own curse: it cannot stop being reborn. It weeps — not for itself, but for what mankind has become, and for the weight of having watched it fall so many times.
+- **Camera:** Tight on the weeping Eagle; the cruel world small below.
+- **Key Assets:** Eagle (close, weeping).
+- **VFX/Software:** Tears as caught light; the weight of the curse.
+- **Audio Cue:** The Ponce de Leon lines (their first pass).
+- **Notes:** The Eagle's **nadir.** These exact lines return at the rise (~10:52) transformed — despair into recognition. The lyric that pays off twice.
+
+### THE MARCH TO THE TREE (9:06–10:48)
+
+**IN-007B — The Mass Gathers (the Eagle watches)**
+- **TC:** ~9:06 → 9:44
+- **Description:** The lyrics fall silent. The Eagle, spent from its nadir, settles — it perches, floats, watches. Below, the scattered crowd begins to stir and coalesce: a direction forming, the many turning into a mass. The Eagle watches it gather, not yet knowing where it will turn.
+- **Camera:** The Eagle high and still (perched or slow-floating); wide of the crowd below converging into a mass.
+- **Key Assets:** Eagle; the crowd (`CHR_Mankind_Base`/`CHR_Troll`, pre-transformation); `ENV_Tree` in the distance.
+- **VFX/Software:** Crowd coalescence (instancing → mass); the Eagle's watchful stillness.
+- **Audio Cue:** Instrumental — between the last lyric (~9:06) and the march (9:44).
+- **Notes:** Bridges the nadir to the march — the Eagle as helpless witness while the mass forms. (Not a gap: the Eagle simply *watches it gather*.) The Ponce de Leon lines that just closed at 9:06 are the Eagle's despair now, and become the Phoenix's at the rise — perfect either way.
+
+**IN-008 — The March Begins**
+- **TC:** 9:44 → ~9:52
+- **Description:** Something shifts in the crowd below. A direction emerges; a purpose coalesces — and the purpose is the Tree. A long column of human silhouettes appears on the horizon, moving toward the Tree with slow, ritualistic steps. They believe they march toward power; they do not know they march toward annihilation — like a civilization initiating nuclear war.
+- **Camera:** Wide on the column forming and advancing toward the Tree.
+- **Key Assets:** the mob (`CHR_Mankind_Base`/`CHR_Troll`); `ENV_Tree`; terrain.
+- **VFX/Software:** Crowd instancing; unreadable faces; ritual cadence.
+- **Audio Cue:** **9:44 — the march** *(locked cue; master-verify).*
+- **Notes:** The **load-bearing climax begins.** Top master-audio verification priority.
+
+**IN-009 — The Transformation Begins**
+- **TC:** 9:44 → 10:00
+- **Description:** As the march nears the Tree the marchers change — shadows stretching unnaturally, posture turning aggressive, movements synchronizing as shared corruption surfaces. **They do not become trolls; they reveal the trolls they already were.** Skin cracks like dried clay; eyes dim or glow with corrupted energy; limbs distort by vice — grasping hands (greed), swollen forms (gluttony), jagged edges (cruelty), hollowed eyes (envy). Beneath the stone and clay, faint traces of humanity remain.
+- **Camera:** The march, intercut with close detail on transforming faces and limbs.
+- **Key Assets:** `CHR_Troll` (distortions of `CHR_Mankind_Base`); `MAT_TrollStoneClay`.
+- **VFX/Software:** Moral→physical transformation (vice shape-keys/displacement); faint human-subsurface glow beneath the stone. **Red enters the palette here, with the trolls** (per Color-by-Act III).
+- **Audio Cue:** 9:44–10:00.
+- **Notes:** Trolls = corrupted humanity, **not** external monsters — keep the human visible underneath.
+
+**IN-010 — First & Second Surge**
+- **TC:** 10:00 → ~10:31
+- **Description:** **10:00 — First Surge:** the trolls' cadence accelerates, steps heavier; the Tree trembles. **10:15 — Second Surge:** they speed up again; the ground shakes with each step; the Tree's light flickers.
+- **Camera:** The march accelerating in stages; the Tree trembling between cuts.
+- **Key Assets:** trolls; `ENV_Tree` (wounded stage engaging).
+- **VFX/Software:** Tree tremble/flicker; ground-shake; the surges as discrete energy steps.
+- **Audio Cue:** Surges @ **10:00** and **10:15** *(locked cues).*
+- **Notes:** Building dread in two clear gear-changes; the Tree's peril mounting.
+
+**IN-011 — They Reach the Tree**
+- **TC:** 10:31 → ~10:48
+- **Description:** The trolls surround the Tree and pound it — fists and crude weapons against the ancient trunk. Each blow sends shockwaves of dying light through the branches; leaves fall like burning embers. With each strike, ghostly projections of past human failures flash around the Tree — collapsing cities, broken treaties, burning libraries, fallen empires — as if every mistake replays with every blow. The Tree bends, cracks, splinters — but refuses to fall.
+- **Camera:** The trolls battering the trunk; the failure-projections flickering around it; the Tree's agony.
+- **Key Assets:** trolls; `ENV_Tree` (wounded); holographic failure-ghosts.
+- **VFX/Software:** Dying-light shockwaves; burning-ember leaves; the projected failures; Tree damage.
+- **Audio Cue:** **10:31** *(locked cue).*
+- **Notes:** The Tree's near-destruction; the projections make every blow a replay of human history.
+
+**IN-012 — The Final Blow is Raised**
+- **TC:** 10:48 → ~10:49
+- **Description:** The trolls raise their clubs in unison — all of them, simultaneously — for the final strike: the blow that will end the Tree of Life forever, the blow that will end everything, though they do not know it.
+- **Camera:** Low angle — the clubs raised against the sky, the Tree small beneath.
+- **Key Assets:** trolls (clubs raised in unison); `ENV_Tree`.
+- **VFX/Software:** The synchronized raise; held tension.
+- **Audio Cue:** **10:48** *(locked cue)* — the last beat before the cut.
+- **Notes:** The held instant before the freeze. **The blow never lands.**
+
+### THE FREEZE & THE REALIZATION (~10:49)
+
+**IN-013 — Everything Stops**
+- **TC:** ~10:49 *(held)*
+- **Description:** The music cuts. Instantly. The trolls freeze mid-swing; dust hangs motionless; the Tree's dying glow pauses mid-flicker; the rivers stop; the wind stops; light itself stops traveling. This is not silence — this is cosmic suspension. Time has been severed.
+- **Camera:** The frozen tableau — eerily, totally still.
+- **Key Assets:** the whole scene, frozen (`FX_TimeFreeze`).
+- **VFX/Software:** Total time-freeze (the hero sim); the instant, hard music-cut.
+- **Audio Cue:** **~10:49 — the music CUTS** *(locked cue; top master priority).*
+- **Notes:** Only the **Eagle and the feathers** stay outside the freeze. This is the realization that precedes every rebirth.
+
+**IN-014 — The Feather Storm & the Realization**
+- **TC:** ~10:49 *(within the suspension)*
+- **Description:** Only the Eagle remains outside the freeze — and the feathers with it. The air stirs; feathers from across the film converge toward the Eagle from every direction, a storm of remembrance, each glowing with the memory of every moment it passed through. The Eagle's eyes widen — it sees its own life replay (the Egg, the Tree, the unity, the fall) and it sees the Phoenix, not as a myth but as **itself**. It was always the Phoenix. It had to forget in order to become.
+- **Camera:** The Eagle at the still center of the converging storm; push to its widening eye.
+- **Key Assets:** Eagle; `FX_FeatherStorm` (feathers from across the film).
+- **VFX/Software:** Feather convergence (instanced); the life-replay; the recognition. **A storm of them — not a literal tally.**
+- **Audio Cue:** Suspension held (wordless).
+- **Notes:** The feathers stay outside the freeze because they are **part of the understanding** — fragments of the self it is remembering.
+
+**IN-015 — The Dive**
+- **TC:** ~10:49 → ~10:52
+- **Description:** Between the words *"feeling time bearing down"* and their return, the Eagle moves. It does **not** rise from the branch. It launches upward, climbing high above the frozen world — and then it dives, straight down into the Tree, vanishing into the trunk as the last of the suspension holds.
+- **Camera:** The Eagle launching up, a beat at apex, then the plunge down into the trunk.
+- **Key Assets:** Eagle; `ENV_Tree` (trunk).
+- **VFX/Software:** The dive; the Eagle vanishing into the trunk.
+- **Audio Cue:** ~10:49–10:52 *(suspension held).*
+- **Notes:** The **restaged climax** — it dives *in*, it does not rise from the branch.
+
+### THE ERUPTION & THE TREE SPARED (~10:52–End)
+
+**IN-016 — The Eruption: the Phoenix Appears**
+- **TC:** ~10:52
+- **Description:** The world reignites. The Phoenix erupts **upward through the roots and the ground** at the Tree's base — colossal, radiant, eternal. Wings of molten gold; feathers of living flame; eyes like twin suns; a body forged from the fusion of every life it has ever lived. In the same instant it takes the Tree into itself in a violent fusion — Tree and Phoenix becoming one, body and breath — and the blast throws the besieging trolls back. **The Tree is not destroyed.** It endures, regrowing through the fire, stronger and brighter than before.
+- **Camera:** The Phoenix bursting up through the roots, colossal; the shockwave hurling the trolls back.
+- **Key Assets:** `CHR_Phoenix_FireLayers` (debut); `ENV_Tree` (fusing/regrowing); trolls (thrown back).
+- **VFX/Software:** The eruption (the act's visual climax); the fusion; the Tree regrowing through fire. `MAT_PhoenixFire` (gold/white intended — filter toward it, not hard-locked).
+- **Audio Cue:** **~10:52 — eruption, the music swells back** *(locked cue; master priority).*
+- **Notes:** The Phoenix's **first appearance.** Tree **spared** (fused, not destroyed) — two halves of one organism, now visible.
+
+**IN-017 — The Reprise (the Phoenix's Sorrow)**
+- **TC:** ~10:52 → ~11:30
+- **Description:** As the Phoenix breaks into the air, Maynard's voice returns — and the same lines that were the Eagle's despair now belong to the Phoenix: *"Tears in my eyes, chasing Ponce de Leon's phantom soul / Filled with hope, I can taste mythical fountains / False hope, perhaps / But the truth never got in my way / Before now, feel the sting, feeling time bearing down."* No longer mankind's delusion — the Phoenix's sorrow turned to understanding; the tears no longer of despair but of recognition. It is not cursed to live forever; it is bound to rise forever.
+- **Camera:** The radiant Phoenix aloft; the reprise landing on its first appearance.
+- **Key Assets:** Phoenix.
+- **VFX/Software:** The Phoenix in full glory; gold/white fire.
+- **Audio Cue:** The **Ponce de Leon reprise**, sung over the Phoenix's appearance.
+- **Notes:** The despair→recognition flip — the **same words, meaning inverted.** The emotional payoff of IN-007.
+
+**IN-018 — What the Fire Spares**
+- **TC:** ~11:30 → End (~12:44)
+- **Description:** The fireblast tears through the frozen world; time reignites fully — dust shatters, rivers resume, the air moves again. The besieging trolls' stone-flesh cracks; their corrupted forms crumble to dust; their weapons disintegrate mid-air. The blow that would have ended everything never lands. They are not killed — they are **unmade**, erased as manifestations of corruption that cannot exist in the Phoenix's presence. From the heart of the Tree, the Phoenix ascends; the Tree stands renewed, stronger and brighter than ever. The world exhales.
+- **Camera:** The fireblast; the trolls crumbling; the Phoenix ascending from the Tree's heart; pull wide on the renewed Tree.
+- **Key Assets:** Phoenix; trolls (unmade); `ENV_Tree` (regrown stage).
+- **VFX/Software:** The fireblast; troll dissolution to dust; Tree regrowth.
+- **Audio Cue:** Toward the act's end.
+- **Notes:** **CANON — the unmaking is LOCAL:** only the mob at the Tree is unmade; trollified humanity persists across the wider world (needed for Culling Voices and 7empest). The Phoenix saved the Tree, not existence.
+
+> **FEATHER NOTE:** Across the witnessing flight, feathers fall less often, their colors muting — one trampled in a city, one swept down a river. Then, at the freeze, feathers from across the film converge and ignite into the Phoenix's wings — a storm of them, not a tally.
 
 ## Act IV — Descending (~13:38) — The Phoenix's Flight
 *To come. Ocean-of-unknowing open, the descent, the layered Dire Reveille, the ~6:49 handoff to the instrumental elegy-flight.*
