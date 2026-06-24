@@ -2,7 +2,7 @@
 
 *Working master shot list. Canon-locked to **Treatment v5**. This Markdown is the authoring source; the companion `Fear_Inoculum_ShotList.xlsx` is filled from it.*
 
-*Last updated: 2026-06-24 · Status: **Act I drafted (v5-aligned)**; Acts II–VII to come.*
+*Last updated: 2026-06-24 · Status: **Acts I–IV drafted (v5-aligned, unit-audited)**; Acts V & VII to come (VI/CCT deferred to look-dev).*
 
 ---
 
@@ -49,14 +49,14 @@
 - **Audio Cue:** Chime 3 @ 0:11.
 - **Notes:** Keep the pace meditative. Do not accelerate the camera yet.
 
-**FI-004 — Chime 4: A World Forms**
+**FI-004 — Chime 4: A World Forms (the Crack Opens)**
 - **TC:** 0:16 → 0:21
-- **Description:** Camera dives toward a forming world — still a ball of swirling mist. Breaks through the outer atmosphere; a lightning crash @ 0:18–0:19 ignites a mythic spark; the world solidifies in the flash.
+- **Description:** Camera dives toward a forming world — still a ball of swirling mist. Breaks through the outer atmosphere; a lightning crash @ 0:18–0:19 ignites a mythic spark; the world solidifies in the flash. **In that same flash a thin seam splits across the newborn sky and does not close** — the one wound in reality, the creation crack, opened the instant the world is forged.
 - **Camera:** Aggressive dive into the planet; holds wide on completion.
-- **Key Assets:** Mist planet; lightning FX; solidification rig.
-- **VFX/Software:** H — mist-to-solid transition synced exactly to the lightning frame.
+- **Key Assets:** Mist planet; lightning FX; solidification rig; `FX_CreationSeam_Crack` (the ONE wound in reality — **debut**).
+- **VFX/Software:** H — mist-to-solid transition synced exactly to the lightning frame; the creation seam tears on the same frame and **persists** (faint, unexplained).
 - **Audio Cue:** Chime 4 @ 0:16; lightning @ 0:18–0:19.
-- **Notes:** First time the camera moves with purpose. Lightning must hit on frame — sync is non-negotiable.
+- **Notes:** First time the camera moves with purpose. Lightning must hit on frame — sync is non-negotiable. **CANON — the creation crack opens HERE,** at the L1 lightning, **not** at the opening chimes (those are pure creation; nothing let in yet). Same seam that reopens at the end of Culling Voices and that the Phoenix enters in 7empest — **distinct** from the 7empest sphere seal-fracture (`FX_SealCrack`). Keep it faint and unexplained; it must remain in the sky hereafter.
 
 **FI-005 — Chime 5: Rivers of Mesopotamia**
 - **TC:** 0:21 → 0:27
@@ -248,7 +248,7 @@
 - **Key Assets:** Tree (steady pulse); plateau; a single drifting feather.
 - **VFX/Software:** Tree pulse returns to steady rhythm; ambient particles settle; one feather pass.
 - **Audio Cue:** Final notes of the song.
-- **Notes:** **END ON A FALSE PEACE.** The shadow was only *repelled, never destroyed,* and the Egg never opened — the only true awakening is still to come. This sets up Pneuma.
+- **Notes:** **END ON A FALSE PEACE.** The shadow was only *repelled, never destroyed,* the Egg never opened, and the creation crack still hangs faint in the sky, unremarked — it never closed (*always there, always waiting*). The only true awakening is still to come. This sets up Pneuma.
 
 > **Relocated from the earlier shotlist (do not place in Act I):** the old hatch/exploration/confrontation shots (First Crack, The Hatching, Exploration, The Internal Struggle, Wordless Recognition, Who-To-Follow, the Bird's charge, the Banishment) move forward — the **hatch + exploration + recognition** to the **Pneuma** list, and the active **protective charge** to **Invincible** (the Phoenix's dive to save the Tree). Their production detail (camera/assets/notes) transfers almost verbatim; they just change acts.
 

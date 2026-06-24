@@ -188,7 +188,7 @@ going dim, that's the world dying, told in light.
 
 ## The loop — the way out is the way in
 
-It ends exactly where it begins. One crack in reality, opened at the first chime and entered at the
+It ends exactly where it begins. One crack in reality — torn open by the lightning that forged the world and entered at the
 last. The Phoenix sacrifices everything so the world can start over, knowing it will do all of this
 again. Eternal return — not as a punishment, but as the nature of the thing. The film's last feather
 becomes the speck that becomes the first chime. If you're paying attention, you feel the loop close in
