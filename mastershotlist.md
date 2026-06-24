@@ -2,7 +2,7 @@
 
 *Working master shot list. Canon-locked to **Treatment v5**. This Markdown is the authoring source; the companion `Fear_Inoculum_ShotList.xlsx` is filled from it.*
 
-*Last updated: 2026-06-24 · Status: **Acts I–IV drafted (v5-aligned, unit-audited)**; Acts V & VII to come (VI/CCT deferred to look-dev).*
+*Last updated: 2026-06-24 · Status: **Acts I–V drafted (v5-aligned, unit-audited)**; Act VII to come (VI/CCT deferred to look-dev).*
 
 ---
 
@@ -763,7 +763,143 @@
 > **FEATHER NOTE:** Through the flight, feathers fall slower and darker — colors muting toward grey. One lands in a city, trampled. One lands in a river, swept away. One drifts past the Phoenix's eye, and it watches the very thing it is made of fall.
 
 ## Act V — Culling Voices (10:05) — Reckoning
-*To come. The dim instrumental open (to 1:27), the voices, the culling, the 5:27 guitar-takeover, the 5:57–8:11 "Don't you dare" collapse, the wordless reckoning.*
+
+> **v5 note.** The Phoenix has risen but **does not act and does not fight** — to strike would feed the darkness. The act is a **contest for the song**: the **voices rule it** (mankind's projection ∥ the Phoenix's own inner accusations) until **~5:27**, when the **guitar — the Phoenix — takes the song back** and the words break apart; they **end at 8:11 and do not return** (through the rest of the act, through CCT, until 7empest's "keep it calm"). The darkness **culls mankind through mankind** and never lifts a hand. The Phoenix's turn: it stops recoiling from its own self-accusation and **accepts** — the darkness can only be *contained* as the 7empest, **forever**. Palette: **dim, black, smoldering orange — darkness with fire beneath** (not red; red is the corruption/7empest). Cues `~` proposed except the owner-given 1:27 / 5:27 / 5:57 / 6:11 / 8:11 / 10:05.
+
+### THE DIM WORLD (0:00–1:27) — *instrumental*
+
+**CV-001 — The Dim World**
+- **TC:** 0:00 → ~0:50
+- **Description:** The long, sparse, clean-guitar open. The just-risen Phoenix stands apart from the world, its fire **banked** — energy turned inward, not outward. The palette is dim and distorted: black and smoldering orange, darkness with fire beneath. Blackened feathers fall through the frame.
+- **Camera:** Slow, held, isolating — the Phoenix small and alone against the dim world.
+- **Key Assets:** `CHR_Phoenix_FireLayers` (fire banked low); `FX_Feather` (blackened — `MAT_Feather_StateRange` near the dark end); the dim world.
+- **VFX/Software:** Act V palette (black + smoldering orange); banked-fire shader on the Phoenix; blackened feather drift.
+- **Audio Cue:** Sparse clean-guitar open (instrumental).
+- **Notes:** The guitar is **restrained, held back** — and that restraint *is* the visual promise: the Phoenix will not strike. (Four Instruments: the guitar pulled inward = the being holding itself back.)
+
+**CV-002 — The World Below, Stirring**
+- **TC:** ~0:50 → 1:27
+- **Description:** Below the Phoenix, the world it left in Descending — mankind, having answered the dark muster — begins to stir with paranoia. Nothing has happened yet; only a wrongness gathering. The Phoenix watches and does not move.
+- **Camera:** High over the dim world; the Phoenix in the foreground, the people small below.
+- **Key Assets:** Phoenix; `CHR_Mankind_Base`/`CHR_Troll`; faint shadow at the edges (`FX_Shadow_Deceiver`).
+- **VFX/Software:** The first wrongness — figures drawing apart, glancing sidelong; the darkness loosing faint whisper-wisps at the rim.
+- **Audio Cue:** Instrumental, toward the 1:27 entry.
+- **Notes:** Sets the watcher's stance — the Phoenix as witness, not actor. The culling is mankind's to do; the Phoenix's reckoning is its own.
+
+### THE VOICES ENTER (1:27–2:24)
+
+**CV-003 — The Voices Enter**
+- **TC:** 1:27 → ~2:24
+- **Description:** *"Disembodied voices deepen my suspicious tendencies / Conversations we've never had / Imagined interplay / Psychopathy / Don't you dare point that at me."* The vocals **are** the culling voices. Dual, as always: mankind acts on accusations never spoken — and the Phoenix hears its own inner voices, the fear it carried as a Bird, the confusion as an Eagle. Beneath the singing, mankind begins to turn on itself; the Phoenix watches.
+- **Camera:** Intercut the turning crowd below with a tight hold on the Phoenix's listening stillness.
+- **Key Assets:** Phoenix; `CHR_Mankind_Base`/`CHR_Troll`; `FX_Shadow_Deceiver` (whisper-wisps, never a body).
+- **VFX/Software:** Whisper-wisps threading between people; the people acting on them; the Phoenix outwardly still, inwardly struck.
+- **Audio Cue:** "Disembodied voices deepen my suspicious tendencies…"
+- **Notes:** **Dual-coded** — the voices are out there *and* inside the Phoenix, one and the same. The darkness never speaks with a mouth; it looses the whispers and lets them work.
+
+### GUIDED BY PHANTOMS (2:24–3:20)
+
+**CV-004 — Guided by Phantoms**
+- **TC:** 2:24 → ~3:02
+- **Description:** *"Heated altercations we've never had / So I'm told / Yet guided by them all / Every single one / Psychopathy / Misleading me over and over and over."* Conflicts that never happened steer the world; everyone is led by whispers that were never there.
+- **Camera:** The crowd splintering into factions over nothing; phantom arguments staged in holographic flickers that dissolve.
+- **Key Assets:** `CHR_Mankind_Base`/`CHR_Troll`; `FX_Shadow_Deceiver` (whisper-wisps); holographic phantom-conflicts.
+- **VFX/Software:** Holographic "altercations that never happened" flickering between people, then gone; factions hardening.
+- **Audio Cue:** "Heated altercations we've never had…"
+- **Notes:** The phantoms are never real — render them as projections that dissolve, so the violence is always over *nothing*.
+
+**CV-005 — The Breath**
+- **TC:** ~3:02 → ~3:20
+- **Description:** A short instrumental breath. The world holds, poised on the edge of the culling; the Phoenix turns further inward, beginning to hear the same whispers in itself.
+- **Camera:** A brief held wide — the calm before; cut close to the Phoenix's troubled eye.
+- **Key Assets:** Phoenix; the world (held).
+- **VFX/Software:** A momentary stillness; the smoldering palette pulsing low.
+- **Audio Cue:** Instrumental breath (~3:02–3:20).
+- **Notes:** The pivot from *out there* to *in here* begins in this breath — quiet, before the title lands.
+
+### THE CULLING (3:20–5:27)
+
+**CV-006 — The Culling**
+- **TC:** 3:20 → ~4:25
+- **Description:** *"Judge, condemn and banish any and everyone / Without evidence / Only the whispers from within / Psychopathy / Misleading me over and over."* The title made literal: mankind condemns, banishes, and destroys its own — on no evidence, only the whispers within.
+- **Camera:** The culling itself — people turning on people; condemnation, banishment, destruction, in waves.
+- **Key Assets:** `CHR_Mankind_Base`/`CHR_Troll`; `FX_Shadow_Deceiver` (at the edges only).
+- **VFX/Software:** The self-culling staged symbolically, not graphically; the darkness present only as whisper-wisps at the rim — **it never lifts a hand.**
+- **Audio Cue:** "Judge, condemn and banish any and everyone…"
+- **Notes:** **CANON — the darkness culls mankind *through* mankind and stays clean.** It looses the voices; mankind does the rest. (interpretation: "the darkness is us — and it never lifts a hand.")
+
+**CV-007 — The Evil Within**
+- **TC:** ~4:25 → 5:27
+- **Description:** *"Psychopathy / Misreading me over and over and over / Imagined interplay / Imagined interplay / Imagined interplay."* The culling at full force — and the Phoenix hears the very same voices inside itself and turns fully inward. The evil it must face is not only out there; it is **within.** Its torment peaks: it is accused, by mankind and by its own mind, and it cannot tell the accusation apart from the truth.
+- **Camera:** Hold on the Phoenix wracked by its inner voices, intercut with the world culling itself below.
+- **Key Assets:** Phoenix; `CHR_Mankind_Base`/`CHR_Troll`; whisper-wisps.
+- **VFX/Software:** The inner-voice torment (the Phoenix besieged from within); the culling continuing below.
+- **Audio Cue:** "…Imagined interplay, imagined interplay, imagined interplay" (toward 5:27).
+- **Notes:** The nadir of the reckoning — the Phoenix recoiling from its own self-accusation. Sets up the turn at 5:27. (Note the lyric: "Misleading" in CV-006, "Misreading" here — keep both exact.)
+
+### THE GUITAR TAKES THE SONG (5:27–5:57)
+
+**CV-008 — The Guitar Takes the Song**
+- **TC:** 5:27 → 5:57
+- **Description:** The tone shifts. The words loosen their grip and the guitar rises — music over lyrics. This is the Phoenix reclaiming the act from the voices: its reckoning goes wordless, the guitar swelling **inward** as resolve, never outward as a strike.
+- **Camera:** The frame turning from the culling crowd back to the Phoenix as it begins to gather itself.
+- **Key Assets:** Phoenix; the world (receding from focus).
+- **VFX/Software:** The smoldering fire beginning to rise in the Phoenix; the voices losing the frame.
+- **Audio Cue:** **5:27 — the guitar takes the song** *(owner cue).*
+- **Notes:** **The structural hinge of the act** — vocals (the culling voices) yield to the guitar (the Phoenix reclaiming itself). (Four Instruments made structural — interpretation: "the band is the cosmos.") Still **never a strike** — the rising guitar is resolve, not attack.
+
+### "DON'T YOU DARE" — THE COLLAPSE (5:57–8:11)
+
+**CV-009 — "Don't You Dare" Returns**
+- **TC:** 5:57 → ~6:11
+- **Description:** *"Don't you dare point that at me."* The refrain returns — mankind's last, desperate refusal of all blame, repeating. The accusation turned outward one final time, by a world that will not look at itself.
+- **Camera:** The crowd's defiance — fingers pointed everywhere but inward; the refrain hammering.
+- **Key Assets:** `CHR_Mankind_Base`/`CHR_Troll`; Phoenix (gathering above).
+- **VFX/Software:** The refusal staged as a last outward lashing; the Phoenix's fire continuing to rise behind it.
+- **Audio Cue:** **5:57 — "Don't you dare point that at me"** (returns, repeating).
+- **Notes:** Mankind's refusal to accept the mirror — the exact thing the Phoenix is, in the same breath, choosing to *do* (accept).
+
+**CV-010 — The Guitars Take Off, the Words Break**
+- **TC:** 6:11 → 8:11
+- **Description:** At 6:11 the guitars take off — the energy turns over, the whole song amps up, and the words begin to break apart in its wake: *"Don't you dare… don't you dare… point that at—"* — fragmenting, stuttering, dissolving. The culling voices lose their grip. By 8:11 they are gone entirely. What is left is the Phoenix's own fire.
+- **Camera:** The energy lifting off the crowd and onto the Phoenix; the words visibly disintegrating (the voices breaking up).
+- **Key Assets:** Phoenix (fire rising); `CHR_Mankind_Base`/`CHR_Troll` (the voices fragmenting).
+- **VFX/Software:** The words/voices breaking apart (stutter/dissolve); the Phoenix's fire overtaking the frame.
+- **Audio Cue:** **6:11 — guitars take off**; the words fragment → **8:11 — the words are gone.**
+- **Notes:** The voices don't get a clean ending — they **disintegrate.** After 8:11 there are **no words** until 7empest's "keep it calm." (interpretation: "where words can't follow.")
+
+### THE RECKONING RESOLVES (8:11–10:05) — *instrumental*
+
+**CV-011 — The Acceptance**
+- **TC:** 8:11 → ~9:10
+- **Description:** The last words have ended; the rest is a long, building guitar climax, and the Phoenix's turn completing inside it. It stops recoiling from its own self-accusation and **accepts**: *yes — it is in me, too.* The torment resolves not into denial but into ownership.
+- **Camera:** Tight on the Phoenix as the recoil leaves it — the face of acceptance, not defeat.
+- **Key Assets:** Phoenix; blackened feathers beginning to stir.
+- **VFX/Software:** The fire steadying and brightening from within; the inner-voice torment quieting.
+- **Audio Cue:** Instrumental — the building guitar climax (from 8:11).
+- **Notes:** **The pivot of the whole back half** — the Phoenix accepts the darkness in itself. (interpretation: "why it won't fight back" — acceptance, not attack.)
+
+**CV-012 — Contain It, Forever**
+- **TC:** ~9:10 → ~10:05
+- **Description:** The Phoenix sees what it must do: the darkness cannot be fought and mankind cannot be saved by force; the only way is to take the corruption into itself — to gather it, name it, and contain it as the 7empest — and to accept that it must do so not once, but **forever.** The acceptance does not free it from the cycle; it weds it to the cycle, knowingly. As the Phoenix accepts each blackened, smoldering feather, the feather **ignites**, and its wings grow brighter.
+- **Camera:** The Phoenix coming into its full fire; the blackened feathers reigniting around it one by one.
+- **Key Assets:** `CHR_Phoenix_FireLayers` (brightening); `FX_Feather`/`MAT_Feather_StateRange` (blackened → **ignited**).
+- **VFX/Software:** Feather state-range driven from blackened to ignited on acceptance; the wings brightening; `MAT_PhoenixFire` (gold/white intended).
+- **Audio Cue:** Instrumental, building toward 10:05.
+- **Notes:** Resolve made visible — **acceptance ignites the feathers.** The decision that binds it to the cycle *knowingly* (the False-hope/Reckoner thread carried into 7empest).
+
+### TRANSITION — INTO THE SPHERE (~10:05)
+
+**CV-013 — The Seam Reopens**
+- **TC:** ~10:05
+- **Description:** The Phoenix stands alone, wings wide, eyes burning with clarity. The sky begins to crack — and it is **not a new wound**: it is the same seam that first tore across the newborn sky at the lightning strike of creation, reopening now, pulsing faintly with light. The corruption itself begins to stir — all the darkness the wider world has carried since Invincible, rising of its own accord to be faced — and convenes above the Tree. The way out has always been the way in. The Phoenix will not hesitate.
+- **Camera:** The Phoenix wings-wide; tilt up to the seam reopening; the corruption stirring and drawing toward the Tree.
+- **Key Assets:** Phoenix; `FX_CreationSeam_Crack` (**reopening** — same seam as FI-004); the rising corruption (`FX_7empest_Swirl`); `ENV_Tree`.
+- **VFX/Software:** The creation seam reopening (faint pulse); the wider-world corruption rising of its own accord and convening above the Tree.
+- **Audio Cue:** The music **never stops** and the words **do not return** — straight, wordless, into Chocolate Chip Trip.
+- **Notes:** **No cut, no words** — continuous into CCT (the descent *inside* the corruption); silence holds all the way to 7empest's first words. **Same seam** as the creation crack (FI-004) — NOT the 7empest sphere seal-fracture. The corruption **rises of its own accord** (it is "alive") — 7empest will *draw in and bind* this present mass, not gather a fresh one.
+
+> **FEATHER NOTE:** Act V is the feathers' darkest point — blackened, smoldering, falling. The turn is literal: as the Phoenix **accepts**, each feather it accepts **ignites**, and its wings grow brighter. The feathers track the reckoning — black in the torment, fire at the acceptance.
 
 ## Act VI — Chocolate Chip Trip (4:48) — Inside the Sphere
 *To come. Look-dev-led (the rise/interior of the corruption); deliberately deferred until specced.*

@@ -395,7 +395,7 @@ The last words have ended; the rest is a long, building guitar climax, and the P
 
 ### Transition — into the Sphere
 
-The Phoenix stands alone, wings wide, eyes burning with clarity. The sky begins to crack — and it is not a new wound: it is the same seam that split the void between the first and second chime of creation, reopening now, pulsing faintly with light. The corruption itself begins to stir — all the darkness the wider world has carried since Invincible, rising of its own accord to be faced — and convenes above the Tree. The way out has always been the way in — and the Phoenix will not hesitate. The music never stops and the words do not return: straight from here, wordless, we go *inside* the corruption → **Chocolate Chip Trip** — and the silence of the voices holds all the way to the first words of 7empest.
+The Phoenix stands alone, wings wide, eyes burning with clarity. The sky begins to crack — and it is not a new wound: it is the same seam that first tore across the newborn sky at the lightning strike of creation (Fear Inoculum, ~0:18–0:19), reopening now, pulsing faintly with light. The corruption itself begins to stir — all the darkness the wider world has carried since Invincible, rising of its own accord to be faced — and convenes above the Tree. The way out has always been the way in — and the Phoenix will not hesitate. The music never stops and the words do not return: straight from here, wordless, we go *inside* the corruption → **Chocolate Chip Trip** — and the silence of the voices holds all the way to the first words of 7empest.
 
 ## Act VI
 
