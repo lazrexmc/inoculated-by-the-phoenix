@@ -1,0 +1,13 @@
+# DaVinci Resolve working project: copyrighted source audio (Tool — Fear Inoculum)
+# plus large binary caches, backups, and gallery. Not source; never commit.
+FearInoculum_Resolve/
+
+# Local Claude Code settings
+.claude/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+desktop.ini
+*.tmp
+*~

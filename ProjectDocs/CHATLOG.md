@@ -1,0 +1,190 @@
+# CHATLOG — Working session history
+
+*Newest first. Each entry: what was done, decisions made, and why.*
+
+---
+
+## 2026-06-24 — Codex audit response: lyric-fidelity + consistency fixes
+
+**Goal:** Triage the read-only Codex audit; apply the clear fixes, flag the judgment calls.
+
+**What happened:**
+- **Verified** each finding against the files (line numbers and deviations confirmed — not taken on trust).
+- **Fixed (correctness):** Act I lyric quotes now match `Lyrics_Reference.md` ("Immunity long overdue…
+  Venom in mania"; "Now, contagion I exhale you"); the Pneuma hatch quote → "Child / Wake up… Release
+  the light"; and 7empest's "purify the land" → "spare the Tree" (the broad-cleanse phrasing
+  contradicted the local-unmaking / containment-only canon).
+- **Owner decisions:** (a) **Feather wording softened** — the convergence no longer claims "every
+  feather ever shown"; it's a storm of feathers, not a literal tally, so later/again feathers raise no
+  seam. (b) **No-fades relaxed to a default, not a hard rule** — the film favors continuity between
+  songs, but fades (out/in, even mid-song) are allowed where the moment calls for it; so CCT's "screen
+  goes dark" and Culling Voices' "final notes fade" stand as-is. (c) Still owner-to-verify: the 7empest
+  line "the tempest must will be just that" (likely a transcription slip) and the 15:43 speck cue
+  (reads as the post-track/loop moment).
+- **Noted (already in TODO):** beat-map Culling Voices (V) and 7empest (VII); verify all timecodes vs.
+  the master audio.
+
+**State at end:** correctness fixes in; a few creative/verify items await the owner's call.
+
+---
+
+## 2026-06-23 — Back-half dark through-line (Descending → Culling Voices → 7empest)
+
+**Goal:** Develop the connective tissue from Descending's close through Culling Voices into 7empest.
+
+**What happened:**
+1. **Descending's "call us all to arms and order" layered.** The Dire Reveille now carries two
+   meanings at once: the Phoenix's plea to *rouse-to-live*, and the darkness's muster — and most of
+   mankind answers the *dark* call, taking up arms unknowingly against the good. Beneath the
+   instrumental elegy (6:49–13:35) the dark muster gathers below; the despair the beauty fades into
+   is the world arming for its own culling. The handoff into Culling Voices is mankind already
+   turning on itself.
+2. **Culling Voices sharpened** to the engine the owner defined: the darkness **culls mankind through
+   itself** (the voices, paranoia, projection — the title made literal), never directly involved
+   (consistent with the Deceiver being a sense, not an actor). The Phoenix **reckons internally and
+   refuses to fight** — to strike would be to fight the darkness on its own terms and feed it. Its
+   turning point: the darkness can only be **accepted and contained as the 7empest, forever** — which
+   weds it to the cycle knowingly, and bridges into 7empest's "a tempest must be just that."
+3. Propagated to MEMORY, the lyrics hooks (Descending + Culling Voices), the v5 revision entry
+   (clause 9), and TODO.
+
+**Decisions:** the call is layered (both readings at once); the darkness never acts directly; the
+Phoenix does not fight in Culling Voices — it reckons and accepts. 7empest left as-is (it already
+embodies the acceptance).
+
+**State at end:** back-half through-line coherent in canon. Culling Voices and 7empest are now framed
+but not yet timecode-beat-mapped against their lyrics (pending). No assets built yet.
+
+---
+
+## 2026-06-23 — Pneuma reinterpreted (growth spine); no-fades continuity rule
+
+**Goal:** Reframe Pneuma and set the film's inter-act continuity.
+
+**What happened:**
+1. **Pneuma (Act II) reframed** as the Bird's coming-of-age — growth from hatchling becomes the
+   act's spine, woven through the (kept) frisson unity peak. The late "fracture" (walls, permanent
+   separation) is **softened to a looming, unbroken shadow** — discontent and the Deceiver's
+   lingering presence, but the oneness holds. The real break is **deferred into early Invincible**.
+2. **Invincible's opening** updated to receive the carry-over: the Eagle's growth *completes* as the
+   act opens (not a fresh start), and the relocated fracture (mankind turning, walls rising) now
+   manifests here as the Eagle takes flight to witness it.
+3. **New global visual rule:** the film never fades to black between songs — continuous flow, silent
+   connective passages or hard cuts only. Rewrote Pneuma's "fades to black" ending and Invincible's
+   "fades in" opening; added the rule to Key Visual Principles. (Flagged CCT's "screen goes dark" to
+   revisit.)
+4. Propagated to the act tables (Treatment + CONTEXT), Symbolic Canon (Bird/Eagle growth), MEMORY,
+   the lyrics hooks, and the v5 revision entry (items 7–8).
+
+**Decisions:** Pneuma = growth + unity, no early fracture (looming shadow instead); the fracture
+lives in early Invincible; no fades between songs (one continuous film).
+
+**State at end:** canon consistent; the Pneuma→Invincible seam is now continuous. No assets built yet.
+
+---
+
+## 2026-06-23 — Major restructure: album order restored; Invincible & Descending reconceived (v5)
+
+**Goal:** Restructure the back half of the film, then propagate it through every canon doc.
+
+**What happened:**
+1. **Designed the restructure** collaboratively (captured in the session plan file). Restored full
+   album order — dropped the Descending-before-Invincible transposition. **Invincible (now Act III)**
+   absorbs the Eagle's whole arc: maturation in the wordless intro, the witnessing flight over a
+   corrupting world (the old Descending "flight of witnessing" relocated here), the near-breaking,
+   the troll march, the freeze + feather-storm realization, and the rise. The climax was restaged —
+   the Eagle dives into the Tree and the Phoenix erupts from the roots, fusing with but **sparing**
+   the Tree; the Ponce de Leon reprise now lands on the Phoenix's first appearance. **Descending
+   (now Act IV)** became "the Phoenix's Flight": a post-rise elegy over a world that still seems
+   whole, the Dire Reveille reborn as the Phoenix's unheeded call, and a long instrumental flight
+   that fades from beauty into despair.
+2. **Rewrote the treatment**: both act sections, the Canonical-Story-Structure table + intro (no
+   transpositions), the timecode note (added the ~10:52 eruption), the lyric table reworked as
+   Phoenix/Mankind, Color-by-Act (III/IV), Symbolic Canon (maturation now in Invincible), and a v5
+   revision entry.
+3. **Bumped v4 → v5** and renamed the file to `Treatment_v5.md`; updated every citation (Asset Spec,
+   README, CONTEXT, LLM_HANDOFF, MEMORY, project memory).
+4. **Updated the Asset Spec** act/beat references (mature Eagle now matures in Invincible; Phoenix and
+   Troll "first appears" → Act III; cities first appear in Invincible's witnessing flight).
+5. **Verified** no stale `v4` or old-act-order references remain across the docs.
+
+**Decisions:** full album order, no transpositions; Invincible = the Eagle→Phoenix act; Descending =
+the Phoenix's flight; the Tree is **spared** (fused, not destroyed); v5 is the canonical version.
+
+**State at end:** pre-production. Canon restructured and consistent across all docs. Markdown is now
+the only format kept — the `.docx` export was deleted (regenerate from the `.md` on demand). No
+assets built yet.
+
+---
+
+## 2026-06-23 — Treatment converted to Markdown; canon source-of-truth moved off .docx
+
+**Goal:** Make the canonical treatment easier for Claude/LLM sessions to use going forward.
+
+**What happened:**
+1. **Re-reviewed all docs** (Treatment, Asset Spec, README, ProjectDocs) and gave feedback. Key
+   flags: the Invincible climax beats are all stamped `10:49` (needs sub-timing in the master scrub);
+   MEMORY/TODO restate timecodes despite the "treatment owns timecodes" rule; a feather-continuity
+   ambiguity ("every feather" ignites at Invincible vs. feathers persisting into Culling Voices / the
+   final speck). Cross-checked the big canon invariants — all consistent.
+2. **Converted `Treatment_v4.docx` → `Treatment_v4.md`** with a structure-aware parser (headings,
+   both tables, lists, feather-note blockquotes). **Verified byte-identical prose** via a
+   punctuation/whitespace-insensitive character-stream diff (38,983 chars each — exact match).
+3. **Decision (owner): Markdown is canon.** The `.docx` is demoted to a human/print export. Rewired
+   the pointers in README, CONTEXT, LLM_HANDOFF, and MEMORY to name the `.md` and drop the
+   unzip-the-OOXML instructions. Asset Spec needed no change (it cites "Treatment v4" by version, not
+   by file).
+
+**Decisions:** `Treatment_v4.md` is the single source of truth; `.docx` kept only as an export.
+
+**State at end:** pre-production. Canon now Markdown-native. `.docx` retained as export. No assets
+built yet. (A story-restructure idea — album order + Descending as the Phoenix's flight — was raised
+at end of session and is under discussion, NOT yet canon.)
+
+---
+
+## 2026-06-23 — Doc review, version consolidation, project scaffolding
+
+**Goal:** Catch up on the project and review the two top-level files.
+
+**What happened:**
+1. **Reviewed** the Treatment (.docx) and Asset Spec (.md). Both judged strong and internally
+   consistent. Feedback given on: a version-label mismatch, duplicated timecodes across both
+   docs, and Act VI lacking a dedicated asset entry.
+2. **Investigated the version mismatch.** The file named `_v4.docx` was internally labeled
+   "v3.1". Diffing `Treatment_v3.docx` against `Treatment_v4.docx` proved the only differences
+   were the v3.1 continuity pass — already logged in the v3.1 revision entry. Conclusion:
+   **no real v4 content edits existed**; "v4" was a filename ahead of its label.
+3. **Owner clarified intent:** version numbers are cosmetic; the treatment is "the intro to
+   Claude in VS for this project." Decided to make labels self-consistent rather than fuss.
+4. **Edited the Asset Spec (.md):** bumped canon citation to v4 (3 spots); removed ALL mm:ss
+   timecodes, replacing them with named act/beat references; added a note that timecodes live
+   only in the treatment. Verified no `\d:\d{2}` patterns remain.
+5. **Edited the Treatment (.docx)** via a Python `zipfile` rewrite: changed title + footer
+   labels v3.1 → v4, appended an honest v4 revision entry (editorial/consolidation, no canon
+   change). Verified zip integrity and that the body was otherwise untouched. Backup of the
+   pre-edit file saved to the session scratchpad.
+6. **A new `Treatment_v3_1.docx` appeared** (owner re-saved with a correct label). Diff showed
+   it was canon-identical to v4 — a duplicate. Owner chose to **keep v4** as the single keeper.
+7. **Cleanup:** Claude deleted the `v3_1` duplicate (authorized). The `v3.docx` older draft was
+   **deleted by Lance himself**. Result: one canonical treatment + the Asset Spec.
+8. **Produced a paste-ready onboarding prompt** for Codex / fresh LLM sessions.
+9. **Created ProjectDocs/** (CONTEXT, MEMORY, TODO, CHATLOG, LLM_HANDOFF) for future reference.
+
+**Key decisions recorded in MEMORY.md:** treatment owns timecodes; versions are cosmetic;
+build by reuse not narrative order; Act VI to be specced later (not a freebie).
+
+**State at end of session:** pre-production. Canon docs consolidated and consistent. No assets
+built yet. Next: environment setup + `bootstrap.py` + Tier-1 foundations (see TODO.md).
+
+---
+
+<!-- Template for the next entry:
+
+## YYYY-MM-DD — <short title>
+**Goal:**
+**What happened:**
+**Decisions:**
+**State at end:**
+
+-->
