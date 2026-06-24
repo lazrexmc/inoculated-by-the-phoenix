@@ -38,7 +38,7 @@ Produced in **Blender** (`bpy` scripting in VS Code) → **Unreal Engine 5**, wi
 ## Production artifacts
 | File | Role |
 |---|---|
-| `mastershotlist.md` | **Master shot list** (authoring source). Canon-locked to Treatment v5; per-shot blocks whose fields map to the Excel columns. **Acts I–V drafted** (unit-audited); Act VII to come (VI/CCT deferred). |
+| `mastershotlist.md` | **Master shot list** (authoring source). Canon-locked to Treatment v5; per-shot blocks whose fields map to the Excel columns. **Acts I–V & VII drafted** (full-film unit-audited) — everything but VI/CCT (deferred). |
 | `Fear_Inoculum_ShotList.xlsx` | Excel shot list — filled *from* the master `.md`. (An earlier-version Act I; being superseded by the v5-aligned master.) |
 
 ## Status

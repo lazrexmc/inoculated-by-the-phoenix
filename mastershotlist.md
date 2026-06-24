@@ -2,7 +2,7 @@
 
 *Working master shot list. Canon-locked to **Treatment v5**. This Markdown is the authoring source; the companion `Fear_Inoculum_ShotList.xlsx` is filled from it.*
 
-*Last updated: 2026-06-24 · Status: **Acts I–V drafted (v5-aligned, unit-audited)**; Act VII to come (VI/CCT deferred to look-dev).*
+*Last updated: 2026-06-24 · Status: **Acts I–V & VII drafted (v5-aligned, full-film unit-audited)** — the whole film minus **VI/CCT** (deferred to look-dev).*
 
 ---
 
@@ -905,4 +905,216 @@
 *To come. Look-dev-led (the rise/interior of the corruption); deliberately deferred until specced.*
 
 ## Act VII — 7empest (15:43) — The Eternal Cycle
-*To come. Keep-it-calm intro, the dual-address verse, the Blame (everyone vs. the Creator), the wordless guitar torrent + seal, the Crack and two-voice climax, the descent into the crack, the collapse, the speck.*
+
+> **v5 note.** The finale: **containment, not vengeance.** The Phoenix draws in and **binds** the already-risen corruption (it does **not** gather a fresh one), seals it into the **sphere**, and — when the seal inevitably cracks — carries it into the **creation seam** to reset everything and begin again. Two summits: the **wordless torrent + seal (~5:20–~9:44)** and the **two-voice climax (~10:31)**. The **Deceiver is a voice, never a body.** Two source lines are **owner-confirmed, not errors** — keep them: **"could to begin"** (the Blame) and **"must will be"** (two voices overlapping). The act ends as it began — the final feather → the speck → the first chime. Owner cues: 1:35 / 1:59 / 3:09 / 5:20 / 9:44 / 10:31 / 15:43; others `~` proposed.
+
+### THE STILLNESS BEFORE THE STORM (0:00–~1:35) — *instrumental*
+
+**7E-001 — The Music Re-Gathers**
+- **TC:** 0:00 → ~0:50
+- **Description:** After the plunge through Chocolate Chip Trip, the music re-gathers and the camera finds the Phoenix again — hovering above the Tree, the coalesced corruption hanging in the air before it. The world is quiet: not peaceful, but held in tension. The Tree is wounded but alive.
+- **Camera:** Emerge from the CCT interior to a wide exterior; find the Phoenix and the corruption mass above the Tree.
+- **Key Assets:** `CHR_Phoenix_FireLayers`; `ENV_Tree` (wounded); the coalesced corruption (`FX_7empest_Swirl`).
+- **VFX/Software:** Re-establish the exterior world (dim, tense); the corruption mass shifting, alive, **red palette**; the Phoenix's fire steady.
+- **Audio Cue:** 7empest opening (instrumental) — continuous out of CCT (no words yet).
+- **Notes:** Carries the resolve forged in Culling Voices forward. **Containment, not vengeance** — set the tone in the Phoenix's stillness.
+
+**7E-002 — The Resolve Winds Tighter**
+- **TC:** ~0:50 → ~1:35
+- **Description:** The Phoenix does not move. It understands, in absolute clarity, that it has done this before and will do it again — the weight of that knowledge immense — and it chooses, fully consciously, to proceed anyway. The energy winds tighter beneath the calm. The only thing left to decide is *how* it will carry this iteration.
+- **Camera:** Slow push toward the still Phoenix; the energy coiling in the air around it.
+- **Key Assets:** Phoenix; the corruption mass; Tree.
+- **VFX/Software:** Tension building (banked energy, the air tightening); no movement from the Phoenix.
+- **Audio Cue:** Instrumental ramping toward ~1:35.
+- **Notes:** The held breath before the storm. Stillness is the performance — everything is in what it does *not* do.
+
+### "KEEP IT CALM" (~1:35–~1:59)
+
+**7E-003 — "Keep It Calm" / "Here We Go Again"**
+- **TC:** ~1:35 → ~1:59
+- **Description:** *"Keep, keep… keep it calm."* The first words — bitterly ironic, because the Phoenix knows nothing here will stay calm. It is not a hope but an instruction to itself: steady yourself, choose how you'll bear this one. Then the intro breaks on *"Fuck, here we go again"* — the weariest, most human sound in the whole film.
+- **Camera:** Tight on the Phoenix as it steadies itself; a beat of recognition on "here we go again."
+- **Key Assets:** Phoenix.
+- **VFX/Software:** Minimal — the performance carries it; the fire flickers with the weary recognition.
+- **Audio Cue:** **~1:35 — "Keep, keep… keep it calm"** → **"Fuck, here we go again."**
+- **Notes:** **Weary recognition, not despair.** The most human beat in the film — the Phoenix choosing *how* to carry the cycle it cannot escape.
+
+### THE DUAL-ADDRESS VERSE (~1:59–2:38)
+
+**7E-004 — The Warning (to us, and to it)**
+- **TC:** ~1:59 → ~2:38
+- **Description:** *"Heat lightning flash, but don't blink / Misleading, tranquility ruse / You're gonna happen again… Follow the evidence / Look it dead in the eye, your darkness… We know better / It's not unlike you / We know your nature."* The words turn outward and mean two things at once: to the **audience**, a warning — don't look away, don't be lulled by the calm; and to the **7empest/Deceiver**, the Phoenix naming the thing to its face, calling out its tranquility-ruse. It is not fooled — it has watched this mask every cycle.
+- **Camera:** The Phoenix addressing the corruption directly; intercut flashes of heat lightning across the dim sky.
+- **Key Assets:** Phoenix; the corruption mass; sky (heat lightning).
+- **VFX/Software:** Heat lightning flashes (Danny/drums = weather); the Phoenix squared off against the mass.
+- **Audio Cue:** "Heat lightning flash, but don't blink…" → "…we know your nature."
+- **Notes:** **Dual-addressed** (interpretation: "everything means two things at once"). Sharper on a rewatch — the audience already knows, the way the Phoenix already knows.
+
+### THE GATHERING BEGINS (~2:38–3:09)
+
+**7E-005 — The Draw-In and the Bind**
+- **TC:** ~2:38 → 3:09
+- **Description:** The literal gathering — **not** a summoning from the world (that already happened; the risen mass hangs before it) but the **drawing-in and binding.** The Phoenix extends its wings, and the mass answers: threads of it — greed, war, delusion, spectacle, fear, all the wider world has carried since Invincible — peel loose and stream toward the space between its wings, swirling like smoke, like data, like memory given form. A crystal-like sphere begins to form — glowing, pulsing, unstable.
+- **Camera:** The wings extend; the threads stream inward; the sphere beginning to coalesce between them.
+- **Key Assets:** Phoenix; `FX_7empest_Swirl` (threads streaming in); `FX_7empest_Sphere` (beginning to form).
+- **VFX/Software:** Corruption-threads (smoke/data/memory) streaming to the wing-space; the faceted sphere starting to crystallize.
+- **Audio Cue:** Instrumental — the gathering motif.
+- **Notes:** **Draw-in, not a fresh gather** (canon: the mass already rose of its own accord across CV/CCT). "Not a storm. A sealed memory."
+
+### THE BLAME (3:09–5:20)
+
+**7E-006 — The Blame (everyone vs. the Creator)**
+- **TC:** 3:09 → ~4:20
+- **Description:** *"Blame it all on the bastards… Shame on you / Shame on you now / No amount of wind could to begin to cover up / Your petulant stench and demeanor… We're not buying your dubious state of serenity… We know your nature."* As the corruption pours in, the song turns to accusation. The Phoenix blames. The Deceiver blames. Mankind blames. And beneath every accusation the finger turns the same way — toward the **Creator**: the design itself, the cruel arithmetic of a world that destructs and rebirths forever. *Why make a world that can only fall?*
+- **Camera:** The accusation turned outward and upward; the Creator long gone — only the dissolved light in everything to rail at.
+- **Key Assets:** Phoenix; `CHR_Mankind_Base`/`CHR_Troll`; the corruption mass.
+- **VFX/Software:** The blame montage beginning; the sphere densifying as more pours in.
+- **Audio Cue:** "Blame it all on the bastards…"
+- **Notes:** **LYRIC — "could to begin" is the owner-confirmed source reading; do NOT "fix" it.** (interpretation: "the blame at the maker" / "the maker didn't leave — it became the world.")
+
+**7E-007 — The Longing for Harmony**
+- **TC:** ~4:20 → 5:20
+- **Description:** We see it all at once — the struggles, battles, wins and losses of everyone ever caught in the turning: the Phoenix's, mankind's, the corruption's — every one of them railing at the maker for a world that could have been perfect, that could be perfect *still*, if only everything could live in harmony. (It is the harmony Pneuma once showed, and lost.) The Phoenix gathers that grievance, too — until, at 5:20, the accusations thin into a hush.
+- **Camera:** A sweeping montage of every party's struggle; echoes of the Pneuma unity peak, now mourned.
+- **Key Assets:** Phoenix; mankind; the corruption; (callback imagery to the Pneuma frisson).
+- **VFX/Software:** The montage of struggle/longing; a visual echo of the lost harmony.
+- **Audio Cue:** Through the second "we know your nature," thinning toward the 5:20 hush.
+- **Notes:** "The grievance is the truest thing in the 7empest" — and it gets gathered, too. The longing is for Pneuma's oneness (PN-011), lost.
+
+### THE TORRENT AND THE SEAL (~5:20–~9:44) — *wordless from ~5:20*
+
+**7E-008 — Calm Before the Torrent**
+- **TC:** 5:20 → ~5:50
+- **Description:** *"Calm before the torrent comes… Calm before the tempest comes to reign all over."* The blame spends itself; a false hush settles. The last words before the long wordless stretch — the held breath before the break.
+- **Camera:** A held, ominous calm over the sphere and the Phoenix.
+- **Key Assets:** Phoenix; `FX_7empest_Sphere`.
+- **VFX/Software:** The false hush; the sphere pulsing, unstable, waiting.
+- **Audio Cue:** **5:20 — "Calm before the torrent comes…"** (the last words until ~9:44).
+- **Notes:** From here to ~9:44 the act is **wordless.** The calm is a ruse — the torrent is coming.
+
+**7E-009 — The Torrent Breaks**
+- **TC:** ~5:50 → ~7:00
+- **Description:** The torrent breaks. A long, soaring, building instrumental begins — and this is the **visual summit of the act**: the whole catalog of corruption and blame wrestled down to light. The Phoenix works against the swirling mass, drawing it inexorably inward.
+- **Camera:** Big, building, kinetic — every ounce of craft on the screen.
+- **Key Assets:** Phoenix; `FX_7empest_Swirl`; `FX_7empest_Sphere`.
+- **VFX/Software:** The torrent (the act's hero sim); the corruption funneling toward the sphere.
+- **Audio Cue:** Wordless instrumental (the long guitar torrent).
+- **Notes:** **Visual summit #1.** (Four Instruments: the guitar carries the Phoenix's effort.) Put the maximum craft here.
+
+**7E-010 — The Sealing**
+- **TC:** ~7:00 → ~8:15
+- **Description:** The Phoenix compresses the swirling corruption into the sphere. It becomes dense, faceted, terrifying in its beauty. Inside, flickers of the whole catalog of human failure: troll faces, burning forests, broken feathers, collapsing cities — every corruption the world has carried.
+- **Camera:** Push toward the sphere; the corruption compacting; glimpses of the failures inside.
+- **Key Assets:** `FX_7empest_Sphere` (densifying); inside-the-sphere imagery (`CHR_Troll` faces, burning forests, `FX_Feather` broken).
+- **VFX/Software:** Compression sim; the faceted crystal; the catalog-of-failure flickers inside.
+- **Audio Cue:** Wordless instrumental (building).
+- **Notes:** The corruption made "a sealed memory" — beautiful and terrible. Keep the human faintly visible in the troll faces (canon).
+
+**7E-011 — Sealed with Light and Breath**
+- **TC:** ~8:15 → ~9:00
+- **Description:** The Phoenix seals the sphere — **not with fire, but with light and breath.** The Tree begins to heal, faintly. The world exhales. But the Phoenix does not — it knows this feeling; it knows what comes next.
+- **Camera:** The seal completing; pull to the faintly healing Tree; back to the uneased Phoenix.
+- **Key Assets:** `FX_7empest_Sphere` (sealed); `ENV_Tree` (faint healing); Phoenix.
+- **VFX/Software:** The seal (light/breath, not fire); the Tree's first faint regrowth; the Phoenix holding its breath.
+- **Audio Cue:** Wordless instrumental — the seal completing (toward ~9:00; words stay gone until 9:44).
+- **Notes:** **Contain, don't destroy** (interpretation: "why it won't fight back" / "the Tree I always save"). The world exhales; the Phoenix can't — the seal will crack.
+
+### THE CRACK, AND THE TWO VOICES (9:00–12:00)
+
+**7E-012 — The Seal Cracks**
+- **TC:** ~9:00 → ~9:44
+- **Description:** A hairline fracture appears in the sealed sphere. The Phoenix sees it. And freezes. It has seen this before — every iteration reaches this moment. The 7empest cannot be contained forever; the crack in the seal is not a failure, it is the nature of the thing. Corruption is not a problem to be solved. It is a cycle to be managed. Forever.
+- **Camera:** Tight on the fracture spreading across the sphere; the Phoenix freezing.
+- **Key Assets:** `FX_7empest_Sphere`; `FX_SealCrack` (the hairline fracture); Phoenix.
+- **VFX/Software:** The seal-fracture (hairline, spreading).
+- **Audio Cue:** Instrumental toward 9:44.
+- **Notes:** **CANON — this is `FX_SealCrack` (the seal failing), NOT the creation seam (`FX_CreationSeam_Crack`).** Never conflate them; they must look different.
+
+**7E-013 — Disputing Intentions**
+- **TC:** ~9:44 → ~10:10
+- **Description:** *"Disputing intentions invites devastation."* The words return — and the Phoenix understands something it has never let itself see: the Deceiver and the 7empest are bound together. The looming shadow of every act, the voices that culled mankind, the corruption now sealed in its talons — they may all be one thing, and that thing may *own* the sphere. The realization is never confirmed; the not-knowing is part of the horror.
+- **Camera:** The Phoenix regarding the cracked sphere with dawning, unprovable dread.
+- **Key Assets:** Phoenix; `FX_7empest_Sphere` (cracked).
+- **VFX/Software:** The dread landing; the sphere holding the unanswerable question.
+- **Audio Cue:** **9:44 — "Disputing intentions invites devastation."**
+- **Notes:** **Deliberately unresolved** — does the Deceiver own the tempest? (interpretation: "one being — and the questions I left open.")
+
+**7E-014 — The Reckoner**
+- **TC:** ~10:10 → ~10:31
+- **Description:** *"A tempest must be true to its nature."* The deeper crisis lands, and it is about the Phoenix itself: *what is it?* Good would not kill; evil would not protect; but the Phoenix does both — it spares the Tree and lets the world end so it can begin again. It is neither. It is the **Reckoner**: the one that does not choose, that lets it all try once more, hoping — every time — that mankind will finally reach harmony.
+- **Camera:** Hold on the Phoenix as the question turns inward.
+- **Key Assets:** Phoenix.
+- **VFX/Software:** Minimal — the crisis is internal; the fire steady, the eyes carrying it.
+- **Audio Cue:** "A tempest must be true to its nature / A tempest must be just that…"
+- **Notes:** **The Reckoner naming** (interpretation: "the Phoenix is the Reckoner"). Not a hero, not a villain — the one bound to turn the wheel.
+
+**7E-015 — The Second Voice (the two-voice round)**
+- **TC:** ~10:31 → ~11:15
+- **Description:** The second voice enters. The Deceiver answers — **not a body, never a face, but a voice**, a second strain of the same song whispering beneath the Phoenix's own. The two sing in a round, now together, now apart. *"Control your delusion"* — both at once. Then the Deceiver alone picks out the accusations — *"Insane and striking at random / Victim of your certainty / And therefore, your doubt's not an option"* — and the Phoenix answers. At the seal's last word the two voices overlap and lock: the Deceiver *"the tempest will be,"* the Phoenix *"the tempest must be,"* colliding into one.
+- **Camera:** Hold on the Phoenix; the Deceiver has no figure — at most a faint formless presence at the edge of frame.
+- **Key Assets:** Phoenix; `FX_Shadow_Deceiver` (**formless — voice only, never a body/face**).
+- **VFX/Software:** No Deceiver figure. Carry the round in the **vocal arrangement**; visually stay on the Phoenix, faint formless shadow only.
+- **Audio Cue:** **~10:31** — "Control your delusion" (unison) → Deceiver alone on "Insane…/Victim…/And therefore…" → **"the tempest must will be"** (two voices overlapping).
+- **Notes:** **LYRIC — "must will be" is two voices ("will" + "must"), NOT a stammer or error; never smooth it into one.** The Deceiver stays bodiless (canon). (interpretation: "everything means two things at once.")
+
+**7E-016 — The Cruelest Turn ("feeble")**
+- **TC:** ~11:15 → ~11:40
+- **Description:** *"So try as you may, feeble, your attempt to atone… Your words to erase all the damage cannot."* The whispering Deceiver sings every word — *feeble* and all — mocking the Phoenix's hope. But the Phoenix's own voice **drops "feeble,"** so its line lands as *"so try as you may, your attempt to atone…"* The Phoenix will not name its own hope feeble, even as the Deceiver insists that it is.
+- **Camera:** The Phoenix holding its line against the mockery; the two voices braided.
+- **Key Assets:** Phoenix; `FX_Shadow_Deceiver` (voice only).
+- **VFX/Software:** The vocal contrast (Deceiver sings "feeble," Phoenix omits it) carried in audio; the Phoenix unbroken.
+- **Audio Cue:** "So try as you may, feeble…" (Deceiver) ∥ "So try as you may…" (Phoenix, dropping *feeble*).
+- **Notes:** **False hope holds the line** — the Phoenix refuses to call its own hope feeble. (interpretation: "false hope is the engine.")
+
+**7E-017 — The Laugh**
+- **TC:** ~11:40 → 12:00
+- **Description:** The Phoenix understands what it must do: to end this iteration and give the world another chance, it must enter the crack itself — not the fracture in the sphere, but the seam in reality — to become part of it, to sacrifice everything it is so everything can start over. Then, on the last *"A tempest must be just that,"* sung four times into the dark, the Phoenix does something terrible and free: it **laughs.** Because it has won again, and winning changes nothing. Because it still cannot tell whether the tempest is the sphere it sealed, the Deceiver that may own it, or *itself.* It accepts anyway.
+- **Camera:** Push to the Phoenix as the laugh comes — terrible, free, accepting.
+- **Key Assets:** Phoenix.
+- **VFX/Software:** The laugh carried in performance; the fire flaring with the terrible freedom of it.
+- **Audio Cue:** "A tempest must be just that" ×4 → the Phoenix's laugh.
+- **Notes:** **The single most important gesture for the Phoenix** (interpretation: "the laugh"). *Perhaps the Phoenix is the tempest. It will never know. It accepts anyway.* Left deliberately unresolved.
+
+### THE DESCENT INTO THE CRACK (12:00–15:00)
+
+**7E-018 — The Sky Splits Along the Seam**
+- **TC:** 12:00 → ~13:15
+- **Description:** The Phoenix lifts the sphere high above the Tree. The sky splits fully open along the seam — and it is **not a new wound**: it is the same crack that first tore across the newborn sky at the L1 lightning of Fear Inoculum, the same seam that reopened at the end of Culling Voices. That one wound in reality, there ever since, always waiting.
+- **Camera:** The Phoenix lifting the sphere; tilt up as the seam splits the sky wide.
+- **Key Assets:** Phoenix; `FX_7empest_Sphere`; `FX_CreationSeam_Crack` (**fully open** — same seam as FI-004 / CV-013); `ENV_Tree`.
+- **VFX/Software:** The creation seam opening fully (the same asset, at full scale); the sphere cradled in the talons.
+- **Audio Cue:** Instrumental (wordless again after the climax).
+- **Notes:** **CANON — the creation seam (`FX_CreationSeam_Crack`), the same one from FI-004 and CV-013** — NOT the sphere seal-fracture. The loop's doorway. (interpretation: "the loop — the way out is the way in.")
+
+**7E-019 — Into the Crack**
+- **TC:** ~13:15 → 15:00
+- **Description:** A long, slow, majestic ascent. The Phoenix rises toward the seam, the sphere cradled in its talons. It does not hesitate at the threshold. It flies into the crack — and vanishes.
+- **Camera:** The long rise toward the seam; the threshold; the Phoenix passing through and gone.
+- **Key Assets:** Phoenix; the sphere; `FX_CreationSeam_Crack`.
+- **VFX/Software:** The majestic ascent; the vanishing into the seam.
+- **Audio Cue:** Instrumental — the long build into the seam.
+- **Notes:** **It does not hesitate** — the sacrifice chosen freely. Not to destroy the 7empest; to *become part of it.*
+
+### THE COLLAPSE OF ALL THINGS (15:00–15:43)
+
+**7E-020 — The Collapse of All Things**
+- **TC:** 15:00 → ~15:30
+- **Description:** The sphere implodes. Time fractures. Space unravels. The Tree vanishes. The rivers dry. The stars blink out, one by one, **in reverse order of their creation.** The Phoenix turns to ash. Everything that ever was — ends.
+- **Camera:** The implosion; the world unmaking itself in reverse; the stars going dark.
+- **Key Assets:** `FX_Collapse_Implosion`; `ENV_Tree` (vanishing); `ENV_Water_System`/`MAT_LiquidStarlight` (drying); `ENV_Cosmos` (stars blinking out reversed); Phoenix (to ash).
+- **VFX/Software:** The collapse (hero sim) — reverse-creation unmaking; stars out in reverse order; the Phoenix to ash.
+- **Audio Cue:** The collapse — toward the final silence.
+- **Notes:** Everything ends — mirrors the creation of Act I, run backward. The unmaking is total this time (not local).
+
+### THE SPECK (15:43)
+
+**7E-021 — The Speck (the loop closes)**
+- **TC:** ~15:30 → 15:43
+- **Description:** Silence. Darkness. The absolute nothing that existed before the first chime. Then — a single feather floats down through the void, glowing faintly. It reaches the center of the darkness and dissolves. And in the space where it was, a single speck of light appears. It pulses once. Then again. Then again. The speck grows — not quickly, not dramatically; just enough, just the way light does when creation first decides to exist. The first chime of Fear Inoculum begins. **Fade to black.**
+- **Camera:** The void; the falling feather; the speck appearing and beginning to pulse and grow.
+- **Key Assets:** `FX_Feather` (the final feather — glowing, then dissolving); `FX_FirstLight / Speck` (the speck — **= the nascent Egg**).
+- **VFX/Software:** The feather dissolving into the speck; the speck's first pulses and growth; match to the FI-001 first chime (**the loop**).
+- **Audio Cue:** Silence → the **first chime of Fear Inoculum** → fade to black (15:43).
+- **Notes:** **THE LOOP CLOSES** — the final feather → the speck → the first chime (`FX_FirstLight/Speck` loops to chime 1 / FI-001). The one place the film **fades to black** (the final frame). *The Phoenix is not the end. The Phoenix is the beginning that remembers the end.*
+
+> **FEATHER NOTE:** The film's **last** feather is the loop's hinge — it falls through the absolute void and dissolves into the first speck of light, which becomes the nascent Egg, which becomes the first chime. The feathers were always the soul scattered backward through time; here the very last one becomes the very first thing. Pays off only on a rewatch.
