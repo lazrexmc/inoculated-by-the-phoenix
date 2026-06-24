@@ -4,6 +4,60 @@
 
 ---
 
+## 2026-06-24 — Aesthetic principle: the four instruments stage the image
+
+**What happened:** Captured a global production/aesthetic rule from the owner — each band voice drives
+a distinct visual layer, and animation should be cut/energized to them:
+- **Adam's guitar = the Bird/Phoenix** and the life & energy in every object (the protagonist's motion
+  and the world's power are keyed to the guitar).
+- **Justin's bass = light & mood/temperature.**
+- **Danny's drums = the world & its weather** (sky, storm, darkness, lightning, impact).
+- **Maynard's voice = the story/meaning.**
+Added as a new "The Four Instruments" subsection in the treatment's Visual Language, a MEMORY rule, a
+practical note in Asset Spec §10 (incl. stem-separating the master so each layer drives its own
+animation/FX), and the v5 revision log (clause 13).
+
+**State:** principle is canon; it refines the existing "everything alive pulses / the world breathes
+with the album." No assets built yet.
+
+---
+
+## 2026-06-24 — 7empest gathering: the Blame (everyone vs. the Creator) + the instrumental torrent
+
+**What happened:** Beat-mapped 7empest's gathering.
+- Extended the dual-address verse to **~1:59–2:38** (through "we know your nature").
+- New **3:09–5:20 "The Blame"** beat: as the corruption pours in, the song turns to accusation and
+  *everyone* — Phoenix, Deceiver, mankind — blames the **Creator** for a systematic universe that
+  destructs and rebirths forever. Kept canon-safe: the Creator is long dissolved, so they rail at the
+  *design*, not a figure; the myth lets the accusation stand and never answers it. Montage of all
+  parties' struggles/battles/wins/losses + the longing for the impossible harmony Pneuma once showed.
+  Added a matching note to the Creator's Symbolic Canon entry.
+- Renamed/retimed the seal beat to **~5:20–9:00 "The Torrent and the Seal"** and flagged
+  **5:20–~9:44 as a wordless instrumental** (the long guitar torrent) — the act's **visual summit**,
+  the seal compressing everything into the sphere.
+- Propagated to the v5 revision log (clause 12) and both lyrics hooks.
+
+**State:** 7empest is now beat-mapped opening → gathering → blame → torrent/seal → crack/two-voices →
+speck. Culling Voices' full timecoded beat-map remains the open act-development item.
+
+---
+
+## 2026-06-24 — 7empest opening: the ironic "keep it calm" intro
+
+**What happened:** Fleshed out 7empest's **0:00–~1:35 instrumental** (carries the Culling-Voices
+resolve forward after the CCT plunge, ramps the energy toward the climax) and the first words.
+"Keep, keep… keep it calm" reads as the Phoenix's **ironic self-instruction** — it already knows
+nothing will stay calm; the line is about *how* it chooses to carry this iteration. The intro breaks
+on "Fuck, here we go again" — weary recognition, not despair. Also added the **1:59–2:25 verse** as
+**dual-addressed**: to the audience (a warning — don't blink, look the darkness in the eye, sharper
+on rewatch) and to the 7empest/Deceiver (calling out its tranquility-ruse, "we know your nature").
+Updated the Stillness beat + the new verse beat, the v5 revision log (clause 11), and the lyrics hooks.
+
+**State:** 7empest's opening + ending are now beat-mapped; the middle (gathering/sealing) remains
+story-level. Culling Voices' full timecoded beat-map is still the open act-development item.
+
+---
+
 ## 2026-06-24 — 7empest ending: the two-voice climax (Phoenix vs. the Deceiver's voice)
 
 **Goal:** Develop the 7empest finale (~9:44 → the speck) from the owner's interpretation.

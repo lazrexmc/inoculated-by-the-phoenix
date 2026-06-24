@@ -236,6 +236,7 @@ Then — and only then — a shot list becomes a real shooting plan against asse
 - **Shaders don't transfer 1:1.** Blender material node graphs won't import into UE5 — you'll rebuild hero looks as UE5 materials. So **document each material's intent and parameters** (this table in §7 is the start) rather than relying on the Blender graph surviving the trip.
 - **Keep `MAT_PhoenixFire` (gold/white) and `MAT_7empest_Corruption` (red) as separate material families** in every tool, so the gold-never-red rule survives the pipeline.
 - **Tempo-sync:** since the whole film is music-locked, consider driving `NG_BioPulse` and ignition sequences from a frame-mapped tempo track early, so "the world breathes with the album" is built in rather than retrofitted.
+- **Instrument → visual layer (Treatment, "The Four Instruments"):** map each stem to what it drives — **guitar** → the being and the energy of objects; **bass** → lighting & mood; **drums** → environment & weather (sky, storm, lightning, impact); **vocals** → story beats. Stem-separate the master if possible so each layer can drive its own animation/FX (e.g., drums → `FX_Lightning`/environment, guitar → `CHR_OneBeing` motion + `NG_BioPulse`).
 
 ---
 
