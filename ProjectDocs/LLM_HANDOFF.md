@@ -1,6 +1,6 @@
 # LLM HANDOFF — paste this into a fresh Codex / Claude / LLM session
 
-*Last updated: 2026-06-23. Keep this current whenever project state changes.*
+*Last updated: 2026-06-24. Keep this current whenever project state changes.*
 
 This is the onboarding prompt for a context-free AI session working on *Inoculated by the
 Phoenix*. Paste the block below. It assumes the AI has this folder open as its workspace.
@@ -40,7 +40,7 @@ it never drifts off-myth across sessions.
 NON-NEGOTIABLE WORKING RULES
 - The Treatment is canon. The Asset Spec's §2 "Global canon constraints" are load-bearing — obey
   them even when another choice looks better. E.g.: one being / shared topology; Phoenix fire is
-  gold/white NEVER red (red = corruption/7empest only); the Egg never opens before Pneuma; trolls
+  gold/white, red = corruption/7empest (a strong preference, not a hard lock — creativity first, filter second); the Egg never opens before Pneuma; trolls
   are distorted humanity, not new creatures; liquid starlight is ONE reused master shader; there
   is ONE "crack in reality" (distinct from the sphere's seal-crack).
 - Timecodes (mm:ss) live ONLY in the Treatment. The Asset Spec references scenes by act/beat.

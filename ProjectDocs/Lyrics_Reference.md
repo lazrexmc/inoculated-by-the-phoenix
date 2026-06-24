@@ -278,7 +278,7 @@ Keep, keep it, keep it calm
 Keep, keep calm
 Keep, keep, keep calm
 Fuck, here we go again
-Heat lighting flash, but don't blink
+Heat lightning flash, but don't blink
 Misleading, tranquility ruse
 You're gonna happen again
 That's what I think

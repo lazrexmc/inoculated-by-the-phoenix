@@ -16,7 +16,7 @@ When you open a fresh Claude session in VS Code, that Claude knows nothing about
 
 ## 1. Paste-this-first primer (for a context-free Claude session)
 
-> I'm building a wordless feature-length animated film called *Inoculated by the Phoenix*, set entirely to Tool's album *Fear Inoculum*. It's a cosmological myth about a single cosmic being that moves through three phases across one eternal, repeating cycle: **the Egg** (pure potential), **the Bird/Eagle** (the witness — hatches already eagle-shaped, matures across the film), and **the Phoenix** (realization). The visual language is futurist-holographic with Mesopotamian imagery, bioluminescent light, and "liquid starlight." I'm producing assets in Blender, scripting with `bpy` in VS Code, and will assemble in Unreal Engine 5; heavy procedural/particle work goes to Houdini. I'll give you a specific asset spec with canon constraints — write me clean, idiomatic Blender Python (Blender 4.2+/5.x API) that respects those constraints. Don't invent lore; if a constraint is ambiguous, ask.
+> I'm building a wordless feature-length animated film called *Inoculated by the Phoenix*, set entirely to Tool's album *Fear Inoculum*. It's a cosmological myth about a single cosmic being that moves through three phases across one eternal, repeating cycle: **the Egg** (pure potential), **the Bird/Eagle** (the witness — hatches already eagle-shaped, matures to the full Eagle early on), and **the Phoenix** (realization). The visual language is futurist-holographic with Mesopotamian imagery, bioluminescent light, and "liquid starlight." I'm producing assets in Blender, scripting with `bpy` in VS Code, and will assemble in Unreal Engine 5; heavy procedural/particle work goes to Houdini. I'll give you a specific asset spec with canon constraints — write me clean, idiomatic Blender Python (Blender 4.2+/5.x API) that respects those constraints. Don't invent lore; if a constraint is ambiguous, ask.
 
 Keep that paragraph handy. It primes any session in ~150 words.
 
@@ -33,7 +33,7 @@ These are the load-bearing rules. They override convenience. If a build choice v
 5. **The speck and the Egg are one.** The single point of light at the opening chime is the same consciousness that later condenses into the Egg. The final feather of the film dissolves into that first speck, closing the loop. Any "first light" / "final speck" asset is the same asset.
 6. **Liquid starlight is ONE material**, reused everywhere water-like or life-energy appears: springs, rivers, oceans, the Egg's interior glow, the Tree's pulse, and the base layer of the Phoenix's fire. Build it once as a master shader with exposed parameters; instance it, don't rebuild it.
 7. **Everything alive pulses.** Tree, Egg, rivers, Phoenix, the 7empest sphere — all have a rhythmic luminance/scale pulse. Drive it from a shared, ideally tempo-syncable, control so the world can "breathe" together (Pneuma's thesis) and fall out of sync when corruption enters.
-8. **Phoenix fire is gold and white. Never red.** Red is reserved *exclusively* for the 7empest / corruption. Keep these two palettes physically separate in your material library so they can never bleed.
+8. **Phoenix fire reads gold and white; red is the language of the 7empest / corruption.** This is the strong aesthetic *intention* — hold it as a guiding preference, not a hard lock: during exploration and LLM-assisted generation, create freely and filter toward the palette in review rather than restricting it up front. (Creativity first, filter second; the coloration canon will be firmed up once real images are on the table.) Still build `MAT_PhoenixFire` and `MAT_7empest_Corruption` as separate families so the distinction stays *easy* to honor — or to relax deliberately.
 9. **The crack is ONE wound in reality.** It first appears between the first and second chime of creation, reopens at the end of *Culling Voices*, and the Phoenix flies into it in *7empest*. The hairline fracture in the *sealed sphere* during 7empest is a **separate** thing (a seal failing) and must look different from the creation-seam.
 10. **Trolls are corrupted humanity, not external monsters.** Faint traces of the human form remain visible beneath the stone/clay. They are built by *distorting the mankind base mesh*, not as a from-scratch creature.
 11. **Feathers are soul-fragments and appear before the Phoenix exists.** One feather asset with a continuous **state range**: glowing/iridescent → muted → blackened/smoldering → ignited. State tracks the world's health.
@@ -108,7 +108,7 @@ Format per entry — **Canon constraints** (must-obey) · **Build** (approach) �
 - *First appears:* Eaglet at the *Pneuma* hatch; mature Eagle as *Invincible* opens (its maturation beat); Phoenix at the *Invincible* Rise (the realization/time-freeze). *Tier 1.*
 
 **`CHR_Phoenix_FireLayers`**
-- *Canon:* Gold/white fire, **never red**. Feathers of living flame; wings of molten gold. Fire base layer derives from the liquid-starlight material's energy, ignited.
+- *Canon:* Gold/white is the intended fire palette (red reads as corruption) — a preference to filter toward, not a hard lock at generation time. Feathers of living flame; wings of molten gold. Fire base layer derives from the liquid-starlight material's energy, ignited.
 - *Build:* Hybrid — geo for wing/body shells (from `CHR_OneBeing`) + Houdini/Blender sim or geo-nodes flame for the living-flame plumage. Keep flame palette locked to gold/white in `MAT_PhoenixFire`.
 - *First appears:* Act III — the *Invincible* Rise. *Tier 2.*
 
@@ -167,7 +167,7 @@ These are flagged for **Houdini** where procedural/particle depth matters; build
 | `FX_Lightning` | Punctuates chimes 4, 7, 10; ignites solidification on-frame | Houdini/Blender | 4 |
 | `FX_InoculationGlow` | Egg light radiates outward, passively repels shadow; no will, no hatch | Blender (shader/volume) | 2 |
 | `FX_Shadow_Deceiver` | A *sense*, not a being; fog/mist/dark cloud; never resolves to a character (no body/face) — but finds one disembodied **voice** at the 7empest climax | Houdini volumetrics | 3 |
-| `FX_FeatherStorm` | Every feather in the film converges on the Eagle at the realization (the *Invincible* freeze) | Houdini (instanced) | 4 |
+| `FX_FeatherStorm` | Feathers from across the film converge on the Eagle at the realization (the *Invincible* freeze) — a storm of them, not a literal tally | Houdini (instanced) | 4 |
 | `FX_TimeFreeze` | World freezes at the *Invincible* realization beat; **Eagle + feathers stay outside the freeze** | Blender (anim/state) | 4 |
 | `FX_7empest_Swirl` | Raw, *not-yet-sealed* corruption; pure chaos; **red palette**; glyphs flashing | Houdini | 4 |
 | `FX_7empest_Sphere` | Sealed crystalline/faceted vessel of all corruption; troll faces, burning forests inside | Houdini + Blender | 4 |
@@ -197,8 +197,8 @@ These are flagged for **Houdini** where procedural/particle depth matters; build
 | `MAT_LiquidStarlight` | flow, emission, refraction, "starlight density" (fades with corruption) | The single most reused look. Build first, hand-authored. |
 | `MAT_EggShell_Iridescent` | hue-shift speed, iridescence, **glow strength (independent of any crack)** | Never settles on a color. |
 | `NG_BioPulse` | rate (tempo-syncable), amplitude, sync/desync | Shared luminance/scale pulse for all living things. |
-| `MAT_PhoenixFire` | gold↔white range only | **Hard-locked away from red.** |
-| `MAT_7empest_Corruption` | red palette, chaos/turbulence, glyph flicker | **The only place red lives.** |
+| `MAT_PhoenixFire` | gold↔white intended range | Lean gold/white; not hard-locked — filter toward it in review. |
+| `MAT_7empest_Corruption` | red palette, chaos/turbulence, glyph flicker | Red is the corruption's home palette (not an exclusive lock during exploration). |
 | `MAT_TrollStoneClay` | crack density, dryness, faint human-subsurface glow | Humanity must remain faintly visible beneath. |
 | `MAT_Feather_StateRange` | single 0–1 corruption/ignition driver | Drives the whole feather lifecycle. |
 | `NG_HoloDissolve` | edge-dissolve threshold, particle size | Global look principle on hero edges. |
@@ -234,7 +234,7 @@ Then — and only then — a shot list becomes a real shooting plan against asse
 - **Export:** Static/rigged assets → FBX or USD into UE5. USD is increasingly the cleaner choice for a procedural-heavy pipeline; FBX remains reliable for rigged characters. Apply transforms, real-world scale, +Z up before export.
 - **Sims:** Houdini → Alembic (`.abc`) for animated geo, VDB for volumes (fire, fog, the 7empest), into Blender for look or straight into UE5.
 - **Shaders don't transfer 1:1.** Blender material node graphs won't import into UE5 — you'll rebuild hero looks as UE5 materials. So **document each material's intent and parameters** (this table in §7 is the start) rather than relying on the Blender graph surviving the trip.
-- **Keep `MAT_PhoenixFire` (gold/white) and `MAT_7empest_Corruption` (red) as separate material families** in every tool, so the gold-never-red rule survives the pipeline.
+- **Keep `MAT_PhoenixFire` (gold/white) and `MAT_7empest_Corruption` (red) as separate material families** in every tool, so the intended palette distinction is easy to honor — or to relax deliberately — rather than baked in.
 - **Tempo-sync:** since the whole film is music-locked, consider driving `NG_BioPulse` and ignition sequences from a frame-mapped tempo track early, so "the world breathes with the album" is built in rather than retrofitted.
 - **Instrument → visual layer (Treatment, "The Four Instruments"):** map each stem to what it drives — **guitar** → the being and the energy of objects; **bass** → lighting & mood; **drums** → environment & weather (sky, storm, lightning, impact); **vocals** → story beats. Stem-separate the master if possible so each layer can drive its own animation/FX (e.g., drums → `FX_Lightning`/environment, guitar → `CHR_OneBeing` motion + `NG_BioPulse`).
 

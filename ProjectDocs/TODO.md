@@ -1,6 +1,6 @@
 # TODO — Inoculated by the Phoenix
 
-*Last updated: 2026-06-23. Status: pre-production / docs phase. No assets built yet.*
+*Last updated: 2026-06-24. Status: pre-production / docs phase. No assets built yet.*
 
 ## Now / next
 - [ ] **Set up the Blender + VS Code environment** (Asset Spec §4): "Blender Development"
@@ -33,6 +33,15 @@
 ## Canon / docs tasks
 - [ ] **Spec the Act VI / Chocolate Chip Trip interior** as its own look-dev asset entry and slot
       it into the build order — deliberately deferred, not a freebie. (Tracked in MEMORY.md.)
+- [x] **Cleaned the CCT (VI) → 7empest (VII) transition** (Audit #6): split into *rise* vs. *seal* —
+      the wider world's corruption rises of its own accord and convenes across CV/CCT into one mass
+      above the Tree; 7empest draws that *present* mass in and binds it (no more "gathers twice").
+- [ ] **Firm up the Phoenix coloration canon** once real images arrive. The hard "gold/white, never
+      red" rule was softened to a guiding preference (creativity first, filter second) so it doesn't
+      restrict LLM/creative generation up front — revisit and decide the actual enforcement. (Audit #7.)
+- [ ] **Two small canon-wording items** (later): scope "the Phoenix will not hesitate" (CV transition)
+      against the 7empest reckoning; and clarify the Act I "first feather" vs. the Pneuma feather that
+      "becomes the first speck," so a literal reader doesn't trip. (Audit #8.)
 - [x] **Beat-mapped Culling Voices (V)** against its lyrics with timecodes: instrumental open → voices
       enter (1:27) → the culling (3:20–5:27) → 5:27 the guitar takes the song → 5:57–8:11 "Don't you
       dare" collapse → wordless reckoning to 10:05 → transition into CCT. All lyric-bearing acts (I–V,

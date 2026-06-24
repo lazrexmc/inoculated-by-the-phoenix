@@ -1,6 +1,6 @@
 # CONTEXT — Inoculated by the Phoenix
 
-*Last updated: 2026-06-23*
+*Last updated: 2026-06-24*
 
 ## What this project is
 A **wordless, feature-length animated film** set entirely to Tool's album *Fear Inoculum*
@@ -10,8 +10,8 @@ Created by Lance. Personal, non-commercial creative work.
 It is a cosmological myth about **one cosmic being** moving through three phases across a single
 eternal, repeating cycle:
 - **The Egg** — pure potential, untouched consciousness. Never opens during *Fear Inoculum*.
-- **The Bird / Eagle** — the witness. Eagle-shaped from birth (hatches as an eaglet), matures
-  into the full mythical Eagle. Discovers purpose through suffering.
+- **The Bird / Eagle** — the witness. Eagle-shaped from birth (hatches as an eaglet), maturing to
+  the full Eagle early on (Pneuma → Invincible's open). Discovers purpose through suffering.
 - **The Phoenix** — realization made fire. Remembers what the Egg always held.
 
 The story is cyclical: it ends exactly where it begins, and the loop closes in the final seconds.
@@ -50,7 +50,7 @@ and story work on-myth so nothing drifts across sessions.
 
 ## Load-bearing canon (see Asset Spec §2 for the full list)
 - One being across time; share topology so transformations read as continuity, not swaps.
-- Phoenix fire is **gold/white, NEVER red**. Red is reserved exclusively for corruption/7empest.
+- Phoenix fire reads **gold/white**; red is the corruption/7empest palette — a strong aesthetic intent held as a preference (not a hard lock) until real images arrive (creativity first, filter second).
 - The Egg never cracks before the *Pneuma* hatch; glow is independent of any fracture state.
 - **Liquid starlight is ONE** reused master shader (rivers, springs, Egg interior, Tree, Phoenix base).
 - Trolls are **distorted humanity** (one mankind base mesh), not from-scratch monsters.

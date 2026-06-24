@@ -4,6 +4,52 @@
 
 ---
 
+## 2026-06-24 — Cleaned the CCT → 7empest transition (rise vs. seal)
+
+**What happened:** Resolved audit item #6 (the corruption reading as "gathered twice"). Split the
+flow into two distinct verbs: **rise** and **seal**. The wider world's corruption (everything
+Invincible left untouched) **rises of its own accord** to be faced — convening across Culling Voices
+and Chocolate Chip Trip into one swirling mass hanging above the Tree. **7empest** is no longer a
+fresh from-the-world gather; its "Gathering Begins" beat is reframed as the Phoenix drawing in and
+binding that *present* mass, then compressing/sealing it. Chose the agency reading where the
+corruption surfaces on its own (it's "alive"), which plays into the Deceiver-has-agency thread.
+
+**Edits:** CV transition (the rise begins), CCT's end (the mass = the world's corruption risen and
+drawn together), and 7empest's "Gathering Begins" (draw-in-and-bind the present mass). Propagated to
+MEMORY, the v5 revision log (clause 16), and TODO (#6 marked done).
+
+**State:** transition seam closed. Remaining audit deferrals: #7 (coloration canon, when images
+arrive) and #8 (two small wording items). No assets built yet.
+
+---
+
+## 2026-06-24 — Full canon audit + fixes (and the gold-never-red softening)
+
+**What happened:** Ran a full read-only audit of the treatment, Asset Spec, and reference docs
+(lyric fidelity vs. source, internal consistency, canon-rule integrity, cross-act through-lines).
+Verdict: canon is solid — one real drift and a handful of polish items.
+
+**Applied:** (1) Asset Spec `FX_FeatherStorm` wording matched to the softened treatment ("a storm,
+not a tally"). (2) Bumped stale "Last updated" dates (CONTEXT/MEMORY/TODO/LLM_HANDOFF) to 2026-06-24.
+(3) Corrected the source lyric typo "Heat lighting" → "Heat lightning" (both lyric copies). (4)
+Matched the 7empest blame line to the source's "could to begin" (owner confirmed all lyric sources
+read that way). (5) Tightened "matures across the film" → the Pneuma→Invincible maturation (Overview,
+CONTEXT, Asset Spec primer). (7) **Softened the "Phoenix fire gold/white, never red" hard rule to a
+guiding preference** (creativity first, filter second) so it doesn't restrict LLM/creative generation
+up front — across the treatment, Asset Spec (rule 8, fire-layers, materials, pipeline), CONTEXT,
+MEMORY, LLM_HANDOFF; revision clause 15.
+
+**Deferred to TODO (owner's call):** (6) clean the CCT→7empest transition (corruption reads as
+gathered twice); (7) firm up the Phoenix coloration canon once real images arrive; (8) two small
+wording items (the CV "will not hesitate"; the Act I "first feather" vs. the Pneuma feather).
+
+**Left as deliberate ambiguity:** the Deceiver maybe-owning the 7empest; "perhaps the Phoenix is the
+tempest"; CCT's "screen goes dark."
+
+**State:** canon consistent and audited. No assets built yet.
+
+---
+
 ## 2026-06-24 — Culling Voices (V) beat-mapped
 
 **What happened:** Built the full timecoded beat-map for Culling Voices, on the existing framing
