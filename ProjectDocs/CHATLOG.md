@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-06-24 — 7empest ending: the two-voice climax (Phoenix vs. the Deceiver's voice)
+
+**Goal:** Develop the 7empest finale (~9:44 → the speck) from the owner's interpretation.
+
+**What happened:**
+1. **Rewrote the "The Crack" beat** into "The Crack, and the Two Voices." At ~9:44 ("Disputing
+   intentions invites devastation") the Phoenix realizes the Deceiver and the 7empest may be one — the
+   Deceiver may *own* the sphere (left unproven). "A tempest must be true to its nature" triggers the
+   **Reckoner** crisis: not Good (would not kill), not Evil (would not protect), but the one that lets
+   it all try again. At ~10:31 the **Deceiver enters as a voice** in a two-voice round with the
+   Phoenix (the arrangement captured as stage direction: unison "Control your delusion," the Deceiver
+   alone on "Insane…/Victim…/And therefore…," the "will be / must be" overlap, the Phoenix dropping
+   "feeble"). The final four "A tempest must be just that" = the Phoenix's terrible **laugh**, unable
+   to tell whether the tempest is the sphere, the Deceiver, or **itself**.
+2. **Canon decision (owner): the Deceiver is a voice, never a body.** It stays formless throughout and
+   finds one disembodied voice only at this climax. Added a **"The Deceiver" entry to Symbolic Canon**,
+   a note to `FX_Shadow_Deceiver` in the Asset Spec, and left both big questions (does it own the
+   tempest? is the Phoenix the tempest?) deliberately unanswered.
+3. **Resolved the audit's "must will be" flag:** it isn't a transcription error — it's the two voices
+   overlapping ("will be" + "must be"). Noted in the treatment and the lyrics hooks so it's never
+   "corrected."
+4. Propagated to the v5 revision entry (clause 10), MEMORY, the lyrics hooks (both copies), and TODO.
+
+**Decisions:** Deceiver = voice, never body; Reckoner framing for the Phoenix; the ownership and
+Phoenix-as-tempest questions stay unresolved; the "must will be" line is canon (two voices).
+
+**State at end:** 7empest's ending is beat-mapped; its earlier gathering/sealing beats remain
+story-level. Culling Voices' full timecoded beat-map is still the open act-development item.
+
+---
+
 ## 2026-06-24 — Codex audit response: lyric-fidelity + consistency fixes
 
 **Goal:** Triage the read-only Codex audit; apply the clear fixes, flag the judgment calls.

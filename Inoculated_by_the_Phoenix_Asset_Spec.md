@@ -166,7 +166,7 @@ These are flagged for **Houdini** where procedural/particle depth matters; build
 | `FX_CreationRipples` | Concentric waves writing physics into being; tied to chimes 1–3 | Houdini | 4 |
 | `FX_Lightning` | Punctuates chimes 4, 7, 10; ignites solidification on-frame | Houdini/Blender | 4 |
 | `FX_InoculationGlow` | Egg light radiates outward, passively repels shadow; no will, no hatch | Blender (shader/volume) | 2 |
-| `FX_Shadow_Deceiver` | A *sense*, not a being; fog/mist/dark cloud; never resolves to a character | Houdini volumetrics | 3 |
+| `FX_Shadow_Deceiver` | A *sense*, not a being; fog/mist/dark cloud; never resolves to a character (no body/face) — but finds one disembodied **voice** at the 7empest climax | Houdini volumetrics | 3 |
 | `FX_FeatherStorm` | Every feather in the film converges on the Eagle at the realization (the *Invincible* freeze) | Houdini (instanced) | 4 |
 | `FX_TimeFreeze` | World freezes at the *Invincible* realization beat; **Eagle + feathers stay outside the freeze** | Blender (anim/state) | 4 |
 | `FX_7empest_Swirl` | Raw, *not-yet-sealed* corruption; pure chaos; **red palette**; glyphs flashing | Houdini | 4 |
