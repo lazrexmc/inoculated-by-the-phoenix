@@ -21,6 +21,10 @@ Produced in **Blender** (`bpy` scripting in VS Code) → **Unreal Engine 5**, wi
 > Markdown is the sole canonical format — there is no `.docx` kept in the repo. Generate a Word/PDF
 > copy from the `.md` on demand if you ever need one.
 
+> **`interpretation.md`** — the *why* companion: how the author reads the film and why it's built this
+> way (authorial intent, not canon-mechanics; nothing in it is meant to reach the screen). Separate
+> from the canon docs.
+
 ## Reference docs (`ProjectDocs/`)
 | File | Role |
 |---|---|

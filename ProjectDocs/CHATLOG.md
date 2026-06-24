@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-24 — Pneuma shotlist drafted + audited; interpretation.md started
+
+**What happened:**
+- **Drafted Act II / Pneuma in the master shot list** (PN-001→020), v5-aligned. Audited it against the
+  lyrics, treatment, and Asset Spec — clean except one fixed error (premature desaturation; Act II
+  holds full saturation). Ran the Act I + II unit audit: seams, growth spine, and Deceiver continuity
+  all consistent.
+- **Applied owner refinements:** (A) the hatch is now a **build** (first cracks ~1:15 in Pneuma, full
+  break at 1:45) and the First Discovery **breathes to ~3:30**, overlapping mankind-forming — room to
+  land the recognition. Kept the Egg sealed through all of Act I (canon-safe; the title's passive
+  inoculation preserved). (B) the **Peak suspends time** (a held freeze on the apex of unity — a small
+  echo of the Invincible freeze). (C) **dropped the "first feather" focus** — feathers simply appear,
+  no single one tracked (also clears deferred audit #8).
+- **Started `interpretation.md`** — the authorial "why" document (the layered meaning the film shows
+  but never states), kept separate from canon/build docs. The secret after-credits piece is
+  deliberately **not** recorded (owner embargo). Registered in the README.
+
+**State:** Pneuma drafted/audited/refined; Acts I + II consistent. Acts III–VII still to draft. No
+assets built yet.
+
+---
+
 ## 2026-06-24 — Started the master shot list (Act I, v5-aligned)
 
 **What happened:** The owner added `Fear_Inoculum_ShotList.xlsx` (a detailed Act I shotlist from an

@@ -129,10 +129,10 @@
 - **TC:** 1:02 → 1:15
 - **Description:** A swirling distortion forms above the Tree. Colors fold into themselves — neon blues, purples, golds, greens. Iridescent, shifting. The Egg condenses from psychedelic energy. Simultaneously the indescribable Holding Device (the Creator) materializes. A single phoenix feather pulses **once** in the mist as the Egg forms.
 - **Camera:** Tilt up from the Tree to the Egg forming above.
-- **Key Assets:** Egg (`MAT_EggShell_Iridescent`); `CHR_Creator_Cradle` (neither mechanical nor organic — design phase); **FIRST FEATHER**.
+- **Key Assets:** Egg (`MAT_EggShell_Iridescent`); `CHR_Creator_Cradle` (neither mechanical nor organic — design phase); a drifting `FX_Feather`.
 - **VFX/Software:** H — particle convergence into egg shape; iridescent psychedelic shader; Holding Device needs its own design pass.
 - **Audio Cue:** Drum loop continues.
-- **Notes:** **CRITICAL — first feather appearance in the film.** Subtle, single pulse. Do not telegraph it; the audience won't understand until rewatch.
+- **Notes:** A subtle single feather pulse — the first the film *shows*, but **not** marked as special (no "first feather" — feathers simply appear throughout). Do not telegraph it; the feather motif pays off only on rewatch.
 
 **FI-013 — Egg & Tree Breathe Together**
 - **TC:** 1:15 → 1:37
@@ -255,7 +255,210 @@
 ---
 
 ## Act II — Pneuma (11:53) — Unity & Growth
-*To come. Will inherit the relocated hatch + "First Discovery" exploration + wordless recognition (from the earlier Act I shotlist), plus mankind forming, the frisson peak, and the looming-but-unbroken shadow.*
+
+> **v5 note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)*
+
+### THE HIDDEN DUALITY (0:00–1:45)
+
+**PN-001 — The World, Awake**
+- **TC:** 0:00 → ~0:50
+- **Description:** Pneuma opens on the world fully materialized — rivers, land, and sky sharpened into clarity. The Tree is small but stable, glowing with purpose; the Egg rests in the Holding Device, radiating. Creation is complete; existence is awake.
+- **Camera:** Slow, wide, reverent drift across the whole plateau.
+- **Key Assets:** Full plateau; `ENV_Tree` (small-stable stage); `CHR_Egg`; `ENV_Water_System`; Holding Device.
+- **VFX/Software:** `MAT_LiquidStarlight`; `NG_BioPulse` (everything breathing); holographic shimmer.
+- **Audio Cue:** Pneuma intro (instrumental).
+- **Notes:** Re-establish Act I's world, now fully *real* and saturated (Act II palette: warm golds, liquid blues, iridescent greens).
+
+**PN-002 — The Hidden Duality**
+- **TC:** ~0:50 → 1:45
+- **Description:** "We are spirit / Bound to this flesh." The Egg pulses with inner light — a spirit waiting to wake. A shadowy ripple moves across the land — not a form, not a being, just a feeling. Near the end (~1:15) the Egg's pulses quicken and the **first hairline cracks** trace across the shell — the awakening starting to stir, not yet here.
+- **Camera:** Intercut close on the Egg's inner-light pulse with wide of the faint ripple; push to a macro on the first cracks at ~1:15.
+- **Key Assets:** `CHR_Egg`; `ENV_Tree`; faint shadow ripple (`FX_Shadow_Deceiver`, barely there).
+- **VFX/Software:** Egg inner-light pulse; subtle shadow ripple; first hairline shell cracks @ ~1:15 (a *build* — no opening yet).
+- **Audio Cue:** "We are spirit / Bound to this flesh."
+- **Notes:** Two waiting presences at once — the Bird inside the Egg, and the *idea* of mankind. **The hatch is a build:** the Egg stayed sealed through all of Act I; cracks begin here, the full break lands at 1:45.
+
+### THE EGG HATCHES (1:45)
+
+**PN-003 — The Hatch**
+- **TC:** 1:45 → ~2:15
+- **Description:** "Child / Wake up… Release the light." On the awakening line, the cracks that began moments ago (PN-002) give way — the shell breaks open in segments, light pouring out. The eaglet emerges — wet with starlight, blinking, curious, overwhelmed — and wobbles forward onto the plateau.
+- **Camera:** Macro on the cracking shell → push in as the shell falls away → pull back to reveal the eaglet.
+- **Key Assets:** `CHR_OneBeing` (eaglet — debut); broken shell fragments; Holding Device.
+- **VFX/Software:** H — shell-fragment sim; "starlight wetness" emission on the down feathers; B — `RIG_OneBeing` debut.
+- **Audio Cue:** "Child / Wake up… Release the light."
+- **Notes:** The **only true hatch** in the film — must feel sacred. The Egg *becomes* the eaglet: same `CHR_OneBeing`, not a new asset.
+
+**PN-004 — The Cradle Dissolves**
+- **TC:** ~2:15 → ~2:35
+- **Description:** Its purpose fulfilled, the Creator's cradle dissolves — released back into the world's light (rivers, Tree, drifting feathers), present everywhere now rather than as an object. Water reflects the eaglet's image — and for an instant, something else: a shadow, a shape, the faint outline of what will become mankind.
+- **Camera:** The Holding Device unravels into ambient light; tilt to the eaglet's reflection in the water.
+- **Key Assets:** `CHR_Creator_Cradle` (dissolve-to-ambient); `ENV_Water_System`; eaglet.
+- **VFX/Software:** Dissolve-to-ambient transition (drives the rivers'/Tree's/feathers' glow *up* as the cradle fades); a faint mankind-outline in the reflection.
+- **Audio Cue:** Instrumental.
+- **Notes:** Don't *destroy* the cradle — **dissolve** it (it stops needing a single form). Plant the mankind-foreshadow subtly in the reflection only.
+
+### THE FIRST DISCOVERY (~1:45–2:58)
+
+**PN-005 — Exploration, Mesmerized**
+- **TC:** ~2:35 → ~3:00
+- **Description:** The eaglet explores on unsteady legs — hops to the springs, watches the starlight rivers flow past, mesmerized by every finding. Then it runs to the edge of the plateau and cannot pass: an unseen boundary holds it to the sacred center. The first question of any waking thing forms in its face: *why am I here?*
+- **Camera:** Following camera at the eaglet's height; intercut POV of what it sees; low angle at the boundary.
+- **Key Assets:** Eaglet; springs/rivers (`ENV_Water_System`); plateau edge; drifting feathers.
+- **VFX/Software:** Locomotion anim; environmental beauty pass; light fresnel/shimmer at the plateau edge to imply the boundary without explaining it.
+- **Audio Cue:** Instrumental.
+- **Notes:** Pure wonder, no conflict — and the first confusion. Let the audience fall in love with the Bird here; they need to before things turn. (Compressed montage — this whole discovery is ~70s.)
+
+**PN-006 — Wordless Recognition**
+- **TC:** ~3:00 → ~3:30 *(concurrent with PN-007 — mankind coalesces behind)*
+- **Description:** The eaglet approaches the Tree. They face each other. The Tree pulses. The Bird pulses back. A wordless, cosmic recognition — the first thing it understands without being told.
+- **Camera:** Two-shot of Bird and Tree, slow push-in.
+- **Key Assets:** Eaglet; `ENV_Tree`.
+- **VFX/Software:** Synchronized pulse rig (`NG_BioPulse`) — Bird and Tree breathing together.
+- **Audio Cue:** Instrumental.
+- **Notes:** The first relationship of the film — the Bird and the Tree already know each other; they always did. **Given room to land:** it runs past 2:58, overlapping the start of mankind-forming (the recognition in the foreground, mankind coalescing behind). Do not rush it. (Seeds the protective bond that climaxes in Invincible.)
+
+### MANKIND BEGINS TO FORM (2:58–4:30)
+
+**PN-007 — Mankind Coalesces**
+- **TC:** 2:58 → ~3:45
+- **Description:** "Bound to this flesh / This guise / This mask / This dream." The shadowy presence coalesces into a humanoid **light-form** — not fully defined, not fully human, still dreamlike, still becoming. Mankind is being born, but not yet real.
+- **Camera:** The form assembling from light and shadow; slow rise.
+- **Key Assets:** `CHR_Mankind_Base` (translucent light-form, `MAT_Mankind_LightForm`).
+- **VFX/Software:** Humanoid light-form coalescing; born of the same breath/glow as the Bird (echo the birth-glow).
+- **Audio Cue:** "Bound to this flesh / This guise / This mask / This dream."
+- **Notes:** Mankind is born as **light** (translucent) — it solidifies only later, as it corrupts. The "guise / mask" lyric is the seed of the false self the looming shadow will later exploit. Runs **concurrent with PN-006** — the Bird's recognition in the foreground, mankind coalescing behind; the two are born together.
+
+**PN-008 — The Bird Watches**
+- **TC:** ~3:45 → 4:30
+- **Description:** The Bird watches mankind form from the Tree, curious. It senses something familiar — and something off.
+- **Camera:** Bird on the Tree, the forming mankind in its eyeline; intercut their two faces.
+- **Key Assets:** Bird; `ENV_Tree`; mankind light-forms.
+- **VFX/Software:** `NG_BioPulse`; the shared birth-glow between Bird and mankind.
+- **Audio Cue:** Lyric tail → instrumental.
+- **Notes:** First time Bird and mankind regard each other across the world — the "familiar AND wrong" seed.
+
+### THE BREATH DEEPENS (4:30–6:09)
+
+**PN-009 — First Flight**
+- **TC:** 4:30 → ~5:15
+- **Description:** The lyrics fade; the instrumental blooms. The Bird flies for the first time — clumsy at first, then graceful — already larger than the hatchling of minutes ago.
+- **Camera:** Follow the Bird's first uncertain flight, opening into grace.
+- **Key Assets:** `CHR_OneBeing` (growing — shape-key progression toward the Eagle); sky.
+- **VFX/Software:** Flight anim; visible growth between this shot and the hatch (the spine of the act).
+- **Audio Cue:** Instrumental bloom.
+- **Notes:** Growth made visible — the Bird is *becoming*. (Four Instruments: the guitar carries the Bird's rising life here.)
+
+**PN-010 — Oneness of All Things**
+- **TC:** ~5:15 → 6:09
+- **Description:** Mankind walks the land, not yet corrupted, still innocent. The Tree grows. Rivers flow. The sky pulses with light. Every living element moves in the same rhythm — Pneuma made visible.
+- **Camera:** Sweeping wide of the harmonious world, everything pulsing together.
+- **Key Assets:** Full world — Tree, water, mankind, Bird, sky.
+- **VFX/Software:** Synchronized `NG_BioPulse` across **everything**, all in sync.
+- **Audio Cue:** Instrumental.
+- **Notes:** The "one breath" thesis made literal — every element on the same rhythm. (Four Instruments: the whole band in lockstep = the world in unison.)
+
+### FRISSON — THE PEAK OF UNITY (6:09–7:27)
+
+**PN-011 — Frisson: Pure Bliss**
+- **TC:** 6:09 → ~7:00
+- **Description:** The film's first and most complete moment of perfection. The Bird soars higher than it ever has; mankind dances and builds in harmony with the natural world; the Tree glows like a beacon; feathers drift through golden air; light bends; the world is exactly what it was created to be.
+- **Camera:** Soaring, expansive, golden — the most beautiful sequence in the film so far.
+- **Key Assets:** The entire world at full glory; feathers; light-bending atmosphere.
+- **VFX/Software:** Golden grade at full saturation; `NG_HoloDissolve` shimmer on hero edges; feather drift; light refraction.
+- **Audio Cue:** The frisson section.
+- **Notes:** **THE directorial heart of the film** — "what could be, if we all remembered." Maximum craft; this is the emotional high everything later falls from.
+
+**PN-012 — The World at Full Saturation**
+- **TC:** ~7:00 → 7:27
+- **Description:** Hold on the peak — the Bird, mankind, the water, the air, all together. Pure bliss.
+- **Camera:** A held, breathing wide; minimal cutting.
+- **Key Assets:** Full world at peak saturation.
+- **VFX/Software:** Sustained peak grade.
+- **Audio Cue:** Frisson sustains.
+- **Notes:** Restraint at the peak — let it breathe. This is the "all together" statement; the audience should *ache* a little, sensing it can't last.
+
+### THE BUILD & THE PEAK (7:27–7:45)
+
+**PN-013 — The Build: Eyes Meet**
+- **TC:** 7:27 → 7:44
+- **Description:** The music swells; the camera rises. The Bird and mankind lock eyes across the distance — a moment of pure, silent recognition. Two expressions of the same breath, seeing each other for the first time.
+- **Camera:** Rising crane; the two locking eyes across the world.
+- **Key Assets:** Bird; mankind.
+- **VFX/Software:** The gaze line; light intensifying toward the peak.
+- **Audio Cue:** The swell (toward 7:44).
+- **Notes:** The closest Bird and mankind ever come — the high-water mark of the relationship.
+
+**PN-014 — The Peak: One (Time Suspends)**
+- **TC:** 7:44 → ~7:50 (held)
+- **Description:** The world erupts in light. The Tree pulses at maximum; the Bird cries out; mankind reaches upward — and **time suspends.** The world freezes on the apex of unity, held outside of time: they are one. Then reality resumes.
+- **Camera:** Blow-out toward white/light on the peak hit; **hold the frozen tableau**, then ease back into motion.
+- **Key Assets:** `ENV_Tree` (max pulse); Bird; mankind.
+- **VFX/Software:** Light eruption; a held time-freeze (a small echo of the Invincible freeze); resume.
+- **Audio Cue:** Peak hit @ 7:44 — **possible held suspension.** Verify against the master: a visual freeze over continuing music, or a brief inserted pause (album-locked film).
+- **Notes:** The peak gets its moment via a brief **time-suspension** — the unity frozen, held, then released as the shadow stirs. **Foreshadows the Invincible time-freeze** (the cycle's two poles, unity and rebirth, both marked by a held breath).
+
+### THE FIRST SHADOW STIRS (7:45–8:30)
+
+**PN-015 — The Shadow Returns**
+- **TC:** 7:45 → ~8:10
+- **Description:** "Pneuma / Reach out, beyond / Wake up, remember." Beneath the oneness, something stirs — the same shadow from Fear Inoculum (repelled then, never destroyed), returning to the edges. A faint discontent moves through mankind: a few glance away from the light; a guise hardens here, a mask settles there. **Nothing breaks.**
+- **Camera:** Wide; the shadow a faint ominous note at the rim; a few figures quietly turning away.
+- **Key Assets:** `FX_Shadow_Deceiver` (faint, atmospheric); `CHR_Mankind_Base` (first masks/solidifying hints).
+- **VFX/Software:** Subtle edge-darkening (drums/atmosphere); the first masks. Palette holds **full saturation** — the unease is atmospheric, not yet a color shift.
+- **Audio Cue:** "Pneuma / Reach out, beyond / Wake up, remember."
+- **Notes:** **No walls, no separation, nothing fractures** — only the first ominous note. The real break is held back to Invincible. Restraint. (Four Instruments: the drums begin to carry a darker weather here.)
+
+**PN-016 — The Bird, Torn**
+- **TC:** ~8:10 → 8:30
+- **Description:** The Bird (larger now) feels it before it understands — drawn toward the shape and recoiling from it at once, a step toward, a step back — and beneath that, a protective pull toward the Tree it cannot explain. The Tree's glow flickers once, and holds.
+- **Camera:** Tight on the Bird's conflicted turn; the Tree steady behind it.
+- **Key Assets:** Bird; `ENV_Tree`; faint shadow.
+- **VFX/Software:** The Bird's torn movement; a single Tree-glow flicker.
+- **Audio Cue:** Instrumental.
+- **Notes:** The **moral seed** and the **protective instinct** planted here — both pay off in Invincible (the dive to save the Tree). This is the relocated heart of the old "Who To Follow" beat.
+
+### THE ECHO HOLDS (8:30–10:40)
+
+**PN-017 — The Echo Holds**
+- **TC:** 8:30 → ~9:35
+- **Description:** "(We are born of) one breath / One word / (We are all) one spark / Eyes full of wonder." The oneness endures, but the shadow lingers at the rim, patient. The Bird flies — stronger, surer, nearly grown. Mankind is still together, still of one breath, yet a quiet unease has entered: the dim awareness that the mask could be worn, that the light could be turned from.
+- **Camera:** The Bird's flight over a world still whole but subtly cooler.
+- **Key Assets:** Bird (nearly grown); mankind; `ENV_Tree`; shadow at the rim.
+- **VFX/Software:** A faint chill at the frame edges; shadow lingering. **Not** desaturation yet — Act II holds full saturation; the desaturation proper begins in Invincible.
+- **Audio Cue:** "(We are born of) one breath / One word…"
+- **Notes:** The unease enters *without breaking anything*. Keep the world whole and full-saturated — the chill is mood/atmosphere, not a palette shift (that's Act III).
+
+**PN-018 — Remembering the Light**
+- **TC:** ~9:35 → 10:40
+- **Description:** The echo remains — in the wind, in the water, in the feathers drifting past. The Bird looks back at the Tree and remembers the light. It does not yet know what the shadow wants.
+- **Camera:** The Bird looking back at the Tree; feathers drifting through frame.
+- **Key Assets:** Bird; `ENV_Tree`; `FX_Feather` (drifting); `ENV_Water_System`.
+- **VFX/Software:** Feather drift; the echo motif carried in wind/water.
+- **Audio Cue:** Instrumental.
+- **Notes:** Hold the Bird↔Tree bond as the world cools. The feathers are present but unremarked.
+
+### THE HELD BREATH (10:40–11:40)
+
+**PN-019 — The Held Breath**
+- **TC:** 10:40 → ~11:40
+- **Description:** The world is still whole. The Bird — almost the full Eagle now — perches high in the Tree and watches over all of it: the people, the rivers, the light. The shadow has not left; it waits at the edge, ominous and unhurried. Nothing has fractured. Something simply could.
+- **Camera:** High, wide — the Bird as a sentinel over the whole world.
+- **Key Assets:** Bird (almost full Eagle); `ENV_Tree`; full world; shadow held at the edge.
+- **VFX/Software:** The sentinel framing; the shadow held at bay at the rim.
+- **Audio Cue:** Instrumental softening.
+- **Notes:** The Bird as watcher — the faintest dawning that its watching may one day become its burden. (Foreshadows the guardian role and the weariness of Invincible.)
+
+### THE FINAL BREATH (11:40–11:53)
+
+**PN-020 — The Final Breath**
+- **TC:** 11:40 → 11:53
+- **Description:** The music softens toward its last note. The camera draws slowly in on the Bird's face — eyes wide, reflective, shimmering with caught light. It tilts its head, not in fear, but in pure wonder: *What is all this? What am I within it? And what is that, at the edge of the light?* A single feather drifts past its gaze. The Bird doesn't notice. We do.
+- **Camera:** Slow push to a tight close on the Bird's eye.
+- **Key Assets:** Bird (close); a single `FX_Feather`.
+- **VFX/Software:** Caught light in the eye; the feather pass; **seamless continuity** into Invincible.
+- **Audio Cue:** Pneuma's final note → straight into Invincible's open (no gap).
+- **Notes:** **FEATHER NOTE — a feather drifts past; one of many, never singled out** (no "first" feather is tracked). **Do NOT fade or cut to black** — the Bird is still growing as Pneuma gives way, *unbroken*, to Invincible.
 
 ## Act III — Invincible (~12:44) — Awareness & Crisis
 *To come. The Eagle's maturation, the witnessing flight, the troll march, the freeze/realization, the dive + eruption (Tree spared), the Ponce de Leon reprise. The protective-charge payoff lands here.*
