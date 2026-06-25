@@ -267,27 +267,27 @@
 
 ## Act II — Pneuma (11:53) — Unity & Growth
 
-> **v5 note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)*
+> **v5 note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)* **⚠️ MASTER-AUDIO (partial):** the instrumental intro runs **0:00–2:08** and the first words ("We are spirit") land at **2:08** — so PN-001 is master-confirmed, but the hatch/discovery/frisson/peak cues below (PN-003+) shift **later** than shown and are being re-verified.
 
 ### THE HIDDEN DUALITY (0:00–1:45)
 
-**PN-001 — The World, Awake**
-- **TC:** 0:00 → ~0:50
-- **Description:** Pneuma opens on the world fully materialized — rivers, land, and sky sharpened into clarity. The Tree is small but stable, glowing with purpose; the Egg rests in the Holding Device, radiating. Creation is complete; existence is awake.
-- **Camera:** Slow, wide, reverent drift across the whole plateau.
-- **Key Assets:** Full plateau; `ENV_Tree` (small-stable stage); `CHR_Egg`; `ENV_Water_System`; Holding Device.
-- **VFX/Software:** `MAT_LiquidStarlight`; `NG_BioPulse` (everything breathing); holographic shimmer.
-- **Audio Cue:** Pneuma intro (instrumental).
-- **Notes:** **Soft continuation from Act I's FI-025 reveal** — this wide-open world is the one the lifting fog just unveiled (carried across the seam). Re-establish Act I's world, now fully *real* and saturated (Act II palette: warm golds, liquid blues, iridescent greens).
+**PN-001 — The World Awakes (Danny's Showcase)**
+- **TC:** 0:00 → ~2:08
+- **Description:** Pneuma opens on ~two minutes of wondrous instrumental — and musically the whole act is **Danny's showcase** (a drum solo featuring guitars and vocals). The world is fully materialized (carried straight from Act I's lifting-fog reveal): rivers, land, sky in clarity, the Tree small but stable, the Egg radiating. Adam lays soft, enchanting guitar (0:00); at **0:17** Danny enters with the mandala-pad rhythm, Justin beneath; the sounds shift (**0:52**); a held **suspension (1:11)** breaks into the first segment's beat with the guitars (**1:18**); and at **1:36** Danny erupts in a controlled explosion, brief as a star's twinkle. They build together to **2:08**, where the first words arrive.
+- **Camera:** Slow, wide, reverent drift across the whole revealed world; the framing breathing with the drums.
+- **Key Assets:** Full plateau + the wider world (`ENV_Water_System`, `ENV_Terrain_Mesopotamia`); `ENV_Tree` (small-stable); `CHR_Egg`; Holding Device.
+- **VFX/Software:** `MAT_LiquidStarlight`; `NG_BioPulse` (everything breathing **in time with Danny's drums** — the world's pulse and weather coming alive); holographic shimmer.
+- **Audio Cue:** Instrumental — Adam (0:00) → Danny + mandala pad (0:17) → shift (0:52) → suspension (1:11) → beat + guitars (1:18) → Danny's controlled explosion (1:36) → build to the first words (2:08) *(owner cues).*
+- **Notes:** **Four Instruments made literal** — Danny's drums *are* the world and its weather; key the world's pulse, light, and motion to the drums here. Wondrously beautiful; an early frisson. Continues seamlessly from Act I's FI-025 reveal. (Act II palette: warm golds, liquid blues, iridescent greens — full saturation.)
 
 **PN-002 — The Hidden Duality**
-- **TC:** ~0:50 → 1:45
-- **Description:** "We are spirit / Bound to this flesh." The Egg pulses with inner light — a spirit waiting to wake. A shadowy ripple moves across the land — not a form, not a being, just a feeling. Near the end (~1:15) the Egg's pulses quicken and the **first hairline cracks** trace across the shell — the awakening starting to stir, not yet here.
-- **Camera:** Intercut close on the Egg's inner-light pulse with wide of the faint ripple; push to a macro on the first cracks at ~1:15.
+- **TC:** ~2:08 → ~? *(end-cue pending master re-verification)*
+- **Description:** At **2:08** the first words arrive: *"We are spirit / Bound to this flesh / We go around / One foot nailed down / But bound to / Reach out beyond / This flesh / Become pneuma…"* The Egg pulses with inner light — a spirit waiting to wake. A shadowy ripple moves across the land — not a form, not a being, just a feeling. The first hairline cracks begin to stir later in this passage (the hatch is a *build*) — exact cue pending the master pass.
+- **Camera:** Intercut close on the Egg's inner-light pulse with wide of the faint ripple.
 - **Key Assets:** `CHR_Egg`; `ENV_Tree`; faint shadow ripple (`FX_Shadow_Deceiver`, barely there).
-- **VFX/Software:** Egg inner-light pulse; subtle shadow ripple; first hairline shell cracks @ ~1:15 (a *build* — no opening yet).
-- **Audio Cue:** "We are spirit / Bound to this flesh."
-- **Notes:** Two waiting presences at once — the Bird inside the Egg, and the *idea* of mankind. **The hatch is a build:** the Egg stayed sealed through all of Act I; cracks begin here, the full break lands at 1:45.
+- **VFX/Software:** Egg inner-light pulse; subtle shadow ripple; the first hairline shell cracks (a *build* — no opening yet).
+- **Audio Cue:** "We are spirit / Bound to this flesh…" *(first words @ 2:08).*
+- **Notes:** Two waiting presences at once — the Bird inside the Egg, and the *idea* of mankind. **The hatch is a build** (sealed through all of Act I). ⚠️ **Cues from here are pre-master-pass and shift LATER** than shown (the ~2-min intro was unaccounted for) — re-verify against the master.
 
 ### THE EGG HATCHES (1:45)
 
