@@ -267,7 +267,7 @@
 
 ## Act II — Pneuma (11:53) — Unity & Growth
 
-> **Canon note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)* **⚠️ MASTER-AUDIO: verified through 9:58** — PN-001 instrumental open 0:00–2:08; "We are spirit" 2:08; hatch 4:08; mankind 5:00; frisson 6:07; PEAK ~7:43; the Distancing 7:44–9:58; "Pneuma" 9:58. PN-001→015 re-timed to this. **PN-016+ (9:58→11:53) still pre-master** — being broken down next.
+> **Canon note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)* **⚠️ MASTER-AUDIO: Pneuma FULLY VERIFIED** — instrumental open 0:00–2:08; "We are spirit" 2:08–3:16; hatch 4:08–4:27; Spirit ×4 4:32–4:57; mankind 5:00–5:31; frisson 6:07; PEAK ~7:43; the Distancing 7:44–9:59; final vocal "Pneuma… eyes full of wonder" 9:59–10:30; instrumental outro 10:30–11:53.
 
 ### THE HIDDEN DUALITY (0:00–1:45)
 
@@ -409,55 +409,55 @@
 - **Audio Cue:** Peak hit @ **~7:43** — a held suspension; **OPTIONAL fermata / loop** to sustain the moment for the audience (album-locked film — confirm the approach against the master).
 - **Notes:** **THE thesis moment** — *quit fighting and support each other to be better as a whole.* Even the antagonistic forces are one, for a glimpse. The film can **hold/loop** this as long as it takes to land. Then it slips away (the Distancing, PN-015) for a reason we never learn. Foreshadows the Invincible time-freeze (the cycle's two poles — unity and rebirth — both marked by a held breath).
 
-### THE DISTANCING (7:44–9:58)
+### THE DISTANCING (7:44–9:59)
 
 **PN-015 — The Distancing**
-- **TC:** ~7:44 → 9:58
-- **Description:** From the peak, slowly and **for a reason we will never know**, the world drifts away from that one perfect moment of harmony. Beneath the oneness, something stirs — the same shadow from Fear Inoculum (repelled then, never destroyed), returning to the edges. A faint discontent moves through mankind: a few glance away from the light; a guise hardens here, a mask settles there. **Nothing breaks.** Then, at **9:58**, Maynard returns: *"Pneuma / Reach out, beyond / Wake up, remember"* — a plea to reach back toward the unity that is slipping away.
-- **Camera:** A long, slow drift over ~2 minutes — the shadow a faint ominous note at the rim; a few figures quietly turning away; the glow imperceptibly cooling.
+- **TC:** ~7:44 → 9:59
+- **Description:** From the peak, slowly and **for a reason we will never know**, the world drifts away from that one perfect moment of harmony. Beneath the oneness, something stirs — the same shadow from Fear Inoculum (repelled then, never destroyed), returning to the edges. A faint discontent moves through mankind: a few glance away from the light; a guise hardens here, a mask settles there. **Nothing breaks.** Through it the Bird (larger now) feels the wrongness before it understands — drawn toward the shape and recoiling at once, and beneath that a protective pull toward the Tree it cannot explain.
+- **Camera:** A long, slow drift over ~2 minutes — the shadow a faint ominous note at the rim; a few figures quietly turning away; the glow imperceptibly cooling; the Bird's conflicted turn against the steady Tree.
 - **Key Assets:** `FX_Shadow_Deceiver` (faint, atmospheric); `CHR_Mankind_Base` (first masks/solidifying hints); `ENV_Tree`; Bird.
-- **VFX/Software:** Subtle edge-darkening over ~2 min (drums/atmosphere); the first masks. Palette holds **full saturation** — the unease is atmospheric, not yet a color shift.
-- **Audio Cue:** Instrumental drift (7:44–9:58) → **"Pneuma / Reach out, beyond / Wake up, remember" @ 9:58** *(owner cue).*
-- **Notes:** **The Distancing** — the long, unexplained fall away from the peak's perfect harmony. **No walls, no separation, nothing fractures** — only the slow drift and the first ominous note; the real break is held back to Invincible. The "Pneuma" return is a *plea to remember*. (Four Instruments: the drums carry a darkening weather.) ⚠️ Beats after 9:58 (the Bird-torn, the Echo Holds, the Held/Final Breath) are pre-master — being broken down next.
+- **VFX/Software:** Subtle edge-darkening over ~2 min (drums/atmosphere); the first masks; a single Tree-glow flicker. Palette holds **full saturation** — the unease is atmospheric, not yet a color shift.
+- **Audio Cue:** Instrumental drift (7:44–9:59).
+- **Notes:** **The Distancing** — the long, unexplained fall away from the peak's perfect harmony. **No walls, no separation, nothing fractures** — only the slow drift and the first ominous note; the real break is held back to Invincible. The **moral seed + protective instinct** are planted in the Bird's torn turn here — both pay off in Invincible (the dive to save the Tree). (Four Instruments: the drums carry a darkening weather.)
 
-**PN-016 — The Bird, Torn**
-- **TC:** ~8:10 → 8:30
-- **Description:** The Bird (larger now) feels it before it understands — drawn toward the shape and recoiling from it at once, a step toward, a step back — and beneath that, a protective pull toward the Tree it cannot explain. The Tree's glow flickers once, and holds.
-- **Camera:** Tight on the Bird's conflicted turn; the Tree steady behind it.
-- **Key Assets:** Bird; `ENV_Tree`; faint shadow.
-- **VFX/Software:** The Bird's torn movement; a single Tree-glow flicker.
-- **Audio Cue:** Instrumental.
-- **Notes:** The **moral seed** and the **protective instinct** planted here — both pay off in Invincible (the dive to save the Tree). This is the relocated heart of the old "Who To Follow" beat.
+### PNEUMA — THE FINAL VOCAL (9:59–10:30)
 
-### THE ECHO HOLDS (8:30–10:40)
+**PN-016 — Pneuma (Reach Out, Wake Up)**
+- **TC:** 9:59 → ~10:14
+- **Description:** Maynard returns — *"Pneuma [9:59] / Reach out, beyond [10:06] / Wake up, remember [10:14]…"* — a plea to reach back toward the unity that is slipping away, to wake up and *remember* what the peak just showed.
+- **Camera:** The Bird (nearly grown) aloft over a world still whole but subtly cooler; a reaching, yearning frame.
+- **Key Assets:** Bird (nearly grown); `ENV_Tree`; mankind; shadow at the rim.
+- **VFX/Software:** Full saturation held; the shadow lingering faintly at the edges (no color shift yet).
+- **Audio Cue:** **"Pneuma" [9:59] / "Reach out, beyond" [10:06] / "Wake up, remember" [10:14]** *(owner cues).*
+- **Notes:** The plea to *remember* — reaching back toward the peak's lost unity. The unease is present but **nothing breaks** (Act II holds full saturation; the real break is Invincible).
 
-**PN-017 — The Echo Holds**
-- **TC:** 8:30 → ~9:35
-- **Description:** "(We are born of) one breath / One word / (We are all) one spark / Eyes full of wonder." The oneness endures, but the shadow lingers at the rim, patient. The Bird flies — stronger, surer, nearly grown. Mankind is still together, still of one breath, yet a quiet unease has entered: the dim awareness that the mask could be worn, that the light could be turned from.
-- **Camera:** The Bird's flight over a world still whole but subtly cooler.
-- **Key Assets:** Bird (nearly grown); mankind; `ENV_Tree`; shadow at the rim.
-- **VFX/Software:** A faint chill at the frame edges; shadow lingering. **Not** desaturation yet — Act II holds full saturation; the desaturation proper begins in Invincible.
-- **Audio Cue:** "(We are born of) one breath / One word…"
-- **Notes:** The unease enters *without breaking anything*. Keep the world whole and full-saturated — the chill is mood/atmosphere, not a palette shift (that's Act III).
+**PN-017 — Eyes Full of Wonder**
+- **TC:** ~10:14 → 10:30
+- **Description:** *"(We are born of) one breath / One word / (We are all) one spark / Eyes full of wonder."* The oneness endures in the words even as it cools in the world; the Bird, nearly grown, flies on with eyes full of wonder — still of one breath, still of one spark.
+- **Camera:** The Bird's flight; a held, wondering gaze.
+- **Key Assets:** Bird (nearly grown); mankind; `ENV_Tree`.
+- **VFX/Software:** Full saturation; the world still whole, the chill only atmospheric.
+- **Audio Cue:** "(We are born of) one breath / One word / (We are all) one spark / Eyes full of wonder" *(→ 10:30 — the last words of Pneuma).*
+- **Notes:** Pneuma's **final words** (10:30); from here the act is instrumental to 11:53. "Eyes full of wonder" — the still-growing Bird, on the verge of the Eagle.
 
-**PN-018 — Remembering the Light**
-- **TC:** ~9:35 → 10:40
-- **Description:** The echo remains — in the wind, in the water, in the feathers drifting past. The Bird looks back at the Tree and remembers the light. It does not yet know what the shadow wants.
+### THE OUTRO — THE HELD BREATH (10:30–11:40)
+
+**PN-018 — The Echo Remains**
+- **TC:** 10:30 → ~11:05
+- **Description:** The long instrumental outro begins. The echo of the oneness remains — in the wind, in the water, in the feathers drifting past. The Bird looks back at the Tree and remembers the light. It does not yet know what the shadow wants.
 - **Camera:** The Bird looking back at the Tree; feathers drifting through frame.
 - **Key Assets:** Bird; `ENV_Tree`; `FX_Feather` (drifting); `ENV_Water_System`.
 - **VFX/Software:** Feather drift; the echo motif carried in wind/water.
-- **Audio Cue:** Instrumental.
-- **Notes:** Hold the Bird↔Tree bond as the world cools. The feathers are present but unremarked.
+- **Audio Cue:** Instrumental outro.
+- **Notes:** Hold the Bird↔Tree bond as the world quietly cools. The feathers are present but unremarked.
 
-### THE HELD BREATH (10:40–11:40)
-
-**PN-019 — The Held Breath**
-- **TC:** 10:40 → ~11:40
+**PN-019 — The Held Breath (Sentinel)**
+- **TC:** ~11:05 → 11:40
 - **Description:** The world is still whole. The Bird — almost the full Eagle now — perches high in the Tree and watches over all of it: the people, the rivers, the light. The shadow has not left; it waits at the edge, ominous and unhurried. Nothing has fractured. Something simply could.
 - **Camera:** High, wide — the Bird as a sentinel over the whole world.
 - **Key Assets:** Bird (almost full Eagle); `ENV_Tree`; full world; shadow held at the edge.
 - **VFX/Software:** The sentinel framing; the shadow held at bay at the rim.
-- **Audio Cue:** Instrumental softening.
+- **Audio Cue:** Instrumental softening (toward 11:40).
 - **Notes:** The Bird as watcher — the faintest dawning that its watching may one day become its burden. (Foreshadows the guardian role and the weariness of Invincible.)
 
 ### THE FINAL BREATH (11:40–11:53)
