@@ -137,8 +137,14 @@ def render(obj, p, png):
     light = bpy.data.lights.new("FILL", "AREA"); light.energy = max(span*span*1.5, 40); light.size = max(span, 1.0)
     lo = bpy.data.objects.new("FILL", light); lo.location = (dist, -dist, cz + span)
     bootstrap.get_or_create_collection("ENV").objects.link(lo)
-    # NOTE: bloom/glow is hand-authored look-dev (Asset Spec §5), added with the real
-    # liquid-starlight shader later. The preview renders raw emission.
+    # NOTE: bloom/glow is hand-authored look-dev (Asset Spec §5), the owner's domain. The preview
+    # renders raw emission so the palette reads true. The 5.1 node-group compositor recipe (verified
+    # to wire without error) for when bloom is added in look-dev:
+    #   cg = bpy.data.node_groups.new("Comp", "CompositorNodeTree")
+    #   cg.interface.new_socket("Image", in_out="INPUT",  socket_type="NodeSocketColor")
+    #   cg.interface.new_socket("Image", in_out="OUTPUT", socket_type="NodeSocketColor")
+    #   scene.compositing_node_group = cg            # Group Input -> Glare(BLOOM) -> Group Output
+    # (glare params need a live viewport to tune — headless FOG_GLOW floods the frame).
     scene.render.image_settings.file_format = "PNG"
     scene.render.filepath = png
     bpy.ops.render.render(write_still=True)
