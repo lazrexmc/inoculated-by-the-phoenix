@@ -34,6 +34,7 @@ Produced in **Blender** (`bpy` scripting in VS Code) → **Unreal Engine 5**, wi
 | `CHATLOG.md` | Working-session history. |
 | `LLM_HANDOFF.md` | Paste-ready onboarding prompt for a fresh AI session. |
 | `Lyrics_Reference.md` | Full Tool lyrics by act — source text for canon/act development. |
+| `Acts/Act_*.md` | **Per-act working files** (one per act; Story + lyrics + canon flags). Derived from the Treatment, verbatim-synced — see `Acts/README.md` and the bidirectional sync rule. |
 
 ## Production artifacts
 | File | Role |

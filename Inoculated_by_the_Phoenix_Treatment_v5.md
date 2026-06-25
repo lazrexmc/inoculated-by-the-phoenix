@@ -132,13 +132,17 @@ Everything that will happen in the film — every rise, every fall, every rebirt
 
 3:12 — “Deceiver says, he says you belong to me…” — The Tree pulses uneasily. The Egg flickers — it hears the world changing around it. The world remains whole, but something has shifted. The first shadow has arrived.
 
-### 3:12 – 10:21 — The Egg Inoculates
+### 3:12 – 4:15 — The Whisper and the Blessing
+
+Even sealed, the Egg can hear. As the shadow circles, the Deceiver's whisper reaches it — “you don't want to breathe the light of the others / fear the light / fear the breath / fear the others for eternity” — the temptation to fear the light, the breath, the others, and to close itself off in isolation. But the Egg hears past it: “but I hear them now, inhale the clarity / hear the venom, the venom in what you say, inoculated.” It recognizes the venom for exactly what it is, and the recognition is itself the immunity: “bless this immunity, bless this immunity, bless this immunity.” Then it begins to expel what it has named — “exhale, expel / recast my tale / weave my allegorical elegy” — and beneath those words lie the seeds of everything still to come, sung before any of it has happened: the tale that will be *recast* (the cycle, the retelling) and the *mitosis* that is its own growth still ahead. It never opens. It hears, it blesses, it exhales — and it stays sealed.
+
+### 4:15 – 10:21 — The Egg Inoculates
 
 As the remainder of Fear Inoculum plays, the Egg moves through its first cycle of awareness — but it never opens. It remains sealed and whole inside the Holding Device, pulsing. It senses the tension in the world. It understands, instinctively, that it is safe — and it is grateful for that safety.
 
-As the shadow presses inward — the fog thickening at the plateau's edges, the Deceiver's whisper circling the Tree — it begins to take a shape: never fully resolved, never named, a darkness pretending to a form. It gathers, and then it lunges — straight at the Tree. The Tree's pulse stutters; for one instant the light of the young world falters. And the Egg's inner light answers. Not by choice. Not by will. The Egg does not decide to act, and it never moves. Its purity simply flares outward, and the darkness cannot abide it. This is the inoculation: the Egg displaces the encroaching shadow the way a healthy body displaces a contagion — passively, by nothing more than its own existence. The world is being protected before it is even born.
+As the shadow presses inward — the fog thickening at the plateau's edges, the Deceiver's whisper circling the Tree — it begins to take a shape: never fully resolved, never named, a darkness pretending to a form. It gathers, and then it lunges — straight at the Tree. The Tree's pulse stutters; for one instant the light of the young world falters. And the Egg's inner light answers. Not by choice. Not by will. The Egg does not decide to act, and it never moves. Its purity flares outward with the words it has been singing turned into light — “exorcise the spectacle / exorcise the malady / exorcise the disparate… purge me and evacuate / the venom and the fear that binds me” — and the darkness cannot abide it. This is the inoculation: the Egg displaces the encroaching shadow the way a healthy body displaces a contagion — passively, by nothing more than its own existence. The world is being protected before it is even born.
 
-The shape recoils and comes apart. The Deceiver retreats from the plateau, repelled by a light it cannot enter. The fog withdraws. The Tree's pulse steadies. The world feels whole again — safe, sacred, untouched. The shadow is gone.
+The shape recoils and comes apart — “unveil now / lift away / I see you running / Deceiver chased away.” The Deceiver retreats from the plateau, repelled by a light it cannot enter. The fog withdraws. The Tree's pulse steadies — “a long time coming.” The world feels whole again — safe, sacred, untouched. The shadow is gone.
 
 So it thinks.
 

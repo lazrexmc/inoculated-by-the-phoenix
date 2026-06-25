@@ -62,6 +62,10 @@ and story work on-myth so nothing drifts across sessions.
 - Continuity between songs is the default (silent connective passages or hard cuts), not a hard rule — fades are allowed when the moment calls for it (even mid-song). The bird's growth carries unbroken Pneuma→Invincible, completing into the Eagle as Invincible opens.
 
 ## Current state
+- **Per-act working files** in `ProjectDocs/Acts/` (one per act; Story + lyrics + canon flags) —
+  derived from the Treatment, verbatim-synced (1.000). **Bidirectional sync rule:** Treatment ↔ per-act
+  files ↔ shot list must never drift; the Treatment is the source. See `ProjectDocs/Acts/README.md`.
+- **Master shot list** (`mastershotlist.md`) is complete **except CCT** — 108 shots across Acts I–V + VII.
 - Canon consolidated to a **single** treatment file (v5) + the Asset Spec. Older drafts removed.
 - Timecodes live only in the treatment; Asset Spec references act/beat.
 - **No assets built yet** — production has not started.

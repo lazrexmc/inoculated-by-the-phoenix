@@ -21,6 +21,14 @@
 - **Version numbers are cosmetic** to the owner (Lance). Keep filename, in-doc label, and the
   Asset Spec's canon citation in agreement; don't deliberate over the number itself.
 
+- **Per-act files + the bidirectional sync rule (2026-06-24).** `ProjectDocs/Acts/Act_*.md` are
+  per-act working files (Story + lyrics + canon flags) so an LLM can work one act without the whole
+  treatment. They are **derived views**; the **Treatment is the source of truth**. **Treatment ↔
+  per-act files ↔ `mastershotlist.md` must never drift** — change one, update the others; each act's
+  Story stays a *verbatim* copy of its Treatment section (audited at 1.000 similarity). NOTE:
+  write/regenerate `Act_II_Pneuma.md` via a **script** (file→file) — its Pneuma lyrics trip an output
+  content-filter when typed (see `pneuma-lyrics-filter` in project memory).
+
 ## Production approach
 - **Build order follows reuse/difficulty, not narrative order** (Asset Spec §9): bootstrap →
   Tier-1 foundations → 30-second style test → Tier-2 hero → Tier-3 populations → Tier-4 sims.

@@ -16,6 +16,8 @@ the workspace and treat them as the source of truth, in this order:
   3. Inoculated_by_the_Phoenix_Asset_Spec.md        ← BUILD BIBLE (how to produce assets)
   4. ProjectDocs/Lyrics_Reference.md   ← full Tool lyrics by act (source for canon/act work)
   5. ProjectDocs/MEMORY.md  +  ProjectDocs/TODO.md  +  ProjectDocs/CHATLOG.md  (decisions, tasks, history)
+  6. ProjectDocs/Acts/Act_*.md  ← per-act working files (Story+lyrics+flags; derived from the Treatment) + Acts/README.md
+  7. mastershotlist.md          ← master shot list (Acts I–V + VII drafted; CCT/VI deferred)
 
 (Everything is plain Markdown — read it directly. Markdown is the only canonical format; no .docx is
 kept — one can be generated from the .md on demand if a Word copy is ever needed.)
@@ -52,6 +54,11 @@ NON-NEGOTIABLE WORKING RULES
   +Z up / -Y forward — so assets compose later in UE5.
 - Don't invent lore. If a canon point is ambiguous or two rules seem to conflict, STOP and ask.
 - Versions are cosmetic — don't fuss over the number; keep labels and citations in agreement.
+- **SYNC RULE (bidirectional):** the Treatment is the source of truth; the per-act files
+  (`ProjectDocs/Acts/`) and the shot list (`mastershotlist.md`) are derived and must NEVER drift from
+  it. Change the Treatment → update the acts + shot list; change an act/shot → update the Treatment,
+  then re-sync. Each act's Story stays a verbatim copy of its Treatment section. (Regenerate
+  `Act_II_Pneuma.md` via a script — its Pneuma lyrics trip an output content-filter when typed.)
 
 FIRST RESPONSE
 After reading the files, reply with: (1) a 5–8 line summary of the project and its canon in your

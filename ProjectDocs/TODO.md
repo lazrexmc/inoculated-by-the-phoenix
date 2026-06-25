@@ -3,6 +3,8 @@
 *Last updated: 2026-06-24. Status: pre-production / docs phase. No assets built yet.*
 
 ## Now / next
+- [ ] **Owner manual review of each per-act file** (`ProjectDocs/Acts/Act_*.md`) — verbatim-synced to
+      the Treatment (1.000); awaiting the owner's read. The Treatment↔acts↔shot-list **sync rule** is now in force.
 - [ ] **Set up the Blender + VS Code environment** (Asset Spec §4): "Blender Development"
       extension (Jacques Lucke), `fake-bpy-module` for intellisense, Pylance override for
       `bpy.props` noise. Re-verify these tool details are current before relying on them.
@@ -53,7 +55,9 @@
       Deceiver round (voice never body), the "will be / must be" overlap, the Phoenix-as-tempest
       question. (7empest's earlier gathering/sealing beats remain story-level.)
 - [ ] **Verify all timecodes against the master audio file** before storyboarding. Priority:
-      the *Invincible* climax (march ~9:44 → freeze ~10:49 → Phoenix eruption ~10:52).
+      the *Invincible* climax (march ~9:44 → freeze ~10:49 → Phoenix eruption ~10:52). Also confirm the
+      long *Fear Inoculum* outro (8:37 "a long time coming" → 10:21) and the new Act I lyric cues
+      (Bless 3:31–3:43, Exhale 3:56–4:15, Unveil→8:37).
 
 ## Done (2026-06-23, restructure session)
 - [x] Restored full album order (dropped the Descending-before-Invincible transposition).
