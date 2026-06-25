@@ -194,7 +194,7 @@
 - **Audio Cue:** "Deceiver says, he says you belong to me / You don't want to breathe the light of the others / Fear the light / Fear the breath / Fear the others for eternity."
 - **Notes:** **The Deceiver's voice** — still no form; it only speaks. The temptation is isolation: fear the light, the breath, the others. Sets up the Egg's answer (FI-019).
 
-### THE EGG ANSWERS — "BLESS THIS IMMUNITY" (~3:25–4:30)
+### THE EGG ANSWERS — "BLESS THIS IMMUNITY" (~3:25–5:41)
 
 **FI-019 — "Bless This Immunity" (the Egg Answers)**
 - **TC:** ~3:25 → ~3:56
@@ -205,51 +205,51 @@
 - **Audio Cue:** "But I hear them now… inoculated / Bless this immunity ×3" *(owner cue: 3:31–3:43).*
 - **Notes:** The title, sung aloud — the recognition **is** the immunity. The Egg **never** opens; it blesses and stays sealed. (Four Instruments: Maynard = the Egg's inner voice; the visual holds still.)
 
-**FI-020 — "Exhale, Expel" (Recast the Tale)**
-- **TC:** ~3:56 → ~4:30
-- **Description:** The Egg expels what it has named. *"Exhale, expel / Recast my tale / Weave my allegorical elegy / Enumerate / All that I'm to do / Calculating steps away from you / My own mitosis / Growing through delusion from mania / Exhale, expel / Recast my tale, weave my allegorical elegy."* Beneath the words lie the seeds of everything to come, sung before any of it has happened — the tale that will be *recast* (the cycle), the *mitosis* that is its own growth still ahead. A soft exhale of light eases the first fog back.
-- **Camera:** The Egg breathing out; a faint exhale of light pushing the fog back at the plateau's edges.
-- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow` — first gentle exhale); fog (`FX_Shadow_Deceiver`, faint).
-- **VFX/Software:** A soft outward "exhale" of light from the sealed Egg; the fog easing back a touch.
-- **Audio Cue:** "Exhale, expel… weave my allegorical elegy" *(owner cue: 3:56–4:15).*
-- **Notes:** Quiet **foreshadow planted inside Act I** — "recast my tale / weave my allegorical elegy" = the loop; "my own mitosis / growing" = the hatch and the cycle to come. Don't telegraph it; it pays off on a rewatch. Still sealed, still passive.
+**FI-020 — "Exhale, Expel" / Enumerate the Task**
+- **TC:** ~3:56 → ~5:41
+- **Description:** The Egg expels what it has named — *"Exhale, expel / Recast my tale / Weave my allegorical elegy"* (3:56–4:15). A stretch of instrumental follows (4:15–4:39), the Egg's light radiating steady against the dark; then at 4:39 the words return and it **enumerates all that lies ahead**: *"Enumerate / All that I'm to do / Calculating steps away from you / My own mitosis / Growing through delusion from mania / Exhale, expel / Recast my tale, weave my allegorical elegy."* Beneath the words, the seeds of everything to come — the tale that will be *recast* (the cycle), the *mitosis* that is its own growth still ahead — named before any of it has happened.
+- **Camera:** The Egg breathing out; a faint exhale of light pushing the fog back; hold on the radiant, sealed Egg through the instrumental.
+- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow`); fog (`FX_Shadow_Deceiver`, faint).
+- **VFX/Software:** A soft outward "exhale" of light from the sealed Egg; the fog easing back; the inoculation glow steady through the instrumental.
+- **Audio Cue:** "Exhale, expel… elegy" *(3:56–4:15)* → instrumental *(4:15–4:39)* → "Enumerate… my own mitosis… weave my allegorical elegy" *(4:39–5:41)* — owner cues.
+- **Notes:** Quiet **foreshadow planted inside Act I** — "recast my tale" = the loop; "my own mitosis / growing" = the hatch and the cycle to come. Don't telegraph it; pays off on a rewatch. Still sealed, still passive.
 
-### THE INOCULATION (~4:30–10:21) — *the light answers, the Deceiver chased away*
+### THE INOCULATION (~5:41–10:21) — *the shape gathers, the light answers, the Deceiver chased away*
 
-**FI-021 — The Light Radiates, the Shadow Gathers**
-- **TC:** ~4:30 → ~7:00
-- **Description:** The long instrumental. The Egg's inner light intensifies — steady, sealed, **not by choice, not by will** — and the shadow presses inward at the plateau's edges, the fog thickening, the Deceiver's presence circling the Tree. The fog gathers into a shape — never resolved, never named — that tests the light and finds no way past it. The light holds it at bay by nothing more than its own existence.
-- **Camera:** Wide on the plateau; the encroaching dark held off by the glow around the Egg/Tree; the shape coalescing at the rim.
-- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow`); `ENV_Tree`; fog (`FX_Shadow_Deceiver`, gaining density — never a character).
-- **VFX/Software:** Emission/volumetric inoculation glow pushing the fog back; the Deceiver shader gaining density at the edges; ominous color shift.
-- **Audio Cue:** Instrumental (the long middle).
-- **Notes:** **The title made visible** — passive immunity; the Egg fights *nothing*, it merely exists. The shadow stays formless — **never resolve it into a character.**
+**FI-021 — The Shadow Takes Shape / "Forfeit All Control"**
+- **TC:** ~5:41 → ~6:57
+- **Description:** Through the instrumental (5:41–6:26) the fog gathers at the plateau's edge into a shape — never resolved, never named — testing the light, finding no way past it. Then, at **6:26**, in a drawn-out, **mysterious** voice, the confrontation comes: *"Forfeit… all control / You poison / You spectacle"* — held and stretched to ~6:57 — the shadow at its most seductive, the being naming the poison for what it is.
+- **Camera:** Wide — the shape coalescing at the rim, the Egg/Tree lit and calm at center; push in on the eerie confrontation.
+- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow`); `ENV_Tree`; the shape (`FX_Shadow_Deceiver`, gaining density — never a character).
+- **VFX/Software:** Inoculation glow holding the fog off; the Deceiver shader gaining density; ominous color shift.
+- **Audio Cue:** Instrumental *(5:41–6:26)* → **"Forfeit" [6:26] … "all control" [6:33] / "You poison" [6:42] / "You spectacle" [6:50–6:57]** — drawn-out, mysterious vocal *(owner cues).*
+- **Notes:** **The title made visible** — passive immunity; the Egg fights *nothing*. The shadow stays formless — **never resolve it into a character.** The eerie, stretched delivery is the corruption at its most alluring, right before the strike.
 
 **FI-022 — The Lunge at the Tree**
-- **TC:** ~7:00 → ~7:45
-- **Description:** The shape gathers itself and **lunges — straight at the Tree.** The Tree's pulse stutters; for one instant the light of the young world falters and the plateau dims.
+- **TC:** ~6:57 → ~7:34
+- **Description:** Through the instrumental the shape gathers itself and **lunges — straight at the Tree.** The Tree's pulse stutters; for one instant the light of the young world falters and the plateau dims.
 - **Camera:** Wide of the plateau as the shadow strikes; whip-in to the Tree's faltering pulse.
 - **Key Assets:** `FX_Shadow_Deceiver`; `ENV_Tree` (stutter pulse); plateau (dimming).
 - **VFX/Software:** Deceiver "lunge" sim; Tree pulse disruption; momentary ambient-light drop.
-- **Audio Cue:** Instrumental crescendo (toward the late vocal at ~7:45).
+- **Audio Cue:** Instrumental crescendo *(6:57–7:34)* — toward the exorcism at 7:34.
 - **Notes:** The act's peril beat — make the Tree feel genuinely threatened, so the repel lands.
 
-**FI-023 — "Exorcise the Spectacle" (the Light Answers, the Deceiver Chased Away)**
-- **TC:** ~7:45 → ~8:37
-- **Description:** The Egg answers — not with will, not with motion — with the words it has been singing made into light. *"Forfeit all control / You poison / You spectacle / Exorcise the spectacle / Exorcise the malady / Exorcise the disparate… Purge me and evacuate / The venom and the fear that binds me."* Its purity **flares outward**; the darkness cannot abide it; the venom is exorcised, the poison purged. The shape recoils and comes apart: *"Unveil now / Lift away / I see you running / Deceiver chased away."* The fog is driven off the plateau, repelled by a light it cannot enter.
-- **Camera:** Push to the Egg as it flares; the shape unraveling; pull wide as the fog is chased off the plateau.
-- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow` — peak flare); the recoiling shape/fog (`FX_Shadow_Deceiver`).
-- **VFX/Software:** Emission burst from the **sealed** Egg (no crack, glow only); the shape dissolving; fog dissipation sim. **Here the visuals get a touch more expressive** — the flare, the shadow's unraveling — but the Egg never moves and never opens.
-- **Audio Cue:** "Exorcise the spectacle… Purge me and evacuate…" → **"Unveil now [8:10] / Lift away [8:15] / I see you [8:20] / Deceiver [8:28] chased away [8:32]"** *(owner cues).*
+**FI-023 — "Exorcise the Spectacle" (the Light Answers)**
+- **TC:** ~7:34 → ~8:11
+- **Description:** The Egg answers — not with will, not with motion — its purity flaring outward as the words it has been singing turn to light, faster now: *"Exorcise the spectacle / Exorcise the malady / Exorcise the disparate / Poison for eternity / Purge me and evacuate / The venom and the fear that binds me"* (7:34–7:52). The darkness cannot abide it; the venom is exorcised, the poison purged; the shape recoils through the instrumental that follows (7:52–8:11).
+- **Camera:** Push to the Egg as it flares; the shape unraveling.
+- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow` — peak flare); the recoiling shape (`FX_Shadow_Deceiver`).
+- **VFX/Software:** Emission burst from the **sealed** Egg (no crack, glow only); the shape dissolving. **A touch more expressive** here — the flare, the unraveling — but the Egg never moves and never opens.
+- **Audio Cue:** "Exorcise the spectacle… the venom and the fear that binds me" *(7:34–7:52, faster)* → instrumental recoil *(7:52–8:11)* — owner cues.
 - **Notes:** The inoculation **climax**, sung. Critical: the Egg **does not crack** — the glow alone drives the dark back; keep the shell whole and sealed every frame. The active-sounding lyrics are the *inner* voice and the *result*, never a strike (canon: passive immunity).
 
-**FI-024 — False Peace ("So it thinks")**
-- **TC:** ~8:37 → 10:21
-- **Description:** *"A long time coming."* The Tree's pulse steadies. The world feels whole again — safe, sacred, untouched. The shadow is gone. *So it thinks.* The long outro settles; one last feather drifts past in the foreground.
-- **Camera:** Settle to a wide on the calm plateau; slow, reverent; hold through the outro.
-- **Key Assets:** `ENV_Tree` (steady pulse); plateau; a single drifting `FX_Feather`.
-- **VFX/Software:** Tree pulse returns to steady rhythm; ambient particles settle; one feather pass.
-- **Audio Cue:** "A long time coming" *(owner cue: 8:37)* → the long instrumental outro → final notes.
+**FI-024 — "Deceiver Chased Away" → False Peace**
+- **TC:** ~8:11 → 10:21
+- **Description:** The shape comes apart as the Deceiver is driven off: *"Unveil now [8:11] / Lift away [8:14] / I see you running [8:18] / Deceiver… chased away [8:28]"* — and at **8:37** the song's last words, *"A long time coming."* The fog withdraws from the plateau, repelled by a light it cannot enter. Then the long instrumental outro (8:37–10:21): the Tree's pulse steadies, the world feels whole again — safe, sacred, untouched. *So it thinks.* One last feather drifts past.
+- **Camera:** The fog chased off the plateau; settle to a wide on the calm plateau; hold, reverent, through the outro.
+- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow`); retreating fog (`FX_Shadow_Deceiver`); `ENV_Tree`; a single drifting `FX_Feather`.
+- **VFX/Software:** Fog dissipation sim; Tree pulse returns to steady rhythm; ambient particles settle; one feather pass.
+- **Audio Cue:** "Unveil now [8:11] … Deceiver chased away [8:28] / A long time coming [8:37]" → long instrumental outro → final notes (10:21) *(owner cues).*
 - **Notes:** **END ON A FALSE PEACE.** The shadow was only *repelled, never destroyed,* the Egg never opened, and the creation crack still hangs faint in the sky, unremarked — it never closed (*always there, always waiting*). The only true awakening is still to come. This sets up Pneuma.
 
 > **Relocated from the earlier shotlist (do not place in Act I):** the old hatch/exploration/confrontation shots (First Crack, The Hatching, Exploration, The Internal Struggle, Wordless Recognition, Who-To-Follow, the Bird's charge, the Banishment) move forward — the **hatch + exploration + recognition** to the **Pneuma** list, and the active **protective charge** to **Invincible** (the Phoenix's dive to save the Tree). Their production detail (camera/assets/notes) transfers almost verbatim; they just change acts.

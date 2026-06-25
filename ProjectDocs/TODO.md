@@ -57,7 +57,7 @@
 - [ ] **Verify all timecodes against the master audio file** before storyboarding. Priority:
       the *Invincible* climax (march ~9:44 → freeze ~10:49 → Phoenix eruption ~10:52). Also confirm the
       long *Fear Inoculum* outro (8:37 "a long time coming" → 10:21) and the new Act I lyric cues
-      (Bless 3:31–3:43, Exhale 3:56–4:15, Unveil→8:37).
+      (Bless 3:31–3:43, Exhale 3:56–4:15, Unveil→8:37). ✅ **Act I (*Fear Inoculum*) is now MASTER-VERIFIED** — full vocal map locked (Bless 3:31–3:43, Exhale/Enumerate 3:56–5:41, Forfeit 6:26–6:57, Exorcise 7:34–7:52, Unveil→"a long time coming" 8:11–8:37, outro to 10:21). Remaining priority: Acts II–VII cues + the Invincible climax.
 
 ## Done (2026-06-23, restructure session)
 - [x] Restored full album order (dropped the Descending-before-Invincible transposition).
