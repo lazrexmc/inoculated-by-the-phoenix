@@ -202,6 +202,19 @@ literal — and the rhythm falls out of sync as corruption enters. Unity, to me,
 world, in sync and out of sync. I want the audience to feel the difference in their body before they
 can name it.
 
+## The one moment everything is one — the whole point
+
+There's a single instant, at the Pneuma peak (~7:43), where everything balances. Not just the Bird
+and mankind and the world — *everything*, even the Deceiver and the Creator, light and dark, maker and
+made, all of it in unison for one held breath. And in that instant they all see the same thing: what
+could be, if they were all one. If they'd stop fighting and hold each other up to be better as a
+whole. That's the entire film in a single frame — the thing I want a viewer to feel in their body
+before they can put words to it. I can hold that moment as long as it takes — a fermata, a loop,
+however long — so it's unmistakable. Then it slips away, for a reason none of them will ever know,
+and everything spends the rest of the cycle having glimpsed it and lost it. The Phoenix grieves that
+loss and keeps turning the wheel hoping to bring it back. The whole tragedy is that we were shown, for
+one second, that we could just *quit fighting and support each other* — and we let it go.
+
 ## Why Mesopotamia
 
 The world looks like Mesopotamia — but futurist and holographic, ancient and impossible at the same

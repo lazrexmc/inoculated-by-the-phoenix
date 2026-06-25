@@ -267,7 +267,7 @@
 
 ## Act II — Pneuma (11:53) — Unity & Growth
 
-> **v5 note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)* **⚠️ MASTER-AUDIO (partial):** the instrumental intro runs **0:00–2:08** and the first words ("We are spirit") land at **2:08** — so PN-001 is master-confirmed, but the hatch/discovery/frisson/peak cues below (PN-003+) shift **later** than shown and are being re-verified.
+> **v5 note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)* **⚠️ MASTER-AUDIO: verified through 9:58** — PN-001 instrumental open 0:00–2:08; "We are spirit" 2:08; hatch 4:08; mankind 5:00; frisson 6:07; PEAK ~7:43; the Distancing 7:44–9:58; "Pneuma" 9:58. PN-001→015 re-timed to this. **PN-016+ (9:58→11:53) still pre-master** — being broken down next.
 
 ### THE HIDDEN DUALITY (0:00–1:45)
 
@@ -281,18 +281,18 @@
 - **Notes:** **Four Instruments made literal** — Danny's drums *are* the world and its weather; key the world's pulse, light, and motion to the drums here. Wondrously beautiful; an early frisson. Continues seamlessly from Act I's FI-025 reveal. (Act II palette: warm golds, liquid blues, iridescent greens — full saturation.)
 
 **PN-002 — The Hidden Duality**
-- **TC:** ~2:08 → ~? *(end-cue pending master re-verification)*
-- **Description:** At **2:08** the first words arrive: *"We are spirit / Bound to this flesh / We go around / One foot nailed down / But bound to / Reach out beyond / This flesh / Become pneuma…"* The Egg pulses with inner light — a spirit waiting to wake. A shadowy ripple moves across the land — not a form, not a being, just a feeling. The first hairline cracks begin to stir later in this passage (the hatch is a *build*) — exact cue pending the master pass.
+- **TC:** 2:08 → 3:16
+- **Description:** At **2:08** the first words arrive: *"We are spirit / Bound to this flesh / We go around / One foot nailed down / But bound to / Reach out beyond / This flesh / Become pneuma…"* The Egg pulses with inner light — a spirit waiting to wake. A shadowy ripple moves across the land — not a form, not a being, just a feeling. The first hairline cracks begin to stir during the 3:16–4:08 instrumental that follows (the hatch is a *build*; it breaks at 4:08).
 - **Camera:** Intercut close on the Egg's inner-light pulse with wide of the faint ripple.
 - **Key Assets:** `CHR_Egg`; `ENV_Tree`; faint shadow ripple (`FX_Shadow_Deceiver`, barely there).
 - **VFX/Software:** Egg inner-light pulse; subtle shadow ripple; the first hairline shell cracks (a *build* — no opening yet).
 - **Audio Cue:** "We are spirit / Bound to this flesh…" *(first words @ 2:08).*
-- **Notes:** Two waiting presences at once — the Bird inside the Egg, and the *idea* of mankind. **The hatch is a build** (sealed through all of Act I). ⚠️ **Cues from here are pre-master-pass and shift LATER** than shown (the ~2-min intro was unaccounted for) — re-verify against the master.
+- **Notes:** Two waiting presences at once — the Bird inside the Egg, and the *idea* of mankind. **The hatch is a build** (sealed through all of Act I). (Front half is now master-verified through 9:58 — see the act note.)
 
-### THE EGG HATCHES (1:45)
+### THE EGG HATCHES (4:08)
 
 **PN-003 — The Hatch**
-- **TC:** 1:45 → ~2:15
+- **TC:** 4:08 → 4:27
 - **Description:** "Child / Wake up… Release the light." On the awakening line, the cracks that began moments ago (PN-002) give way — the shell breaks open in segments, light pouring out. The eaglet emerges — wet with starlight, blinking, curious, overwhelmed — and wobbles forward onto the plateau.
 - **Camera:** Macro on the cracking shell → push in as the shell falls away → pull back to reveal the eaglet.
 - **Key Assets:** `CHR_OneBeing` (eaglet — debut); broken shell fragments; Holding Device.
@@ -301,7 +301,7 @@
 - **Notes:** The **only true hatch** in the film — must feel sacred. The Egg *becomes* the eaglet: same `CHR_OneBeing`, not a new asset.
 
 **PN-004 — The Cradle Dissolves**
-- **TC:** ~2:15 → ~2:35
+- **TC:** ~4:27 → 5:00
 - **Description:** Its purpose fulfilled, the Creator's cradle dissolves — released back into the world's light (rivers, Tree, drifting feathers), present everywhere now rather than as an object. Water reflects the eaglet's image — and for an instant, something else: a shadow, a shape, the faint outline of what will become mankind.
 - **Camera:** The Holding Device unravels into ambient light; tilt to the eaglet's reflection in the water.
 - **Key Assets:** `CHR_Creator_Cradle` (dissolve-to-ambient); `ENV_Water_System`; eaglet.
@@ -309,10 +309,10 @@
 - **Audio Cue:** Instrumental.
 - **Notes:** Don't *destroy* the cradle — **dissolve** it (it stops needing a single form). Plant the mankind-foreshadow subtly in the reflection only.
 
-### THE FIRST DISCOVERY (~1:45–2:58)
+### THE FIRST DISCOVERY (~4:27–6:07, compressed)
 
 **PN-005 — Exploration, Mesmerized**
-- **TC:** ~2:35 → ~3:00
+- **TC:** ~5:00 → ~5:20
 - **Description:** The eaglet explores on unsteady legs — hops to the springs, watches the starlight rivers flow past, mesmerized by every finding. Then it runs to the edge of the plateau and cannot pass: an unseen boundary holds it to the sacred center. The first question of any waking thing forms in its face: *why am I here?*
 - **Camera:** Following camera at the eaglet's height; intercut POV of what it sees; low angle at the boundary.
 - **Key Assets:** Eaglet; springs/rivers (`ENV_Water_System`); plateau edge; drifting feathers.
@@ -321,7 +321,7 @@
 - **Notes:** Pure wonder, no conflict — and the first confusion. Let the audience fall in love with the Bird here; they need to before things turn. (Compressed montage — this whole discovery is ~70s.)
 
 **PN-006 — Wordless Recognition**
-- **TC:** ~3:00 → ~3:30 *(concurrent with PN-007 — mankind coalesces behind)*
+- **TC:** ~5:20 → ~5:31 *(concurrent with PN-007)*
 - **Description:** The eaglet approaches the Tree. They face each other. The Tree pulses. The Bird pulses back. A wordless, cosmic recognition — the first thing it understands without being told.
 - **Camera:** Two-shot of Bird and Tree, slow push-in.
 - **Key Assets:** Eaglet; `ENV_Tree`.
@@ -329,10 +329,10 @@
 - **Audio Cue:** Instrumental.
 - **Notes:** The first relationship of the film — the Bird and the Tree already know each other; they always did. **Given room to land:** it runs past 2:58, overlapping the start of mankind-forming (the recognition in the foreground, mankind coalescing behind). Do not rush it. (Seeds the protective bond that climaxes in Invincible.)
 
-### MANKIND BEGINS TO FORM (2:58–4:30)
+### MANKIND BEGINS TO FORM (5:00–5:31)
 
 **PN-007 — Mankind Coalesces**
-- **TC:** 2:58 → ~3:45
+- **TC:** 5:00 → 5:31
 - **Description:** "Bound to this flesh / This guise / This mask / This dream." The shadowy presence coalesces into a humanoid **light-form** — not fully defined, not fully human, still dreamlike, still becoming. Mankind is being born, but not yet real.
 - **Camera:** The form assembling from light and shadow; slow rise.
 - **Key Assets:** `CHR_Mankind_Base` (translucent light-form, `MAT_Mankind_LightForm`).
@@ -341,7 +341,7 @@
 - **Notes:** Mankind is born as **light** (translucent) — it solidifies only later, as it corrupts. The "guise / mask" lyric is the seed of the false self the looming shadow will later exploit. Runs **concurrent with PN-006** — the Bird's recognition in the foreground, mankind coalescing behind; the two are born together.
 
 **PN-008 — The Bird Watches**
-- **TC:** ~3:45 → 4:30
+- **TC:** ~5:31 → ~5:45
 - **Description:** The Bird watches mankind form from the Tree, curious. It senses something familiar — and something off.
 - **Camera:** Bird on the Tree, the forming mankind in its eyeline; intercut their two faces.
 - **Key Assets:** Bird; `ENV_Tree`; mankind light-forms.
@@ -349,10 +349,10 @@
 - **Audio Cue:** Lyric tail → instrumental.
 - **Notes:** First time Bird and mankind regard each other across the world — the "familiar AND wrong" seed.
 
-### THE BREATH DEEPENS (4:30–6:09)
+### THE BREATH DEEPENS (5:31–6:07)
 
 **PN-009 — First Flight**
-- **TC:** 4:30 → ~5:15
+- **TC:** ~5:45 → ~5:56
 - **Description:** The lyrics fade; the instrumental blooms. The Bird flies for the first time — clumsy at first, then graceful — already larger than the hatchling of minutes ago.
 - **Camera:** Follow the Bird's first uncertain flight, opening into grace.
 - **Key Assets:** `CHR_OneBeing` (growing — shape-key progression toward the Eagle); sky.
@@ -361,7 +361,7 @@
 - **Notes:** Growth made visible — the Bird is *becoming*. (Four Instruments: the guitar carries the Bird's rising life here.)
 
 **PN-010 — Oneness of All Things**
-- **TC:** ~5:15 → 6:09
+- **TC:** ~5:56 → 6:07
 - **Description:** Mankind walks the land, not yet corrupted, still innocent. The Tree grows. Rivers flow. The sky pulses with light. Every living element moves in the same rhythm — Pneuma made visible.
 - **Camera:** Sweeping wide of the harmonious world, everything pulsing together.
 - **Key Assets:** Full world — Tree, water, mankind, Bird, sky.
@@ -369,10 +369,10 @@
 - **Audio Cue:** Instrumental.
 - **Notes:** The "one breath" thesis made literal — every element on the same rhythm. (Four Instruments: the whole band in lockstep = the world in unison.)
 
-### FRISSON — THE PEAK OF UNITY (6:09–7:27)
+### FRISSON — THE PEAK OF UNITY (6:07–7:27)
 
 **PN-011 — Frisson: Pure Bliss**
-- **TC:** 6:09 → ~7:00
+- **TC:** 6:07 → ~7:00
 - **Description:** The film's first and most complete moment of perfection. The Bird soars higher than it ever has; mankind dances and builds in harmony with the natural world; the Tree glows like a beacon; feathers drift through golden air; light bends; the world is exactly what it was created to be.
 - **Camera:** Soaring, expansive, golden — the most beautiful sequence in the film so far.
 - **Key Assets:** The entire world at full glory; feathers; light-bending atmosphere.
@@ -400,25 +400,25 @@
 - **Audio Cue:** The swell (toward 7:44).
 - **Notes:** The closest Bird and mankind ever come — the high-water mark of the relationship.
 
-**PN-014 — The Peak: One (Time Suspends)**
-- **TC:** 7:44 → ~7:50 (held)
-- **Description:** The world erupts in light. The Tree pulses at maximum; the Bird cries out; mankind reaches upward — and **time suspends.** The world freezes on the apex of unity, held outside of time: they are one. Then reality resumes.
-- **Camera:** Blow-out toward white/light on the peak hit; **hold the frozen tableau**, then ease back into motion.
-- **Key Assets:** `ENV_Tree` (max pulse); Bird; mankind.
-- **VFX/Software:** Light eruption; a held time-freeze (a small echo of the Invincible freeze); resume.
-- **Audio Cue:** Peak hit @ 7:44 — **possible held suspension.** Verify against the master: a visual freeze over continuing music, or a brief inserted pause (album-locked film).
-- **Notes:** The peak gets its moment via a brief **time-suspension** — the unity frozen, held, then released as the shadow stirs. **Foreshadows the Invincible time-freeze** (the cycle's two poles, unity and rebirth, both marked by a held breath).
+**PN-014 — The Peak: One (the Thesis Moment)**
+- **TC:** ~7:43 → ~7:50 *(held — can be sustained/fermata)*
+- **Description:** The world erupts in light. The Tree pulses at maximum; the Bird cries out; mankind reaches upward — and **time suspends.** The world freezes on the apex of unity: they are one — and not only the Bird, mankind, and the world. **Even the Deceiver and the Creator are in unison here** — light and dark, maker and made, every force in balance for one glimpse. In that held instant they all realize the same thing: *what could be, if they were all one.* This is **the thesis of the entire film**, shown and never spoken.
+- **Camera:** Blow-out toward white/light on the peak hit; **hold the frozen tableau** — and it can be held as long as the moment needs.
+- **Key Assets:** `ENV_Tree` (max pulse); Bird; mankind; the world-light (the dissolved **Creator**); a last balanced wisp of `FX_Shadow_Deceiver` (the **Deceiver**, momentarily at peace — still formless).
+- **VFX/Software:** Light eruption; a held time-freeze (a small echo of the Invincible freeze); everything — even the shadow — momentarily in perfect balance.
+- **Audio Cue:** Peak hit @ **~7:43** — a held suspension; **OPTIONAL fermata / loop** to sustain the moment for the audience (album-locked film — confirm the approach against the master).
+- **Notes:** **THE thesis moment** — *quit fighting and support each other to be better as a whole.* Even the antagonistic forces are one, for a glimpse. The film can **hold/loop** this as long as it takes to land. Then it slips away (the Distancing, PN-015) for a reason we never learn. Foreshadows the Invincible time-freeze (the cycle's two poles — unity and rebirth — both marked by a held breath).
 
-### THE FIRST SHADOW STIRS (7:45–8:30)
+### THE DISTANCING (7:44–9:58)
 
-**PN-015 — The Shadow Returns**
-- **TC:** 7:45 → ~8:10
-- **Description:** "Pneuma / Reach out, beyond / Wake up, remember." Beneath the oneness, something stirs — the same shadow from Fear Inoculum (repelled then, never destroyed), returning to the edges. A faint discontent moves through mankind: a few glance away from the light; a guise hardens here, a mask settles there. **Nothing breaks.**
-- **Camera:** Wide; the shadow a faint ominous note at the rim; a few figures quietly turning away.
-- **Key Assets:** `FX_Shadow_Deceiver` (faint, atmospheric); `CHR_Mankind_Base` (first masks/solidifying hints).
-- **VFX/Software:** Subtle edge-darkening (drums/atmosphere); the first masks. Palette holds **full saturation** — the unease is atmospheric, not yet a color shift.
-- **Audio Cue:** "Pneuma / Reach out, beyond / Wake up, remember."
-- **Notes:** **No walls, no separation, nothing fractures** — only the first ominous note. The real break is held back to Invincible. Restraint. (Four Instruments: the drums begin to carry a darker weather here.)
+**PN-015 — The Distancing**
+- **TC:** ~7:44 → 9:58
+- **Description:** From the peak, slowly and **for a reason we will never know**, the world drifts away from that one perfect moment of harmony. Beneath the oneness, something stirs — the same shadow from Fear Inoculum (repelled then, never destroyed), returning to the edges. A faint discontent moves through mankind: a few glance away from the light; a guise hardens here, a mask settles there. **Nothing breaks.** Then, at **9:58**, Maynard returns: *"Pneuma / Reach out, beyond / Wake up, remember"* — a plea to reach back toward the unity that is slipping away.
+- **Camera:** A long, slow drift over ~2 minutes — the shadow a faint ominous note at the rim; a few figures quietly turning away; the glow imperceptibly cooling.
+- **Key Assets:** `FX_Shadow_Deceiver` (faint, atmospheric); `CHR_Mankind_Base` (first masks/solidifying hints); `ENV_Tree`; Bird.
+- **VFX/Software:** Subtle edge-darkening over ~2 min (drums/atmosphere); the first masks. Palette holds **full saturation** — the unease is atmospheric, not yet a color shift.
+- **Audio Cue:** Instrumental drift (7:44–9:58) → **"Pneuma / Reach out, beyond / Wake up, remember" @ 9:58** *(owner cue).*
+- **Notes:** **The Distancing** — the long, unexplained fall away from the peak's perfect harmony. **No walls, no separation, nothing fractures** — only the slow drift and the first ominous note; the real break is held back to Invincible. The "Pneuma" return is a *plea to remember*. (Four Instruments: the drums carry a darkening weather.) ⚠️ Beats after 9:58 (the Bird-torn, the Echo Holds, the Held/Final Breath) are pre-master — being broken down next.
 
 **PN-016 — The Bird, Torn**
 - **TC:** ~8:10 → 8:30
