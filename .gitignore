@@ -5,6 +5,10 @@ FearInoculum_Resolve/
 # Local Claude Code settings
 .claude/
 
+# Python bytecode cache (Blender bpy scripts)
+__pycache__/
+*.pyc
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store
