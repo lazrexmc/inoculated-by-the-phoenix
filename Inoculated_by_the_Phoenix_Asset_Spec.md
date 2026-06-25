@@ -1,14 +1,14 @@
 # INOCULATED BY THE PHOENIX — Asset Spec & Build Bible
 
 **For: Blender asset production (Python-scripted + hand-authored), feeding a Blender → Unreal Engine 5 pipeline**
-**Canon source of truth: Treatment v5**
+**Canon source of truth: Treatment**
 **Purpose: a portable, self-contained reference you can carry into any VS Code / fresh-Claude session so the asset work never drifts off-canon.**
 
 ---
 
 ## 0. How to use this document
 
-This is the bridge between the story (Treatment v5) and the build. Every asset the film needs is catalogued below with the **canon constraints** that govern it — the non-negotiable rules a model, shader, or rig must respect to stay true to the myth — plus a **build approach** (script it, hand-author it, or hybrid) and a **priority tier**.
+This is the bridge between the story (Treatment) and the build. Every asset the film needs is catalogued below with the **canon constraints** that govern it — the non-negotiable rules a model, shader, or rig must respect to stay true to the myth — plus a **build approach** (script it, hand-author it, or hybrid) and a **priority tier**.
 
 When you open a fresh Claude session in VS Code, that Claude knows nothing about this project. Paste the primer in §1 first. Then paste the specific asset entry you're working on. That's enough for it to write canon-correct Blender Python.
 
@@ -91,7 +91,7 @@ A blunt heuristic for where Python pays off versus where you'll move faster by h
 
 Format per entry — **Canon constraints** (must-obey) · **Build** (approach) · **Reuse** · **First appears** · **Tier**.
 
-> **Timecodes live in the Treatment, not here.** "First appears" names the act and beat only. For exact mm:ss cues, consult Treatment v5 — and verify against the master audio before storyboarding, per the Treatment's own note.
+> **Timecodes live in the Treatment, not here.** "First appears" names the act and beat only. For exact mm:ss cues, consult Treatment — and verify against the master audio before storyboarding, per the Treatment's own note.
 
 ### 6.1 The beings (the one entity across time)
 
@@ -240,4 +240,4 @@ Then — and only then — a shot list becomes a real shooting plan against asse
 
 ---
 
-*Inoculated by the Phoenix — Asset Spec & Build Bible · Canon-locked to Treatment v5 · Personal non-commercial creative work.*
+*Inoculated by the Phoenix — Asset Spec & Build Bible · Canon-locked to Treatment · Personal non-commercial creative work.*

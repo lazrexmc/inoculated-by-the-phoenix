@@ -3,7 +3,7 @@
 *Append-only-ish. Record decisions that should survive across sessions. Last updated: 2026-06-24.*
 
 ## Canon & source-of-truth
-- **`Treatment_v5.md` is the single canonical story/canon document.** (Converted from `.docx` to
+- **`Treatment.md` is the single canonical story/canon document.** (Converted from `.docx` to
   Markdown on 2026-06-23; the old `.docx` was then deleted — **Markdown is the only format kept**,
   generate a `.docx`/PDF from the `.md` on demand if a Word/print copy is ever needed.) The Asset
   Spec is the build bible and cites the treatment as its canon source.

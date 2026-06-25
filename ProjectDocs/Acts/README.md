@@ -16,7 +16,7 @@ flags**, and pointers to the shot list / asset spec / interpretation.
 
 ## ⚠️ SYNC RULE (bidirectional, non-negotiable)
 
-- The **Treatment** (`Inoculated_by_the_Phoenix_Treatment_v5.md`) is the **single source of truth**.
+- The **Treatment** (`Inoculated_by_the_Phoenix_Treatment.md`) is the **single source of truth**.
 - **If the Treatment changes → update the affected `Act_*.md`** (regenerate its Story to match).
 - **If an `Act_*.md` is edited → update the Treatment to match**, then re-sync the act.
 - The same applies to `mastershotlist.md` — the shot list tracks the Treatment.

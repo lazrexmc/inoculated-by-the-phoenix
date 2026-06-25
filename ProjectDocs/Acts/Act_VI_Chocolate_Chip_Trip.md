@@ -1,7 +1,7 @@
 # ACT VI — Chocolate Chip Trip (4:48) — Inside the Sphere
 
-> **Per-act working file.** Derived from the canonical **Treatment v5**
-> (`Inoculated_by_the_Phoenix_Treatment_v5.md`). If this file and the Treatment ever disagree,
+> **Per-act working file.** Derived from the canonical **Treatment**
+> (`Inoculated_by_the_Phoenix_Treatment.md`). If this file and the Treatment ever disagree,
 > **the Treatment wins** — regenerate this from it.
 >
 > **⚠️ DEFERRED LOOK-DEV ACT.** Chocolate Chip Trip is **not yet shot-listed or specced as a catalog

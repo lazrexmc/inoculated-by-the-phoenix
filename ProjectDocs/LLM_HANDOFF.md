@@ -12,7 +12,7 @@ You're joining an ongoing solo creative project. Before doing anything, read the
 the workspace and treat them as the source of truth, in this order:
 
   1. ProjectDocs/CONTEXT.md            ← orienting overview (read first)
-  2. Inoculated_by_the_Phoenix_Treatment_v5.md    ← STORY / CANON (authoritative)
+  2. Inoculated_by_the_Phoenix_Treatment.md    ← STORY / CANON (authoritative)
   3. Inoculated_by_the_Phoenix_Asset_Spec.md        ← BUILD BIBLE (how to produce assets)
   4. ProjectDocs/Lyrics_Reference.md   ← full Tool lyrics by act (source for canon/act work)
   5. ProjectDocs/MEMORY.md  +  ProjectDocs/TODO.md  +  ProjectDocs/CHATLOG.md  (decisions, tasks, history)
@@ -53,7 +53,7 @@ NON-NEGOTIABLE WORKING RULES
 - Honor naming/scene conventions (Asset Spec §3): prefixes (CHR_/ENV_/MAT_…), metric units,
   +Z up / -Y forward — so assets compose later in UE5.
 - Don't invent lore. If a canon point is ambiguous or two rules seem to conflict, STOP and ask.
-- Versions are cosmetic — don't fuss over the number; keep labels and citations in agreement.
+- The Treatment is **intentionally unversioned** (git tracks history) — do NOT add a version to the filename or title. (Older drafts and the `.docx` were deleted; Markdown only.)
 - **SYNC RULE (bidirectional):** the Treatment is the source of truth; the per-act files
   (`ProjectDocs/Acts/`) and the shot list (`mastershotlist.md`) are derived and must NEVER drift from
   it. Change the Treatment → update the acts + shot list; change an act/shot → update the Treatment,
@@ -71,7 +71,7 @@ own words so I can confirm you've got it, (2) which TODO.md item you think is ne
 ## Maintainer notes (not part of the paste block)
 - When project state changes, update `CONTEXT.md`, `TODO.md`, and add a `CHATLOG.md` entry, then
   refresh the "Last updated" date here.
-- The canonical treatment is `Inoculated_by_the_Phoenix_Treatment_v5.md` (Markdown is the only format
+- The canonical treatment is `Inoculated_by_the_Phoenix_Treatment.md` (Markdown is the only format
   kept; generate a `.docx`/PDF from it on demand if needed). If the filename ever changes, update the
   paths in the paste block above.
 - For a *shorter* primer (≈150 words, asset-only), the Asset Spec's §1 can be used instead.

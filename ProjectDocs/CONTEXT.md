@@ -17,7 +17,7 @@ eternal, repeating cycle:
 The story is cyclical: it ends exactly where it begins, and the loop closes in the final seconds.
 
 ## The two canon documents (source of truth)
-1. **`Inoculated_by_the_Phoenix_Treatment_v5.md`** — STORY / CANON. Authoritative source of truth.
+1. **`Inoculated_by_the_Phoenix_Treatment.md`** — STORY / CANON. Authoritative source of truth.
    Owns all timecodes (mm:ss cues). Nothing else should restate them.
 2. **`Inoculated_by_the_Phoenix_Asset_Spec.md`** — BUILD BIBLE. Canon constraints, asset
    catalog (with tiers), shader library, rigs, build order. References scenes by act/beat,

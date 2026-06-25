@@ -357,7 +357,7 @@ lives in early Invincible; no fades between songs (one continuous film).
    transpositions), the timecode note (added the ~10:52 eruption), the lyric table reworked as
    Phoenix/Mankind, Color-by-Act (III/IV), Symbolic Canon (maturation now in Invincible), and a v5
    revision entry.
-3. **Bumped v4 → v5** and renamed the file to `Treatment_v5.md`; updated every citation (Asset Spec,
+3. **Bumped v4 → v5** and renamed the file to `Treatment.md`; updated every citation (Asset Spec,
    README, CONTEXT, LLM_HANDOFF, MEMORY, project memory).
 4. **Updated the Asset Spec** act/beat references (mature Eagle now matures in Invincible; Phoenix and
    Troll "first appears" → Act III; cities first appear in Invincible's witnessing flight).

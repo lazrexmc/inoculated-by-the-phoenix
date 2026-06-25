@@ -4,7 +4,7 @@
 *Inspired by the Music of Tool — Fear Inoculum (2019)*  
 *Created by Lance*  
 *Personal Non-Commercial Creative Work*  
-*Treatment v5*
+*Treatment*
 
 ---
 
@@ -626,6 +626,8 @@ A scene is *staged* by the score: the drums make the weather, the bass sets the 
 
 ## Revision History
 
+*Going forward the canon is **unversioned** — git tracks every change (the file was renamed off `_v5` on 2026-06-25). The version-numbered entries below are the historical record of how the canon was assembled; no new version numbers will be added.*
+
 v1 — Initial treatment assembled from working notes.
 
 v2 — Canonical fixes incorporated; structure and symbolic canon formalized.
@@ -640,4 +642,4 @@ v5 — Structural restructure (story-canon change): the album is now presented i
 
 INOCULATED BY THE PHOENIX
 
-Personal Non-Commercial Creative Work  |  Created by Lance  |  Treatment v5
+Personal Non-Commercial Creative Work  |  Created by Lance  |  Treatment

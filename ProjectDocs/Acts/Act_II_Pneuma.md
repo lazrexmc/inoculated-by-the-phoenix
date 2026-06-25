@@ -1,7 +1,7 @@
 # ACT II — Pneuma (11:53) — Unity & Growth
 
-> **Per-act working file.** Derived from the canonical **Treatment v5**
-> (`Inoculated_by_the_Phoenix_Treatment_v5.md`). If this file and the Treatment ever disagree,
+> **Per-act working file.** Derived from the canonical **Treatment**
+> (`Inoculated_by_the_Phoenix_Treatment.md`). If this file and the Treatment ever disagree,
 > **the Treatment wins** — regenerate this from it. This bundles the act's story beats + lyrics +
 > quick canon flags so an LLM can work this one act without loading the whole treatment.
 >

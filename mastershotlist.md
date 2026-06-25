@@ -1,6 +1,6 @@
 # INOCULATED BY THE PHOENIX — Master Shot List
 
-*Working master shot list. Canon-locked to **Treatment v5**. This Markdown is the authoring source; the companion `Fear_Inoculum_ShotList.xlsx` is filled from it.*
+*Working master shot list. Canon-locked to **Treatment**. This Markdown is the authoring source; the companion `Fear_Inoculum_ShotList.xlsx` is filled from it.*
 
 *Last updated: 2026-06-24 · Status: **Acts I–V & VII drafted (v5-aligned, full-film unit-audited)** — the whole film minus **VI/CCT** (deferred to look-dev).*
 
@@ -12,13 +12,13 @@
   **Shot #** (block title) · **TC In / TC Out** (`TC`) · **Beat** (section banner) · **Description** · **Camera** · **Key Assets** · **VFX / Software** · **Audio Cue** · **Director's Notes** (`Notes`).
 - **Timecodes** are anchored to the album recording and must be verified frame-accurately against the master before storyboarding (per the Treatment's note). A leading `~` marks a **proposed/approximate** cue not yet locked.
 - **Software shorthand:** H = Houdini · B = Blender · UE5 = Unreal Engine 5 · DR = DaVinci Resolve.
-- **Canon wins.** When a shot and the Treatment (`Inoculated_by_the_Phoenix_Treatment_v5.md`) disagree, the Treatment is right; fix the shot.
+- **Canon wins.** When a shot and the Treatment (`Inoculated_by_the_Phoenix_Treatment.md`) disagree, the Treatment is right; fix the shot.
 
 ---
 
 ## Act I — Fear Inoculum (10:21) — Creation
 
-> **v5 note.** The Egg stays **sealed** through Act I — it never hatches here; the only hatch is *Pneuma*. Act I's back half is the **passive inoculation**: the shadow builds and lunges at the Tree, and the **Egg's light** (no will, no hatchling) drives it back, ending on a *false* peace. (The hatch + exploration that an earlier shotlist placed here have moved to the Pneuma list; see "Relocated" at the end of this act.)
+> **Canon note.** The Egg stays **sealed** through Act I — it never hatches here; the only hatch is *Pneuma*. Act I's back half is the **passive inoculation**: the shadow builds and lunges at the Tree, and the **Egg's light** (no will, no hatchling) drives it back, ending on a *false* peace. (The hatch + exploration that an earlier shotlist placed here have moved to the Pneuma list; see "Relocated" at the end of this act.)
 
 ### THE TEN CHIMES OF CREATION (0:00–0:53)
 
@@ -267,7 +267,7 @@
 
 ## Act II — Pneuma (11:53) — Unity & Growth
 
-> **v5 note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)* **⚠️ MASTER-AUDIO: verified through 9:58** — PN-001 instrumental open 0:00–2:08; "We are spirit" 2:08; hatch 4:08; mankind 5:00; frisson 6:07; PEAK ~7:43; the Distancing 7:44–9:58; "Pneuma" 9:58. PN-001→015 re-timed to this. **PN-016+ (9:58→11:53) still pre-master** — being broken down next.
+> **Canon note.** Pneuma is the Bird's **coming-of-age** (growth is the spine) *and* the film's peak of oneness. The Egg hatches here (the only hatch). The late "fracture" is softened to a **looming, unbroken shadow** — nothing breaks; the real break is deferred to Invincible. The act ends **without a cut** — the Bird is still growing as Pneuma flows straight into Invincible. *(Most sub-cues below are `~` proposals; the treatment gives beat ranges, not shot-level cues.)* **⚠️ MASTER-AUDIO: verified through 9:58** — PN-001 instrumental open 0:00–2:08; "We are spirit" 2:08; hatch 4:08; mankind 5:00; frisson 6:07; PEAK ~7:43; the Distancing 7:44–9:58; "Pneuma" 9:58. PN-001→015 re-timed to this. **PN-016+ (9:58→11:53) still pre-master** — being broken down next.
 
 ### THE HIDDEN DUALITY (0:00–1:45)
 
@@ -473,7 +473,7 @@
 
 ## Act III — Invincible (~12:44) — Awareness & Crisis
 
-> **v5 note.** Invincible holds the whole Eagle arc: it **completes its maturation** (the growth carried unbroken from Pneuma), soars a **corrupting world** (the witnessing flight, relocated here), reaches its **near-breaking**, then the **troll march** nearly kills the Tree — until the **freeze + realization**, the **dive**, and the **eruption** of the Phoenix, which **spares** the Tree. The **9:44 / 10:49 / 10:52** climax cues are locked (owner-verified) and the act's top master-audio priority; flight sub-cues are `~` proposals. The protective instinct seeded in Pneuma **pays off here**.
+> **Canon note.** Invincible holds the whole Eagle arc: it **completes its maturation** (the growth carried unbroken from Pneuma), soars a **corrupting world** (the witnessing flight, relocated here), reaches its **near-breaking**, then the **troll march** nearly kills the Tree — until the **freeze + realization**, the **dive**, and the **eruption** of the Phoenix, which **spares** the Tree. The **9:44 / 10:49 / 10:52** climax cues are locked (owner-verified) and the act's top master-audio priority; flight sub-cues are `~` proposals. The protective instinct seeded in Pneuma **pays off here**.
 
 ### THE EAGLE COMES OF AGE (0:00–~2:00)
 
@@ -660,7 +660,7 @@
 
 ## Act IV — Descending (~13:38) — The Phoenix's Flight
 
-> **v5 note.** Descending is the **Phoenix's flight** — a post-rise elegy over a world that still seems whole. It opens on the ocean of unknowing, descends through the (now dual-coded) "free fall" lyrics, sounds the **layered Dire Reveille** (the Phoenix's plea AND the darkness's muster, which most of mankind answers), then — Maynard's last lyric at **~6:49** — becomes a long, wholly **instrumental elegy-soar** over the whole built world, the beauty dimming into despair as the dark muster gathers below. The act **does not cut** at the end; it dissolves into the dark that opens Culling Voices. Palette: lingering gold → desaturating (golds→amber, blues→gray) → despair. Lyric sub-cues `~` proposed; 6:49 lyric-end is owner-given.
+> **Canon note.** Descending is the **Phoenix's flight** — a post-rise elegy over a world that still seems whole. It opens on the ocean of unknowing, descends through the (now dual-coded) "free fall" lyrics, sounds the **layered Dire Reveille** (the Phoenix's plea AND the darkness's muster, which most of mankind answers), then — Maynard's last lyric at **~6:49** — becomes a long, wholly **instrumental elegy-soar** over the whole built world, the beauty dimming into despair as the dark muster gathers below. The act **does not cut** at the end; it dissolves into the dark that opens Culling Voices. Palette: lingering gold → desaturating (golds→amber, blues→gray) → despair. Lyric sub-cues `~` proposed; 6:49 lyric-end is owner-given.
 
 ### THE OCEAN OF UNKNOWING (0:00–1:13)
 
@@ -775,7 +775,7 @@
 
 ## Act V — Culling Voices (10:05) — Reckoning
 
-> **v5 note.** The Phoenix has risen but **does not act and does not fight** — to strike would feed the darkness. The act is a **contest for the song**: the **voices rule it** (mankind's projection ∥ the Phoenix's own inner accusations) until **~5:27**, when the **guitar — the Phoenix — takes the song back** and the words break apart; they **end at 8:11 and do not return** (through the rest of the act, through CCT, until 7empest's "keep it calm"). The darkness **culls mankind through mankind** and never lifts a hand. The Phoenix's turn: it stops recoiling from its own self-accusation and **accepts** — the darkness can only be *contained* as the 7empest, **forever**. Palette: **dim, black, smoldering orange — darkness with fire beneath** (not red; red is the corruption/7empest). Cues `~` proposed except the owner-given 1:27 / 5:27 / 5:57 / 6:11 / 8:11 / 10:05.
+> **Canon note.** The Phoenix has risen but **does not act and does not fight** — to strike would feed the darkness. The act is a **contest for the song**: the **voices rule it** (mankind's projection ∥ the Phoenix's own inner accusations) until **~5:27**, when the **guitar — the Phoenix — takes the song back** and the words break apart; they **end at 8:11 and do not return** (through the rest of the act, through CCT, until 7empest's "keep it calm"). The darkness **culls mankind through mankind** and never lifts a hand. The Phoenix's turn: it stops recoiling from its own self-accusation and **accepts** — the darkness can only be *contained* as the 7empest, **forever**. Palette: **dim, black, smoldering orange — darkness with fire beneath** (not red; red is the corruption/7empest). Cues `~` proposed except the owner-given 1:27 / 5:27 / 5:57 / 6:11 / 8:11 / 10:05.
 
 ### THE DIM WORLD (0:00–1:27) — *instrumental*
 
@@ -917,7 +917,7 @@
 
 ## Act VII — 7empest (15:43) — The Eternal Cycle
 
-> **v5 note.** The finale: **containment, not vengeance.** The Phoenix draws in and **binds** the already-risen corruption (it does **not** gather a fresh one), seals it into the **sphere**, and — when the seal inevitably cracks — carries it into the **creation seam** to reset everything and begin again. Two summits: the **wordless torrent + seal (~5:20–~9:44)** and the **two-voice climax (~10:31)**. The **Deceiver is a voice, never a body.** Two source lines are **owner-confirmed, not errors** — keep them: **"could to begin"** (the Blame) and **"must will be"** (two voices overlapping). The act ends as it began — the final feather → the speck → the first chime. Owner cues: 1:35 / 1:59 / 3:09 / 5:20 / 9:44 / 10:31 / 15:43; others `~` proposed.
+> **Canon note.** The finale: **containment, not vengeance.** The Phoenix draws in and **binds** the already-risen corruption (it does **not** gather a fresh one), seals it into the **sphere**, and — when the seal inevitably cracks — carries it into the **creation seam** to reset everything and begin again. Two summits: the **wordless torrent + seal (~5:20–~9:44)** and the **two-voice climax (~10:31)**. The **Deceiver is a voice, never a body.** Two source lines are **owner-confirmed, not errors** — keep them: **"could to begin"** (the Blame) and **"must will be"** (two voices overlapping). The act ends as it began — the final feather → the speck → the first chime. Owner cues: 1:35 / 1:59 / 3:09 / 5:20 / 9:44 / 10:31 / 15:43; others `~` proposed.
 
 ### THE STILLNESS BEFORE THE STORM (0:00–~1:35) — *instrumental*
 
