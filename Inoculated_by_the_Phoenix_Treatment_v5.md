@@ -146,7 +146,7 @@ As the remainder of Fear Inoculum plays, the Egg moves through its first cycle o
 
 As the shadow presses inward — the fog thickening at the plateau's edges, the Deceiver's whisper circling the Tree — it begins to take a shape: never fully resolved, never named, a darkness pretending to a form. It gathers (5:41–6:26) — and at 6:26, in a drawn-out, mysterious voice, the confrontation comes: “forfeit all control / you poison / you spectacle,” held and stretched to ~6:57. Then it lunges — straight at the Tree. The Tree's pulse stutters; for one instant the light of the young world falters. And the Egg's inner light answers. Not by choice. Not by will. The Egg does not decide to act, and it never moves. Its purity flares outward with the words it has been singing turned into light — “exorcise the spectacle / exorcise the malady / exorcise the disparate… purge me and evacuate / the venom and the fear that binds me” — and the darkness cannot abide it. This is the inoculation: the Egg displaces the encroaching shadow the way a healthy body displaces a contagion — passively, by nothing more than its own existence. The world is being protected before it is even born.
 
-The shape recoils and comes apart — “unveil now / lift away / I see you running / Deceiver chased away.” The Deceiver retreats from the plateau, repelled by a light it cannot enter. The fog withdraws. The Tree's pulse steadies — “a long time coming.” The world feels whole again — safe, sacred, untouched. The shadow is gone.
+The shape recoils and comes apart — “unveil now / lift away / I see you running / Deceiver chased away.” The Deceiver retreats from the plateau, repelled by a light it cannot enter. The fog withdraws. The Tree's pulse steadies — “a long time coming.” Then, through the long final minutes, the camera draws slowly back — and we see that the fog had been hiding the rest of the world all along: the whole of creation opens back into view, the rivers and oceans and far reaches of the plateau, everything that was made. The world feels whole again — safe, sacred, untouched. The shadow is gone.
 
 So it thinks.
 
@@ -158,7 +158,7 @@ This is the meaning the title carries. The Egg inoculates the world before it ha
 
 **Pneuma · 11:53 · Unity & Growth — We Are All One Breath, the Bird Comes of Age**
 
-As Pneuma begins, the world fully materializes around us. The rivers, land, and sky sharpen into clarity. The Tree of Life is no longer a fragile sprout — it is small but stable, glowing with purpose. The Egg rests in its Holding Device, radiating the same psychedelic energy that birthed the universe. Creation is complete. Existence is awake.
+As Pneuma begins, the world fully materializes around us — the wider creation the lifting fog has just unveiled, carried straight across the seam from Fear Inoculum's final pull-back. The rivers, land, and sky sharpen into clarity. The Tree of Life is no longer a fragile sprout — it is small but stable, glowing with purpose. The Egg rests in its Holding Device, radiating the same psychedelic energy that birthed the universe. Creation is complete. Existence is awake.
 
 Pneuma's role is profound: it establishes the unifying principle of the entire myth. The Bird, the Tree, the world, humanity, all life — all are expressions of the same breath, the same spark, the same origin. We are all made from the same source. We all come from the Bird, the Tree, and the creator, the light, the dot, the awakening. One breath.
 

@@ -243,14 +243,23 @@
 - **Audio Cue:** "Exorcise the spectacle… the venom and the fear that binds me" *(7:34–7:52, faster)* → instrumental recoil *(7:52–8:11)* — owner cues.
 - **Notes:** The inoculation **climax**, sung. Critical: the Egg **does not crack** — the glow alone drives the dark back; keep the shell whole and sealed every frame. The active-sounding lyrics are the *inner* voice and the *result*, never a strike (canon: passive immunity).
 
-**FI-024 — "Deceiver Chased Away" → False Peace**
-- **TC:** ~8:11 → 10:21
-- **Description:** The shape comes apart as the Deceiver is driven off: *"Unveil now [8:11] / Lift away [8:14] / I see you running [8:18] / Deceiver… chased away [8:28]"* — and at **8:37** the song's last words, *"A long time coming."* The fog withdraws from the plateau, repelled by a light it cannot enter. Then the long instrumental outro (8:37–10:21): the Tree's pulse steadies, the world feels whole again — safe, sacred, untouched. *So it thinks.* One last feather drifts past.
-- **Camera:** The fog chased off the plateau; settle to a wide on the calm plateau; hold, reverent, through the outro.
-- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow`); retreating fog (`FX_Shadow_Deceiver`); `ENV_Tree`; a single drifting `FX_Feather`.
-- **VFX/Software:** Fog dissipation sim; Tree pulse returns to steady rhythm; ambient particles settle; one feather pass.
-- **Audio Cue:** "Unveil now [8:11] … Deceiver chased away [8:28] / A long time coming [8:37]" → long instrumental outro → final notes (10:21) *(owner cues).*
-- **Notes:** **END ON A FALSE PEACE.** The shadow was only *repelled, never destroyed,* the Egg never opened, and the creation crack still hangs faint in the sky, unremarked — it never closed (*always there, always waiting*). The only true awakening is still to come. This sets up Pneuma.
+**FI-024 — "Deceiver Chased Away"**
+- **TC:** ~8:11 → ~8:37
+- **Description:** The shape comes apart as the Deceiver is driven off: *"Unveil now [8:11] / Lift away [8:14] / I see you running [8:18] / Deceiver… chased away [8:28]"* — and at **8:37** the song's last words, *"A long time coming."* The fog is driven off the plateau, repelled by a light it cannot enter; the Tree's pulse steadies.
+- **Camera:** The fog chased off the plateau; the Tree steadying at center.
+- **Key Assets:** `CHR_Egg` (`FX_InoculationGlow`); retreating fog (`FX_Shadow_Deceiver`); `ENV_Tree`.
+- **VFX/Software:** Fog dissipation sim; Tree pulse returns to steady rhythm.
+- **Audio Cue:** "Unveil now [8:11] … Deceiver chased away [8:28] / A long time coming [8:37]" *(owner cues).*
+- **Notes:** The Deceiver flees the light — *repelled, never destroyed.* Leads straight into the long outro reveal (FI-025).
+
+**FI-025 — The World Revealed (False Peace → Pneuma)**
+- **TC:** ~8:37 → 10:21
+- **Description:** The long instrumental outro. As the last of the fog lifts, the camera draws slowly **back** — and we see that the fog had been hiding the rest of the world all along: the whole of creation opens back into view, the rivers and oceans and far reaches of the plateau, everything that was made. The world feels whole again — safe, sacred, untouched. *So it thinks.* One last feather drifts past.
+- **Camera:** A long, slow **zoom-out** off the plateau, the wider created world opening into frame; reverent, unhurried — settling into the wide that Pneuma opens on.
+- **Key Assets:** `ENV_Plateau`; the wider world (`ENV_Water_System`, `ENV_Terrain_Mesopotamia`); `ENV_Tree` (steady pulse); last wisps of `FX_Shadow_Deceiver`; a single drifting `FX_Feather`.
+- **VFX/Software:** The reveal pull-back (the fog had masked the wider world); ambient particles settle; one feather pass; **soft, near-continuous blend into Pneuma's open** (the revealed world *is* PN-001).
+- **Audio Cue:** Long instrumental outro → final notes (10:21) → straight into Pneuma's open.
+- **Notes:** **END ON A FALSE PEACE** *and* the **bridge into Act II** — the lifting fog reveals the full created world, which Pneuma (PN-001) opens on. The shadow was only *repelled, never destroyed,* the Egg never opened, and the creation crack still hangs faint in the sky, unremarked — it never closed (*always there, always waiting*). The only true awakening is still to come.
 
 > **Relocated from the earlier shotlist (do not place in Act I):** the old hatch/exploration/confrontation shots (First Crack, The Hatching, Exploration, The Internal Struggle, Wordless Recognition, Who-To-Follow, the Bird's charge, the Banishment) move forward — the **hatch + exploration + recognition** to the **Pneuma** list, and the active **protective charge** to **Invincible** (the Phoenix's dive to save the Tree). Their production detail (camera/assets/notes) transfers almost verbatim; they just change acts.
 
@@ -269,7 +278,7 @@
 - **Key Assets:** Full plateau; `ENV_Tree` (small-stable stage); `CHR_Egg`; `ENV_Water_System`; Holding Device.
 - **VFX/Software:** `MAT_LiquidStarlight`; `NG_BioPulse` (everything breathing); holographic shimmer.
 - **Audio Cue:** Pneuma intro (instrumental).
-- **Notes:** Re-establish Act I's world, now fully *real* and saturated (Act II palette: warm golds, liquid blues, iridescent greens).
+- **Notes:** **Soft continuation from Act I's FI-025 reveal** — this wide-open world is the one the lifting fog just unveiled (carried across the seam). Re-establish Act I's world, now fully *real* and saturated (Act II palette: warm golds, liquid blues, iridescent greens).
 
 **PN-002 — The Hidden Duality**
 - **TC:** ~0:50 → 1:45
