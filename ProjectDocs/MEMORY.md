@@ -1,6 +1,6 @@
 # MEMORY — Durable decisions & facts
 
-*Append-only-ish. Record decisions that should survive across sessions. Last updated: 2026-06-24.*
+*Append-only-ish. Record decisions that should survive across sessions. Last updated: 2026-06-29.*
 
 ## Canon & source-of-truth
 - **`Treatment.md` is the single canonical story/canon document.** (Converted from `.docx` to
@@ -37,6 +37,23 @@
   parameterized/batch parts. Don't author complex shader/geo-node graphs line-by-line in `bpy`.
 - **Honor naming/scene conventions** (Asset Spec §3) in every script: prefixes (CHR_/ENV_/MAT_…),
   metric units (1 BU = 1 m), +Z up / -Y forward, apply transforms before export.
+
+## Production state & tooling (2026-06-29)
+- **Tier-1 Blender foundations are built + headless-verified** (scripts in `blender/`, previews in
+  `blender/previews/`): `bootstrap.py`, `ENV_Tree` growth, `MAT_LiquidStarlight`/`NG_LiquidStarlight`,
+  `NG_BioPulse`, `FX_Feather`+`MAT_Feather_StateRange`, `CHR_OneBeing` proxy + `RIG_OneBeing`. **Next: the
+  30-second style test.** The previews are bare **scaffolds** (flat emission, no bloom, proxy geo) that
+  prove the parametric systems — the **hero meshes + hero shaders + look-dev are hand-authored (§5)** and
+  are NOT in the scaffolds. Don't mistake a scaffold for the finished look.
+- **All four DCCs located** (full paths in project memory `software-tooling-paths`): Blender 5.1.2
+  (`E:\Software\blender.exe`), Houdini 21.0.729 (`E:\Software\Houdini 21.0.729\bin\hython.exe`), UE5 5.8
+  (`E:\UE5\UE_5.8\…\UnrealEditor-Cmd.exe`), Resolve 21.0 (`F:\Software\Resolve.exe` / `fuscript.exe`). GPU RTX 3080.
+- **Never write heavy output to C:** (system drive, chronically low) — use E:/F: (D: ok; G:/H: are USB).
+  `uv`/torch caches redirected off C:; render scratch → `F:\…\_scratch`.
+- **Music-sync pipeline** (`audio/`): the album **drives** the animation (§10). Demucs stem-separation
+  (the Four Instruments) + librosa frame-mapped analysis (tempo→`NG_BioPulse` Rate, onsets→FX frames,
+  RMS→amplitude), Python 3.12 venv on the RTX 3080. Act I separated + analyzed; next is WhisperX lyric
+  forced-alignment on the vocals stem to auto-timecode the lyrics.
 
 ## Hard canon rules that have bitten before (keep front of mind)
 - Phoenix fire reads gold/white; red = corruption/7empest — strong intent, held as a **preference, not a hard lock** (creativity first, filter second). Coloration canon to be firmed up once real images arrive; keep the palettes as separate material families so the distinction is easy to honor or relax.

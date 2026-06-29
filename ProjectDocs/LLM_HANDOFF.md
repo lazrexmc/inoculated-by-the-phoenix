@@ -1,6 +1,6 @@
 # LLM HANDOFF — paste this into a fresh Codex / Claude / LLM session
 
-*Last updated: 2026-06-24. Keep this current whenever project state changes.*
+*Last updated: 2026-06-29. Keep this current whenever project state changes.*
 
 This is the onboarding prompt for a context-free AI session working on *Inoculated by the
 Phoenix*. Paste the block below. It assumes the AI has this folder open as its workspace.
@@ -18,6 +18,8 @@ the workspace and treat them as the source of truth, in this order:
   5. ProjectDocs/MEMORY.md  +  ProjectDocs/TODO.md  +  ProjectDocs/CHATLOG.md  (decisions, tasks, history)
   6. ProjectDocs/Acts/Act_*.md  ← per-act working files (Story+lyrics+flags; derived from the Treatment) + Acts/README.md
   7. mastershotlist.md          ← master shot list (Acts I–V + VII drafted; CCT/VI deferred)
+  8. blender/README.md + audio/README.md  ← PRODUCTION: the Blender asset scripts (Tier-1 built) and the
+     music-sync pipeline. Tool paths + the "never write to C:" drive policy live in project memory.
 
 (Everything is plain Markdown — read it directly. Markdown is the only canonical format; no .docx is
 kept — one can be generated from the .md on demand if a Word copy is ever needed.)
@@ -39,6 +41,15 @@ Assets are produced in Blender (scripting `bpy` in VS Code), assembled in Unreal
 heavy procedural/particle/sim work in Houdini. The docs exist to keep all work canon-correct so
 it never drifts off-myth across sessions.
 
+PRODUCTION STATE (2026-06-29)
+Asset production has begun. All Tier-1 Blender foundations are built + headless-verified (scripts in
+blender/, previews in blender/previews/): ENV_Tree, MAT_LiquidStarlight (NG_LiquidStarlight), NG_BioPulse,
+FX_Feather + MAT_Feather_StateRange, CHR_OneBeing proxy + RIG_OneBeing. Those previews are deliberately
+bare SCAFFOLDS — hero meshes + hero shaders + look-dev are hand-authored (§5) and get solved at the
+30-second style test (the next step). All four DCCs are located (Blender/Houdini/UE5/Resolve — paths in
+project memory) and a music-sync pipeline (audio/: Demucs stems + librosa frame-mapped analysis on a
+Python 3.12 venv) drives the animation from the album.
+
 NON-NEGOTIABLE WORKING RULES
 - The Treatment is canon. The Asset Spec's §2 "Global canon constraints" are load-bearing — obey
   them even when another choice looks better. E.g.: one being / shared topology; Phoenix fire is
@@ -50,6 +61,10 @@ NON-NEGOTIABLE WORKING RULES
   must ultimately be verified against the master audio.
 - Build order follows reuse/difficulty, not narrative order (Asset Spec §9). Tier-1 foundations
   and a 30-second style test come before full production.
+- Script the parametric/batch parts; HAND-AUTHOR the hero meshes + hero shaders + look-dev (§5). Don't
+  fake the hero look in a scaffold and call it finished — the scaffolds exist to prove the systems.
+- Never write heavy output to the C: drive (system, chronically low on space) — use E:/F: (D: ok; G:/H:
+  are USB). Tool paths + this drive policy are in project memory.
 - Honor naming/scene conventions (Asset Spec §3): prefixes (CHR_/ENV_/MAT_…), metric units,
   +Z up / -Y forward — so assets compose later in UE5.
 - Don't invent lore. If a canon point is ambiguous or two rules seem to conflict, STOP and ask.

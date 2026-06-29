@@ -9,6 +9,15 @@ FearInoculum_Resolve/
 __pycache__/
 *.pyc
 
+# Music-sync pipeline: venv + heavy/generated audio outputs (scripts ARE tracked)
+audio/.venv/
+audio/stems/
+audio/analysis/
+audio/*.log
+
+# Scratch / intermediates (kept off C: per drive policy)
+_scratch/
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store

@@ -1,6 +1,6 @@
 # CONTEXT — Inoculated by the Phoenix
 
-*Last updated: 2026-06-24*
+*Last updated: 2026-06-29*
 
 ## What this project is
 A **wordless, feature-length animated film** set entirely to Tool's album *Fear Inoculum*
@@ -68,7 +68,18 @@ and story work on-myth so nothing drifts across sessions.
 - **Master shot list** (`mastershotlist.md`) is complete **except CCT** — 108 shots across Acts I–V + VII.
 - Canon consolidated to a **single** treatment file (v5) + the Asset Spec. Older drafts removed.
 - Timecodes live only in the treatment; Asset Spec references act/beat.
-- **No assets built yet** — production has not started.
+- **Asset production has begun (2026-06-29).** The Blender `bpy` pipeline is live (headless-tested
+  against Blender 5.1.2) and **all Tier-1 foundations are built** — `bootstrap.py`, `ENV_Tree` growth
+  system, `MAT_LiquidStarlight` (`NG_LiquidStarlight`), `NG_BioPulse`, `FX_Feather` +
+  `MAT_Feather_StateRange`, and `CHR_OneBeing` proxy + `RIG_OneBeing`. Scripts live in `blender/`, with
+  verification previews in `blender/previews/`. **These previews are deliberately bare scaffolds** (flat
+  emission, no bloom, placeholder/proxy geo) that prove the parametric systems work; the **hero meshes +
+  hero shaders + look-dev are hand-authored** (Asset Spec §5, the owner's domain) and get solved at the
+  **30-second style-test gate**. Next build step: the style test (Act I creation slice).
+- **All four DCCs located + a music-sync pipeline stood up.** Tool paths are in project memory
+  (Blender, Houdini 21.0.729, UE5 5.8, Resolve 21.0; GPU RTX 3080). `audio/` runs **Demucs** stem
+  separation + **librosa** frame-mapped analysis (Python 3.12 venv) so the album *drives* the animation
+  (the Four Instruments); Act I is separated + analyzed. **Heavy output never goes on C:** (use E:/F:).
 - Version numbers are cosmetic to the project owner; keep labels/citations in agreement, don't fuss.
 
 See `TODO.md` for next steps, `MEMORY.md` for durable decisions, `LLM_HANDOFF.md` to onboard a new session.

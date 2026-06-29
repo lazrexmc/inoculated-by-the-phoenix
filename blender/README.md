@@ -28,8 +28,14 @@ For the **interactive** workflow in VS Code:
 ## Build order (Asset Spec §9)
 
 1. ✅ **`bootstrap.py`** — scene conventions (units, collections, naming, camera). *Verified in Blender 5.1.2.* Run/import first.
-2. **Tier-1 foundations:** `MAT_LiquidStarlight`, `NG_BioPulse`, `FX_Feather` + `MAT_Feather_StateRange`, `ENV_Tree` growth system, `CHR_OneBeing` base + `RIG_OneBeing`.
-3. **The 30-second style test** — the Act I creation slice (chimes → first river reveal → sprout). Solves starlight, holographic dissolve, pulse, palette, and feather rendering in one shot. **Do not start full production until this looks right.**
+2. ✅ **Tier-1 foundations** (all built + headless-verified; previews in `previews/`):
+   - `tier1_env_tree.py` — `ENV_Tree` growth system (sprout→mid→mature→wounded→regrown) from one param set.
+   - `tier1_mat_liquid_starlight.py` — `MAT_LiquidStarlight` (`NG_LiquidStarlight`) scaffold; drivable inputs exposed.
+   - `tier1_ng_biopulse.py` — `NG_BioPulse` heartbeat driver (makes the starlight breathe).
+   - `tier1_fx_feather.py` — `FX_Feather` + `MAT_Feather_StateRange` (one `State` 0..1: ash→starlight→ember).
+   - `tier1_chr_onebeing.py` — `RIG_OneBeing` (22-bone) + `CHR_OneBeing` placeholder proxy (bound + posed).
+   > These render bare **scaffolds** (flat emission, no bloom, proxy geo) — they prove the systems, not the look. Hero meshes/shaders/look-dev are hand-authored (§5) and solved at the style test.
+3. **The 30-second style test** — the Act I creation slice (chimes → first river reveal → sprout). Solves starlight, holographic dissolve, pulse, palette, and feather rendering in one shot. Drive the pulse/FX from `audio/analysis/*.json` (tempo/onsets/RMS). **← NEXT. Do not start full production until this looks right.**
 4. Tier-2 hero → Tier-3 populations → Tier-4 sims.
 
 ## Conventions (Asset Spec §3) — enforced by `bootstrap.py`

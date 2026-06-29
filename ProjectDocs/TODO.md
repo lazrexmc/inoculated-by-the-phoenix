@@ -1,27 +1,42 @@
 # TODO — Inoculated by the Phoenix
 
-*Last updated: 2026-06-24. Status: pre-production / docs phase. No assets built yet.*
+*Last updated: 2026-06-29. Status: asset production — Tier-1 foundations complete; next is the 30-second style test.*
 
 ## Now / next
 - [ ] **Owner manual review of each per-act file** (`ProjectDocs/Acts/Act_*.md`) — verbatim-synced to
       the Treatment (1.000); awaiting the owner's read. The Treatment↔acts↔shot-list **sync rule** is now in force.
-- [ ] **Set up the Blender + VS Code environment** (Asset Spec §4): "Blender Development"
-      extension (Jacques Lucke), `fake-bpy-module` for intellisense, Pylance override for
-      `bpy.props` noise. Re-verify these tool details are current before relying on them.
-- [ ] **Write `bootstrap.py`** — sets units, collections, naming, default camera. Every later
-      script imports/assumes it. (Build order step 1.)
+- [x] **Blender + VS Code environment** ready — Blender 5.1.2 at `E:\Software`; scripts headless-tested
+      (`--background --factory-startup --python`). All four DCC tool paths recorded in project memory.
+- [x] **`bootstrap.py`** written + verified — units, collections, naming, default camera. (Build-order step 1.)
+- [ ] **The 30-second style test** is now the active build gate (see below).
 
-## Tier-1 foundations (highest reuse — build first)
-- [ ] `MAT_LiquidStarlight` — the single most reused look; hand-authored master shader.
-- [ ] `NG_BioPulse` — shared, tempo-syncable luminance/scale pulse for all living things.
-- [ ] `FX_Feather` + `MAT_Feather_StateRange` — one feather, single 0–1 corruption/ignition driver.
-- [ ] `ENV_Tree` growth system (Sprout → Mid → Mature → Wounded → Regrown), driven by parameters.
-- [ ] `CHR_OneBeing` base mesh + `RIG_OneBeing` (eaglet → mature Eagle → Phoenix, shared topology).
+## Tier-1 foundations (highest reuse) — ✅ COMPLETE (2026-06-29, scripts in `blender/`)
+- [x] `MAT_LiquidStarlight` (`NG_LiquidStarlight`) — first-pass scaffold; drivable inputs exposed. **Hero graph still owner-hand-authored (§5).**
+- [x] `NG_BioPulse` — heartbeat driver; makes the starlight breathe (tempo-syncable from `audio/analysis`).
+- [x] `FX_Feather` + `MAT_Feather_StateRange` — one feather, single `State` 0..1 (ash → starlight → ember).
+- [x] `ENV_Tree` growth system (sprout → mid → mature → wounded → regrown) from one param set.
+- [x] `CHR_OneBeing` proxy + `RIG_OneBeing` (22-bone, eaglet → Eagle → Phoenix). **Hero mesh = owner hand-sculpt; the proxy is a stand-in.**
+> Previews in `blender/previews/` are bare **scaffolds** (flat emission, no bloom, proxy geo) — they prove the systems, not the final look. The look is solved at the style test.
+
+## Pipeline tooling & music-sync (done 2026-06-29)
+- [x] **Located all four DCCs** (paths in project memory `software-tooling-paths`): Blender 5.1.2,
+      Houdini 21.0.729 (`hython`), UE5 5.8 (`UnrealEditor-Cmd`), Resolve 21.0 (`fuscript`). GPU RTX 3080.
+- [x] **Output-drive policy:** never write heavy output to **C:** (use E:/F:; D: ok; G:/H: are USB).
+      `uv`/torch caches redirected off C:; render scratch → `F:\…\_scratch`.
+- [x] **Music-sync pipeline** (`audio/`): Demucs stems + librosa frame-mapped analysis (Python 3.12 venv).
+      Act I (*Fear Inoculum*) separated into the Four Instruments + analyzed (tempo/onsets/RMS @ 24fps).
+- [ ] **Lyric forced-alignment** on the isolated vocals stem (WhisperX — Windows/GPU, preferred over
+      aeneas) to auto-generate the lyric→timecode map the owner sets by ear, and cross-check it.
+- [ ] **bpy importer** for `audio/analysis/*.json` → drive `NG_BioPulse` Rate/Amplitude + place FX on onsets.
 
 ## Gate: the 30-second style test
 - [ ] Build the Act I opening slice (Creation Sequence: opening chimes → first river reveal →
       sprout) using only the Tier-1 assets above. Must solve starlight, holographic dissolve,
       pulse, palette, and feather rendering in one contained sequence.
+- [ ] **Owner hero pass** is part of passing the gate: hand-author the liquid-starlight hero graph +
+      bloom/look-dev, and (optionally) drop a hand-sculpt over the `CHR_OneBeing` proxy. Scaffolds stand
+      in until then.
+- [ ] Wire the `audio/analysis` tempo/onset/RMS track into the test so the pulse/FX are *played by the album*.
 - [ ] **Do not start full scene production until this looks right.**
 
 ## Later tiers (after the style test passes)

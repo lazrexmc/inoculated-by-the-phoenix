@@ -4,6 +4,49 @@
 
 ---
 
+## 2026-06-29 — Asset production kickoff: tooling located, Tier-1 Blender foundations, music-sync pipeline
+
+**Goal:** Move from pre-production into actual asset production; build the Tier-1 Blender foundations,
+locate the tool stack, and stand up the music-driven-animation pipeline.
+
+**What happened:**
+- **Production started.** Wrote + headless-verified (against **Blender 5.1.2** at `E:\Software`) the
+  Build-Order step 1 and **all five Tier-1 foundations** (Asset Spec §9), each with a render preview in
+  `blender/previews/`:
+  - `bootstrap.py` — scene conventions (units, collections, naming, camera).
+  - `tier1_env_tree.py` — `ENV_Tree` growth system (sprout→mid→mature→wounded→regrown) from one param set.
+  - `tier1_mat_liquid_starlight.py` — `MAT_LiquidStarlight` (`NG_LiquidStarlight`), the DNA look, a
+    first-pass scaffold with the drivable inputs (Starlight Density / Flow / Noise / Emission) **exposed**.
+  - `tier1_ng_biopulse.py` — `NG_BioPulse` heartbeat driver; drives the starlight to breathe (verified
+    peak vs trough).
+  - `tier1_fx_feather.py` — `FX_Feather` + `MAT_Feather_StateRange` (one `State` 0..1: ash→starlight→ember).
+  - `tier1_chr_onebeing.py` — `RIG_OneBeing` (22-bone bird armature, Phoenix-length wings) + a labelled
+    `CHR_OneBeing` proxy, bound + posed to prove the rig deforms.
+- **Scaffold vs. hero (made explicit to the owner):** every preview is a deliberately bare *verification
+  scaffold* (flat emission, no bloom, proxy geo) that proves the parametric system works. The **hero
+  meshes + hero shaders + look-dev/bloom are hand-authored** (§5, the owner's domain) and get solved at
+  the **30-second style test** gate — the look is intentionally NOT in these scaffolds.
+- **Located the full tool stack** (paths in project memory `software-tooling-paths`): Blender 5.1.2
+  (`E:\Software\blender.exe`), **Houdini 21.0.729** (`E:\Software\Houdini 21.0.729\bin\hython.exe`),
+  **UE5 5.8** (`E:\UE5\UE_5.8\…\UnrealEditor-Cmd.exe`), **Resolve 21.0** (`F:\Software\Resolve.exe` +
+  `fuscript.exe`). GPU: RTX 3080.
+- **Output-drive policy (owner):** never write heavy output to **C:** (system drive, chronically low) —
+  use E:/F: (D: ok; G:/H: are USB). Redirected `uv`/torch caches off C: and reclaimed 4.7 GiB; render
+  scratch now goes to `F:\…\_scratch`.
+- **Music-sync pipeline** (`audio/`, see its README): the album **drives** the animation (§10). A Python
+  **3.12 venv** (system Python 3.14 is too new for torch) on the RTX 3080 runs **Demucs** stem-separation
+  (→ the Four Instruments) and **librosa** frame-mapped analysis (tempo→`NG_BioPulse` Rate, onsets→FX
+  frames, per-frame RMS→amplitude). **Act I (*Fear Inoculum*) separated + analyzed.**
+
+**Decisions:** honor the scaffold-vs-hero split (script parametric, hand-author hero); the style test is
+the look gate; heavy output stays off C:; for lyric alignment, prefer **WhisperX** (Windows/GPU) over aeneas.
+
+**State at end:** Tier-1 foundations complete and pushed; tooling + music-sync stood up; docs caught up.
+**Next:** the 30-second style test (Act I creation slice) — and an owner pass to hand-author the hero
+looks the scaffolds stand in for. (Story canon unchanged this session.)
+
+---
+
 ## 2026-06-24 — Act I back-half lyric rework; per-act files; Treatment↔acts audit
 
 **What happened:**
