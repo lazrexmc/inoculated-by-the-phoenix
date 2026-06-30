@@ -111,16 +111,13 @@ def main():
             bpy.ops.render.render(write_still=True)
             print(f"[anim] still {fr} (reveal={smoothstep((fr-r0)/max(r1-r0,1))*1.05:.2f}) -> creation_f{fr:03d}.png")
     if mode in ("video", "both"):
-        scene.render.image_settings.file_format = "FFMPEG"
-        scene.render.ffmpeg.format = "MPEG4"; scene.render.ffmpeg.codec = "H264"
-        try:
-            scene.render.ffmpeg.constant_rate_factor = "HIGH"
-        except Exception:
-            pass
-        mp4 = os.path.join(outdir, "creation_test.mp4")
-        scene.render.filepath = mp4
+        # this Blender build has no FFmpeg codec -> render a PNG sequence, encode externally
+        fdir = os.path.join(outdir, "creation_frames")
+        os.makedirs(fdir, exist_ok=True)
+        scene.render.image_settings.file_format = "PNG"
+        scene.render.filepath = os.path.join(fdir, "f_")
         bpy.ops.render.render(animation=True)
-        print(f"[anim] rendered -> {mp4}")
+        print(f"[anim] rendered PNG sequence -> {fdir}  (encode with encode_mp4.py)")
 
 
 if __name__ == "__main__":

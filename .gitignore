@@ -18,6 +18,9 @@ audio/*.log
 # Scratch / intermediates (kept off C: per drive policy)
 _scratch/
 
+# Rendered video / image-sequence outputs (large binaries; regenerate from the scripts)
+blender/renders/
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store
