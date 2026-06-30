@@ -41,20 +41,27 @@ Run everything with `audio\.venv\Scripts\python.exe`.
 
 **`separate_stems.py`** (Demucs) — split a track into stems mapped onto the **Four Instruments**:
 ```bat
-audio\.venv\Scripts\python.exe audio\separate_stems.py "Fear Inoculum"              # htdemucs, 4-stem
-audio\.venv\Scripts\python.exe audio\separate_stems.py "Fear Inoculum" --model htdemucs_6s   # +guitar +piano
+audio\.venv\Scripts\python.exe audio\separate_stems.py "Fear Inoculum" --model htdemucs_ft   # canonical
 ```
-`htdemucs_6s` is preferred here — it pulls **guitar** and **piano** out of `other` (Adam's guitar becomes
-its own envelope). Output → `audio\stems\<model>\<track>\*.wav`.
+**`htdemucs_ft` is the canonical source** — owner-verified: **vocals / drums / bass come out clean**. The
+dense **guitar/synth/pad** layer can't be cleanly isolated by *any* model (or a mixing desk on a stereo
+master), so we don't trust its rough `other`; we build `other` as a **residual** instead (next). Output →
+`audio\stems\<model>\<track>\*.wav`.
+
+**`residual_other.py`** — define `other = master − (vocals + drums + bass)` from the clean ft stems — a
+fuller, more controllable "other" than the model's direct stem (measured ~25% different). Net Four
+Instruments: **vocals**=story · **drums**=weather/impact · **bass**=light/mood (clean stems) ·
+**other / bands**=the Being's guitar energy.
 
 **`analyze_bands.py`** (librosa) — artifact-free **frequency-band energy** envelopes off the master
 (sub/bass/low_mid/mid/high_mid/presence/brilliance), per film frame.
 
 **`analyze_music.py`** (librosa) — quick single-file tempo/beats/onsets + `rms_per_frame` for one track or stem.
 
-**`conduct.py`** — the **consolidated conductor track + visual dashboard**. Fuses per-stem energy (prefers
-6-stem), frequency bands, beats/onsets/tempo into one frame-keyed JSON, and renders a PNG dashboard
-(mel-spectrogram + beat grid · per-stem energy · band energy) you can eyeball for correctness:
+**`conduct.py`** — the **consolidated conductor track + visual dashboard**. Fuses per-stem energy
+(htdemucs_ft + residual `other`), frequency bands, beats/onsets/tempo, and **`vocal_segments`** (when
+Maynard is singing → story-beat regions) into one frame-keyed JSON, and renders a PNG dashboard
+(mel-spectrogram + beat grid · per-stem energy w/ shaded vocal regions · band energy) you can eyeball:
 ```bat
 audio\.venv\Scripts\python.exe audio\conduct.py "Fear Inoculum" --fps 24
 ```
@@ -66,12 +73,14 @@ How a `bpy` script uses it: index the per-frame arrays by `frame` → drive `NG_
 
 ## Status & next
 
-- ✅ Env (Demucs + librosa + matplotlib). **Act I (*Fear Inoculum*)** separated (4- **and** 6-stem),
-  band-analyzed, and a conductor JSON + dashboard generated (~123 BPM, 1251 beats, 7 bands @ 24 fps).
-- ⬜ **Lyric forced-alignment** on the isolated **vocals** stem (WhisperX — Windows/GPU, preferred over
-  aeneas) to auto-generate the lyric→timecode map the owner sets by ear, then cross-check it.
-- ⬜ A `bpy` importer that reads `analysis/*_conductor_*.json` to drive `NG_BioPulse` + FX in the style test.
-- ⬜ (optional) Cleaner stems via a **BS-Roformer** model (`audio-separator`) — reduces bleed; still can't
-  add instrument categories.
+- ✅ **Stem source settled: `htdemucs_ft`** (owner-verified clean vocals/drums/bass; `other` = residual).
+  Act I (*Fear Inoculum*) separated, band-analyzed, conductor + dashboard built (~123 BPM, 1251 beats,
+  vocal-activity segments, 7 bands @ 24 fps). `blender/anim_music_drive.py` drives the Tree's glow from it
+  (verified: emission swings 0.8→4.0 with the guitar/residual envelope).
+- ✅ **Word-level lyric forced-alignment deferred** — *Fear Inoculum*'s vocals are sparse (long
+  instrumental gaps) which defeats auto-aligners; the owner's ear-annotation in the Treatment stays the
+  authoritative lyric→timecode source. `vocal_segments` give the singing *regions* automatically — enough.
+- ⬜ A `bpy` importer that reads `analysis/*_conductor_*.json` to drive `NG_BioPulse` + FX in the **style
+  test** — the music layer's payoff, wired during the visual build (next focus).
 
 [`uv`]: https://docs.astral.sh/uv/

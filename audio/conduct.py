@@ -31,12 +31,17 @@ STEM_COLORS = {"drums": "#ff5566", "bass": "#ffb000", "guitar": "#55ff99",
 
 
 def find_stems(track):
-    """Prefer the 6-stem split; fall back to 4-stem. Returns [paths]."""
+    """Prefer htdemucs_ft (cleanest v/d/b); use the residual 'other' if we built one."""
     name = os.path.splitext(os.path.basename(resolve(track)))[0]
-    for model in ("htdemucs_6s", "htdemucs"):
+    for model in ("htdemucs_ft", "htdemucs_6s", "htdemucs"):
         d = os.path.join(STEMS_DIR, model, name)
         if os.path.isdir(d):
-            return sorted(glob.glob(os.path.join(d, "*.wav"))), model
+            wavs = sorted(glob.glob(os.path.join(d, "*.wav")))
+            resid = os.path.join(d, "other_residual.wav")
+            if os.path.isfile(resid):  # prefer residual master-(v+d+b) over the model's rough 'other'
+                wavs = [w for w in wavs if os.path.basename(w) not in ("other.wav", "other_residual.wav")]
+                wavs.append(resid)
+            return wavs, model
     return [], None
 
 
@@ -44,6 +49,27 @@ def to_frames(t, sr, nframes, fps, values):
     """Resample a per-stft envelope onto film frames, normalized 0..1."""
     env = np.interp(np.arange(nframes) / fps, t, values)
     return (env / (float(env.max()) or 1.0)).round(5)
+
+
+def segments_from_envelope(env, fps, thr=0.08, min_dur=0.4, merge_gap=0.5):
+    """Contiguous active regions of an envelope (e.g. vocals -> 'Maynard is singing' spans)."""
+    on = [v > thr for v in env]
+    runs, i, n = [], 0, len(on)
+    while i < n:
+        if on[i]:
+            j = i
+            while j < n and on[j]:
+                j += 1
+            runs.append([i, j - 1]); i = j
+        else:
+            i += 1
+    merged = []
+    for s in runs:
+        if merged and (s[0] - merged[-1][1]) / fps <= merge_gap:
+            merged[-1][1] = s[1]
+        else:
+            merged.append(s)
+    return [s for s in merged if (s[1] - s[0]) / fps >= min_dur]
 
 
 def build(track, fps):
@@ -57,10 +83,18 @@ def build(track, fps):
 
     stems, (paths, model) = {}, find_stems(track)
     for p in paths:
+        base = os.path.splitext(os.path.basename(p))[0]
+        label = "other" if base.startswith("other_residual") else base   # residual stands in for 'other'
         ys, srs = librosa.load(p, mono=True)
         rms = librosa.feature.rms(y=ys)[0]
         rt = librosa.frames_to_time(np.arange(len(rms)), sr=srs)
-        stems[os.path.splitext(os.path.basename(p))[0]] = to_frames(rt, srs, nframes, fps, rms)
+        stems[label] = to_frames(rt, srs, nframes, fps, rms)
+
+    vocal_segments = []
+    if "vocals" in stems:
+        for a, b in segments_from_envelope(stems["vocals"], fps):
+            vocal_segments.append({"start_t": round(a / fps, 2), "end_t": round(b / fps, 2),
+                                   "start_frame": a, "end_frame": b})
 
     conductor = {
         "track": os.path.splitext(os.path.basename(master))[0],
@@ -71,9 +105,10 @@ def build(track, fps):
         "onsets": [{"t": round(float(t), 3), "frame": int(round(t * fps))} for t in onsets],
         "bands":  {k: v.tolist() for k, v in bands.items()},
         "stems":  {k: v.tolist() for k, v in stems.items()},
+        "vocal_segments": vocal_segments,
         "caveats": ["tempo_bpm is a librosa estimate and may be an octave (x0.5/x2) off — verify by ear",
-                    "stems are bleed-tolerant family envelopes, not clean isolated parts",
-                    "authoritative events live in the Treatment (owner ear-annotation), not here"],
+                    "vocals/drums/bass (htdemucs_ft) are clean; 'other' is the residual master-(v+d+b)",
+                    "word-level lyric timing stays owner ear-annotation (sparse vocals defeat auto-alignment)"],
     }
     return master, y, sr, beats, bands, stems, conductor
 
@@ -94,10 +129,12 @@ def dashboard(y, sr, beats, bands, stems, conductor, png):
                      f"(~{conductor['tempo_bpm']} BPM est · {conductor['stem_model'] or 'no'} stems)")
     axs[0].set_xlim(0, tmax)
 
-    # 2) per-stem energy
+    # 2) per-stem energy (+ shaded vocal-active regions)
+    for seg in conductor.get("vocal_segments", []):
+        axs[1].axvspan(seg["start_t"], seg["end_t"], color="#66ccff", alpha=0.06)
     for name, env in stems.items():
         axs[1].plot(t, env, label=name, color=STEM_COLORS.get(name, "#dddddd"), lw=0.8)
-    axs[1].set_title("per-stem energy (Demucs — broad family intensity, bleed-tolerant)")
+    axs[1].set_title("per-stem energy (htdemucs_ft — clean v/d/b · residual 'other' · shaded = vocals active)")
     axs[1].set_xlim(0, tmax); axs[1].set_ylim(0, 1.02); axs[1].set_ylabel("0..1")
     if stems:
         axs[1].legend(loc="upper right", ncol=len(stems), fontsize=8)
