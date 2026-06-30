@@ -6,8 +6,8 @@ This is Lance's lever: he directs by prompt, this turns a prompt into a finished
 RTX 3080. No UI required. Talks to a running ComfyUI server (default 127.0.0.1:8188) over its
 HTTP API, builds an SDXL txt2img graph, queues it, waits, and writes the PNG where you ask.
 
-Server (launch once, leave running):
-  F:\genai\ComfyUI\.venv\Scripts\python.exe F:\genai\ComfyUI\main.py --listen 127.0.0.1 --port 8188
+Server (launch once, leave running; --disable-smart-memory avoids a model-swap IndexError on this build):
+  F:\genai\ComfyUI\.venv\Scripts\python.exe F:\genai\ComfyUI\main.py --listen 127.0.0.1 --port 8188 --disable-smart-memory
 
 Generate:
   python F:\genai\comfy_gen.py --prompt "deep cosmic void, a single point of white light" ^
@@ -17,7 +17,7 @@ Stdlib only (urllib/json) so it runs under any Python.
 """
 import argparse, json, os, sys, time, urllib.request, urllib.parse, urllib.error
 
-DEF_CKPT = "sd_xl_base_1.0.safetensors"
+DEF_CKPT = "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"   # free fine-tune; sd_xl_base_1.0.safetensors also available
 NEG_DEFAULT = ("text, watermark, signature, logo, frame, border, blurry, lowres, jpeg artifacts, "
                "deformed, extra limbs, bad anatomy, cartoon, oversaturated, ugly")
 

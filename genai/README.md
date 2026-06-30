@@ -9,7 +9,12 @@ look-reference that Lance iterates on by prompt.
 - **ComfyUI install:** `F:\genai\ComfyUI` (kept *outside* the repo — heavy; drive policy = never on C:).
   - venv: `F:\genai\ComfyUI\.venv` (Python 3.12) · **torch 2.6.0+cu124** · **torchaudio 2.6.0+cu124** ·
     torchvision 0.21.0+cu124.
-  - model: `F:\genai\ComfyUI\models\checkpoints\sd_xl_base_1.0.safetensors` (SDXL base).
+  - models in `models\checkpoints\`: **`Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors`** (free cinematic
+    fine-tune — the new default in `comfy_gen.py`/`comfy_img2img.py`) + `sd_xl_base_1.0.safetensors` (base).
+    Grab more free fine-tunes (RealVisXL, DreamShaperXL…) with `genai/dl_checkpoint.py`.
+  - **`comfy_img2img.py`** = the HYBRID step: SDXL/Juggernaut **img2img over a Blender render** (3D = structure/
+    consistency, AI = the film-grade surface; `--denoise` dials 3D-fidelity vs reinvention). Copy the render into
+    `F:\genai\ComfyUI\input\` first, then pass `--in-name`.
 - **`genai/comfy_gen.py`** (in the repo): a stdlib-only client that talks to the ComfyUI **server API**,
   builds an SDXL txt2img graph, queues it, and writes the PNG where you ask.
 
@@ -17,9 +22,10 @@ look-reference that Lance iterates on by prompt.
 
 **1. Start the ComfyUI server once (leave it running):**
 ```
-F:\genai\ComfyUI\.venv\Scripts\python.exe F:\genai\ComfyUI\main.py --listen 127.0.0.1 --port 8188
+F:\genai\ComfyUI\.venv\Scripts\python.exe F:\genai\ComfyUI\main.py --listen 127.0.0.1 --port 8188 --disable-smart-memory
 ```
-It binds in ~10–15s (loads on first generation). The server scans `models/checkpoints/` at startup.
+It binds in ~10–15s (loads on first generation). `--disable-smart-memory` avoids an `IndexError` in this build's
+async-offload memory manager when **swapping checkpoints** (e.g., base SDXL → Juggernaut) on a live server.
 
 **2. Generate by prompt (any Python — stdlib only):**
 ```

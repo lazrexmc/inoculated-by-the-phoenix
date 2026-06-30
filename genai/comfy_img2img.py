@@ -12,7 +12,7 @@ Run (server must be up — see genai/README.md):
 """
 import argparse, json, os, sys, time, urllib.request, urllib.parse
 
-DEF_CKPT = "sd_xl_base_1.0.safetensors"
+DEF_CKPT = "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"   # free fine-tune; sd_xl_base_1.0.safetensors also available
 NEG = ("text, watermark, signature, low quality, blurry, jpeg artifacts, deformed, ugly, "
        "oversaturated, flat, cartoon, childish, amateur")
 
