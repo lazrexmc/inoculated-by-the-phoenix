@@ -33,18 +33,23 @@
 - **Build order follows reuse/difficulty, not narrative order** (Asset Spec §9): bootstrap →
   Tier-1 foundations → 30-second style test → Tier-2 hero → Tier-3 populations → Tier-4 sims.
 - **Do not start full production until the 30-second style test looks right** (Act I opening slice).
-- **Hand-author hero node graphs** (liquid starlight, Egg shell, Phoenix fire); script only the
-  parameterized/batch parts. Don't author complex shader/geo-node graphs line-by-line in `bpy`.
+- **Claude produces the hero art** — the Asset Spec §5 "owner hand-authors the hero" assumption is
+  **RETIRED (2026-06-29)**: Lance is a prompt-writer with no art/3D/UI training and can't hand-author;
+  he directs by prompt. Claude brings the look up via (a) hero procedural shaders/geo in `bpy` (expose
+  inputs as node groups so Python/the conductor can drive them) and (b) **prompt-driven gen-AI**
+  (ComfyUI/SDXL, `genai/comfy_gen.py`). Never defer a "hero pass" to Lance.
 - **Honor naming/scene conventions** (Asset Spec §3) in every script: prefixes (CHR_/ENV_/MAT_…),
   metric units (1 BU = 1 m), +Z up / -Y forward, apply transforms before export.
 
 ## Production state & tooling (2026-06-29)
-- **Tier-1 Blender foundations are built + headless-verified** (scripts in `blender/`, previews in
-  `blender/previews/`): `bootstrap.py`, `ENV_Tree` growth, `MAT_LiquidStarlight`/`NG_LiquidStarlight`,
-  `NG_BioPulse`, `FX_Feather`+`MAT_Feather_StateRange`, `CHR_OneBeing` proxy + `RIG_OneBeing`. **Next: the
-  30-second style test.** The previews are bare **scaffolds** (flat emission, no bloom, proxy geo) that
-  prove the parametric systems — the **hero meshes + hero shaders + look-dev are hand-authored (§5)** and
-  are NOT in the scaffolds. Don't mistake a scaffold for the finished look.
+- **HERO production underway; ACT I built end-to-end (2026-06-29).** `MAT_LiquidStarlight` is now hero,
+  and Act I ("Fear Inoculum") is built as first-pass hero stills + a full-length animatic, canon-locked to
+  the audited FI-001..025 shot list: `CHR_Egg`+`MAT_EggShell_Iridescent` (sealed), `ENV_Plateau`+
+  `MAT_Plateau_Rock`, twin springs, Creator cradle, `FX_Shadow_Deceiver` (formless), `FX_InoculationGlow`,
+  assembled by `blender/act1_scene.py`; FI-001 animated (`act1_genesis_anim.py`); full 10:21 cut via
+  `build_act1_animatic.py`. Tier-1 foundations still hold. See `ProjectDocs/Acts/Act_I_BUILD_NOTES.md`.
+- **Gen-AI pipeline ONLINE (the prompt lever):** ComfyUI at `F:\genai\ComfyUI` (torch 2.6+cu124, RTX 3080)
+  + SDXL, driven by `genai/comfy_gen.py` (prompt→image). See `genai/README.md`.
 - **All four DCCs located** (full paths in project memory `software-tooling-paths`): Blender 5.1.2
   (`E:\Software\blender.exe`), Houdini 21.0.729 (`E:\Software\Houdini 21.0.729\bin\hython.exe`), UE5 5.8
   (`E:\UE5\UE_5.8\…\UnrealEditor-Cmd.exe`), Resolve 21.0 (`F:\Software\Resolve.exe` / `fuscript.exe`). GPU RTX 3080.
