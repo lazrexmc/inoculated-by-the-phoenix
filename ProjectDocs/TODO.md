@@ -1,6 +1,13 @@
 # TODO — Inoculated by the Phoenix
 
-*Last updated: 2026-06-29. Status: asset production — Tier-1 foundations complete; next is the 30-second style test.*
+*Last updated: 2026-06-29. Status: HERO production — `MAT_LiquidStarlight` is hero; **Act I built end-to-end as first-pass hero stills**; gen-AI prompt pipeline online. **Division of labor changed:** Claude produces the art, Lance directs by prompt (Asset Spec §5 "owner hand-authors hero" assumption RETIRED — see `user-role-and-art-pipeline` in project memory + the 2026-06-29 pivot CHATLOG entry).*
+
+## Done 2026-06-29 (hero / Act I session)
+- [x] **`MAT_LiquidStarlight` → HERO** (deep near-black-blue glassy cosmos, white cores + gold rims + bloom, resin flow) + `lookdev_swatch.py`.
+- [x] **Audited Act I → FI-001..025** shot list + GAPS (canon-locked).
+- [x] **Built Act I to first-pass hero:** `CHR_Egg`+`MAT_EggShell_Iridescent`, `ENV_Plateau`+`MAT_Plateau_Rock`, twin springs, Creator cradle, `FX_Shadow_Deceiver`, `FX_InoculationGlow`, `act1_scene.py` assembler; a hero still per beat + contact sheet.
+- [x] **Gen-AI pipeline online:** ComfyUI (`F:\genai\ComfyUI`, torch 2.6+cu124, SDXL) + `genai/comfy_gen.py` prompt→image; verified. (Fixed torchaudio 2.11→2.6 ABI mismatch.)
+- [ ] **Next:** FI-004 world-forming (`FX_Lightning` + `FX_CreationSeam_Crack` = the ONE crack); ENV_Cosmos star polish; full-act (~10.5 min) music-synced animation; **align Asset Spec §5 to the new division of labor.**
 
 ## Now / next
 - [ ] **Owner manual review of each per-act file** (`ProjectDocs/Acts/Act_*.md`) — verbatim-synced to

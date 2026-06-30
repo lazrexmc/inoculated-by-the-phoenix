@@ -47,15 +47,18 @@ Produced in **Blender** (`bpy` scripting in VS Code) → **Unreal Engine 5**, wi
 |---|---|
 | `blender/` | `bpy` asset scripts (Blender → UE5 pipeline). **Tier-1 foundations built** — `bootstrap`, `ENV_Tree`, `MAT_LiquidStarlight`/`NG_LiquidStarlight`, `NG_BioPulse`, `FX_Feather`+`MAT_Feather_StateRange`, `CHR_OneBeing` proxy + `RIG_OneBeing`. Verification previews in `blender/previews/`. See `blender/README.md`. |
 | `audio/` | **Music-sync pipeline** — Demucs stems (the Four Instruments) + librosa frame-mapped analysis (Python 3.12 venv) so the album *drives* the animation. See `audio/README.md`. (venv/stems/analysis are git-ignored; source MP3s are copyrighted/ignored.) |
+| `genai/` | **Prompt-driven gen-AI** — `comfy_gen.py` turns a prompt into an image via the ComfyUI server (SDXL on the RTX 3080). Lance's art-direction lever (concept art / skies / textures / matte). See `genai/README.md`. (The ComfyUI install itself lives at `F:\genai\ComfyUI`, outside the repo.) |
 
 ## Status
-**Asset production underway (2026-06-29).** Canon is consolidated and consistent; **all Tier-1 Blender
-foundations are built** (scripts in [`blender/`](blender/), previews in `blender/previews/`) and a
-**music-sync pipeline** ([`audio/`](audio/)) drives animation from the album. Next is the **30-second
-style test**. Day-to-day next steps live in [`ProjectDocs/TODO.md`](ProjectDocs/TODO.md).
+**HERO production underway (2026-06-29).** `MAT_LiquidStarlight` is now hero, and **Act I is built
+end-to-end as first-pass hero stills** (genesis → Egg → shadow → inoculation → false peace) — see
+[`ProjectDocs/Acts/Act_I_BUILD_NOTES.md`](ProjectDocs/Acts/Act_I_BUILD_NOTES.md) and the
+`Act_I_contact_sheet.png`. A **prompt-driven gen-AI pipeline** (ComfyUI + SDXL on the RTX 3080) is online
+as Lance's art-direction lever. Day-to-day next steps live in [`ProjectDocs/TODO.md`](ProjectDocs/TODO.md).
 
-> The committed Blender previews are deliberately bare **scaffolds** that prove the parametric systems —
-> hero meshes, hero shaders, and look-dev are hand-authored (Asset Spec §5) and solved at the style test.
+> **Division of labor (load-bearing):** Lance directs by prompt; **Claude produces the finished hero art**
+> (procedural Blender + prompt-driven gen-AI). The Asset Spec §5 "owner hand-authors the hero" assumption
+> is retired — see `ProjectDocs/LLM_HANDOFF.md`.
 
 ---
 *`FearInoculum_Resolve/` is the DaVinci Resolve working project (audio/edit), separate from asset production.*

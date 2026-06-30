@@ -41,14 +41,24 @@ Assets are produced in Blender (scripting `bpy` in VS Code), assembled in Unreal
 heavy procedural/particle/sim work in Houdini. The docs exist to keep all work canon-correct so
 it never drifts off-myth across sessions.
 
-PRODUCTION STATE (2026-06-29)
-Asset production has begun. All Tier-1 Blender foundations are built + headless-verified (scripts in
-blender/, previews in blender/previews/): ENV_Tree, MAT_LiquidStarlight (NG_LiquidStarlight), NG_BioPulse,
-FX_Feather + MAT_Feather_StateRange, CHR_OneBeing proxy + RIG_OneBeing. Those previews are deliberately
-bare SCAFFOLDS — hero meshes + hero shaders + look-dev are hand-authored (§5) and get solved at the
-30-second style test (the next step). All four DCCs are located (Blender/Houdini/UE5/Resolve — paths in
-project memory) and a music-sync pipeline (audio/: Demucs stems + librosa frame-mapped analysis on a
-Python 3.12 venv) drives the animation from the album.
+PRODUCTION STATE (2026-06-29) — HERO production underway
+Tier-1 foundations built; MAT_LiquidStarlight is now HERO (deep near-black-blue glassy cosmos, white/gold
+star-speckle, resin flow). ACT I is built end-to-end as first-pass hero stills (genesis -> Egg -> shadow
+-> inoculation -> false peace): CHR_Egg + MAT_EggShell_Iridescent (sealed every frame of Act I),
+ENV_Plateau + MAT_Plateau_Rock, twin springs, Creator cradle, FX_Shadow_Deceiver (formless), and
+FX_InoculationGlow, assembled by blender/act1_scene.py; shot list audited to FI-001..025. See
+ProjectDocs/Acts/Act_I_BUILD_NOTES.md + Act_I_contact_sheet.png. A GEN-AI pipeline is online (the prompt
+lever): ComfyUI at F:\genai\ComfyUI (torch 2.6+cu124, RTX 3080) + SDXL, driven by genai/comfy_gen.py
+(prompt->image). All four DCCs located; the audio/ music-sync pipeline (Demucs stems + librosa, Python
+3.12 venv) drives animation from the album.
+
+DIVISION OF LABOR (load-bearing — supersedes Asset Spec §5)
+Lance is a proven LLM prompt-writer with NO formal art / 3D-software / UI training; he CANNOT hand-author
+hero art. So the §5 "the owner hand-authors the hero meshes/shaders/look-dev" assumption is RETIRED.
+Claude PRODUCES the finished hero art: (a) procedural shaders/materials/geo to hero quality in Blender,
+and (b) prompt-driven gen-AI (ComfyUI/SDXL) that Lance directs by prompt. Never tell Lance to "open it in
+Blender and refine the shader" or "do your hero pass" — bring the look up and present renders for his
+prompt-feedback. (See user-role-and-art-pipeline in project memory.)
 
 NON-NEGOTIABLE WORKING RULES
 - The Treatment is canon. The Asset Spec's §2 "Global canon constraints" are load-bearing — obey
@@ -61,8 +71,9 @@ NON-NEGOTIABLE WORKING RULES
   must ultimately be verified against the master audio.
 - Build order follows reuse/difficulty, not narrative order (Asset Spec §9). Tier-1 foundations
   and a 30-second style test come before full production.
-- Script the parametric/batch parts; HAND-AUTHOR the hero meshes + hero shaders + look-dev (§5). Don't
-  fake the hero look in a scaffold and call it finished — the scaffolds exist to prove the systems.
+- Claude PRODUCES the hero art (procedural + prompt-driven gen-AI) — the §5 "owner hand-authors hero"
+  rule is RETIRED (Lance can't; he directs by prompt). Script the parametric/batch parts AND bring the
+  hero look up yourself; don't ship a bare scaffold and call it done, and never defer a "hero pass" to Lance.
 - Never write heavy output to the C: drive (system, chronically low on space) — use E:/F: (D: ok; G:/H:
   are USB). Tool paths + this drive policy are in project memory.
 - Honor naming/scene conventions (Asset Spec §3): prefixes (CHR_/ENV_/MAT_…), metric units,

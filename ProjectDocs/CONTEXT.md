@@ -68,14 +68,19 @@ and story work on-myth so nothing drifts across sessions.
 - **Master shot list** (`mastershotlist.md`) is complete **except CCT** — 108 shots across Acts I–V + VII.
 - Canon consolidated to a **single** treatment file (v5) + the Asset Spec. Older drafts removed.
 - Timecodes live only in the treatment; Asset Spec references act/beat.
-- **Asset production has begun (2026-06-29).** The Blender `bpy` pipeline is live (headless-tested
-  against Blender 5.1.2) and **all Tier-1 foundations are built** — `bootstrap.py`, `ENV_Tree` growth
-  system, `MAT_LiquidStarlight` (`NG_LiquidStarlight`), `NG_BioPulse`, `FX_Feather` +
-  `MAT_Feather_StateRange`, and `CHR_OneBeing` proxy + `RIG_OneBeing`. Scripts live in `blender/`, with
-  verification previews in `blender/previews/`. **These previews are deliberately bare scaffolds** (flat
-  emission, no bloom, placeholder/proxy geo) that prove the parametric systems work; the **hero meshes +
-  hero shaders + look-dev are hand-authored** (Asset Spec §5, the owner's domain) and get solved at the
-  **30-second style-test gate**. Next build step: the style test (Act I creation slice).
+- **HERO production underway (2026-06-29).** Tier-1 foundations are built, **`MAT_LiquidStarlight` is now
+  HERO** (deep near-black-blue glassy cosmos, white/gold star-speckle, resin flow), and **Act I is built
+  end-to-end as first-pass hero stills** (genesis → Egg → shadow → inoculation → false peace): `CHR_Egg` +
+  `MAT_EggShell_Iridescent`, `ENV_Plateau` + `MAT_Plateau_Rock`, twin springs, Creator cradle,
+  `FX_Shadow_Deceiver`, `FX_InoculationGlow`, assembled by `blender/act1_scene.py`. Shot list audited to
+  **FI-001..025**; see `ProjectDocs/Acts/Act_I_BUILD_NOTES.md` + `Act_I_contact_sheet.png`.
+- **DIVISION OF LABOR CHANGED (load-bearing):** Lance is a prompt-writer with no art/3D/UI training and
+  **cannot hand-author hero art**, so the Asset Spec **§5 "owner hand-authors the hero" assumption is
+  RETIRED.** **Claude produces the finished hero art** — procedural (Blender) + **prompt-driven gen-AI**.
+  Lance art-directs by prompt; never tell him to "open it in Blender and refine."
+- **Gen-AI pipeline ONLINE (the prompt lever):** **ComfyUI** at `F:\genai\ComfyUI` (torch 2.6 + CUDA 12.4,
+  RTX 3080) + SDXL; **`genai/comfy_gen.py`** = prompt→image. Use it for concept art / skies / textures /
+  matte that Lance directs by prompt.
 - **All four DCCs located + a music-sync pipeline stood up.** Tool paths are in project memory
   (Blender, Houdini 21.0.729, UE5 5.8, Resolve 21.0; GPU RTX 3080). `audio/` runs **Demucs** stem
   separation + **librosa** frame-mapped analysis (Python 3.12 venv) so the album *drives* the animation

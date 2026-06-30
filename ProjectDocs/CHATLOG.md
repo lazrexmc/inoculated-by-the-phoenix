@@ -4,6 +4,53 @@
 
 ---
 
+## 2026-06-29 — The pivot: Claude produces hero art; Act I built end-to-end; gen-AI pipeline online
+
+**Goal:** Bring the hero look up, stand up the prompt-driven gen-AI lever, and build all of Act I.
+
+**The pivot (load-bearing — supersedes the old §5 assumption):** Lance is a **proven LLM prompt-writer
+with no formal art / 3D-software / UI training** and **cannot hand-author hero art** (sculpts, shader
+node graphs, look-dev). So the Asset Spec **§5 "the owner hand-authors the hero meshes/shaders" rule no
+longer applies.** New division of labor: **Claude produces the finished, hero-grade art** — (a) authoring
+procedural shaders/materials/geo to hero quality in Blender, and (b) running **generative-AI pipelines
+Lance directs BY PROMPT**. Lance art-directs and iterates by prompt; he never touches the software. Do
+NOT tell him to "open it in Blender and refine the shader" — bring the look up and present renders.
+
+**What happened:**
+- **`MAT_LiquidStarlight` brought to HERO** (`tier1_mat_liquid_starlight.py`): deep near-black-blue glassy
+  cosmos, Voronoi star-field with pure-white cores + thin gold rims + bloom halos, time-driven resin flow.
+  Added `lookdev_swatch.py` (hero material-ball render harness). Verified Cycles/OptiX.
+- **Audited Act I canon → FI-001..025 shot list + GAPS** (subagent, canon-locked to the treatment +
+  `mastershotlist.md` + Asset Spec). The genesis opening (FI-001..006) was production-ready; the back
+  half's leads (`CHR_Egg`, `FX_Shadow_Deceiver`) + `ENV_Plateau` were the gaps.
+- **Built the rest of Act I to first-pass hero** and rendered a still per beat (contact sheet in
+  `ProjectDocs/Acts/Act_I_contact_sheet.png`):
+  - `tier1_chr_egg.py` — `CHR_Egg` + `MAT_EggShell_Iridescent` (sealed, iridescent shell that never
+    settles; `Phase`+`Glow` inputs; **SEALED every frame of Act I** per canon).
+  - `tier2_env_plateau.py` — `ENV_Plateau` + `MAT_Plateau_Rock` (sacred ground; starlight veins in crevices).
+  - `act1_scene.py` — Act I assembler: plateau + Tree + twin springs + Egg + Creator cradle +
+    `FX_Shadow_Deceiver` (formless low fog, never a form) + `FX_InoculationGlow` (passive repelling light);
+    renders FI006_sprout / FI012_egg / FI017_shadow / FI023_climax / FI025_peace.
+  - `act1_genesis_anim.py` — FI-001 First Light animated (ripples expanding), PNG seq for music-sync.
+- **Gen-AI pipeline ONLINE** (the prompt lever): **ComfyUI** at `F:\genai\ComfyUI` (torch 2.6 + CUDA 12.4,
+  RTX 3080) + SDXL base; **`genai/comfy_gen.py`** = prompt→image client (stdlib, ComfyUI server API).
+  Verified end-to-end (generated an Egg concept). **Fix:** the installer paired torch 2.6.0 with
+  torchaudio **2.11.0** (ABI mismatch → `WinError 127` on startup); downgraded torchaudio to **2.6.0+cu124**.
+- **Docs:** `ProjectDocs/Acts/Act_I_BUILD_NOTES.md` (asset status, beats, gaps, lessons); `genai/README.md`.
+
+**Decisions:** the §5 hand-author-hero assumption is retired (Claude produces the art); Egg first-pass
+leans opal-pastel (tunable to neon-on-dark on prompt-feedback); all Act-I canon obeyed (Egg sealed,
+inoculation passive, Deceiver formless, ends on false peace).
+
+**Lessons:** `lookdev_tree.sun()`'s 2nd arg is **rotation_euler** — horizontal surfaces (plateau) need a
+near-vertical key; wrong rotation renders black. Keep volumetric fog a low thin bank, not a tall enveloping box.
+
+**State at end:** Act I represented end-to-end as hero stills + a genesis animation; gen-AI lever live.
+**Next:** FI-004 world-forming (`FX_Lightning` + `FX_CreationSeam_Crack` — the ONE crack); ENV_Cosmos
+star polish; full-act (~10.5 min) music-synced animation; align Asset Spec §5 to the new division of labor.
+
+---
+
 ## 2026-06-29 — Asset production kickoff: tooling located, Tier-1 Blender foundations, music-sync pipeline
 
 **Goal:** Move from pre-production into actual asset production; build the Tier-1 Blender foundations,
