@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-06-30 (cont.) — Egg refinement saga; UE5 stood up headless; Blender gem-egg
+
+**Goal:** Perfect the Egg hero look (Lance's direction), then use UE5 to help the "final-touches/pop"
+problem, falling back to Blender.
+
+**Egg (the long saga — see `egg-look-status` in memory):** iterated the Egg away from the cold "sapphire
+dragon" palette toward a gem-scale **gold/ruby/ivory** mosaic (Egyptian/Mesopotamian, sealed, lit from
+within). ~18 attempts across gen-AI (v1–v16), deterministic recolors (gradient/hue maps), and a real 3D
+Blender build. Outcomes: `ref_egg_phoenix_v10_gradmap.png` = cleanest 2D (Lance's favorite base, but
+red-dominant + low pop); `egg_gem_glass2.png` = a real **3D** gem egg (Blender Cycles, colored glass +
+inner-core glow, animatable, sealed) but still "speckled glass," not a rich jewel. **Ceiling:** a
+Voronoi-CELL shader reads as confetti, not cut gems. **Real next step:** geometry-node instanced gem
+meshes + Cycles glass/dispersion (recorded so we don't redo the 18 attempts). Added an optional
+canny-ControlNet to `comfy_img2img.py` (structure-lock repaint), `blender/tier2_chr_egg_gem.py`,
+`blender/export_egg_fbx.py`.
+
+**UE5 stood up (headless, Claude-driven) — `ue5/`:** built `F:\ue5\IBTP` (Blueprint-only, Lumen+DX12,
+DDC forced off C:). Verified: headless Python; building levels/meshes/lights/cine-cameras/Level-Sequences/
+Movie-Render-Queue assets — all via Python (`ue5/build_scene.py`, `make_queue.py`, `render.py`). **The
+headless MRQ RENDER is the open wall** (PIE executor needs a viewport; the `-game` command-line render
+exits 3 after ~16 iterations). Gotchas recorded in `ue5/README.md` + the `ue5-headless` memory
+(editor-mode vs commandlet; light-component accessors; MovieScene binding-id; delete-before-recreate;
+**PowerShell not Git-Bash** for `/Game` args — Git Bash mangles them).
+
+**Decisions:** UE5 is for assembly / persistent worlds / Lumen / crowds, not the single hero egg; the egg
+is best solved in Blender with real gem GEOMETRY (deferred); don't re-run the tried egg approaches
+(anti-repeat). **State:** UE5 scaffold + scripts committed; egg parked at best stand-ins; the look bible
+and the gen-AI pipeline are unchanged.
+
+---
+
 ## 2026-06-30 — Look locked from owner refs; full HYBRID pipeline proven; free tool stack installed
 
 **Goal:** Turn the "toddler-quality" Act I into a real film — lock the look from Lance's reference
