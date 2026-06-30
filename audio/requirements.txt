@@ -1,0 +1,15 @@
+# audio/ music-sync venv — Python 3.12 via uv (system Python 3.14 is too new for torch).
+#
+# Build:
+#   uv venv "audio\.venv" --python 3.12
+#   uv pip install --python "audio\.venv\Scripts\python.exe" torch torchaudio --index-url https://download.pytorch.org/whl/cu124
+#   uv pip install --python "audio\.venv\Scripts\python.exe" -r audio\requirements.txt
+#
+# torch/torchaudio are installed separately (CUDA cu124 wheels for the RTX 3080) — NOT pinned here
+# because they come from the PyTorch index, not PyPI.
+
+demucs>=4.0.1
+librosa>=0.11
+soundfile
+numpy
+matplotlib

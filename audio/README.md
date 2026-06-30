@@ -2,69 +2,76 @@
 
 The film is **music-locked** to *Fear Inoculum*, so the score should *drive* the animation, not be
 matched to it after the fact (Asset Spec §10 — "the world breathes with the album"). This folder turns
-the master tracks into data the Blender/Houdini/UE5 side can read directly.
+the master tracks into data the Blender/Houdini/UE5 side reads directly.
 
 > **Source audio is copyrighted** (Tool — *Fear Inoculum*) and lives in `FearInoculum_Resolve/Audio/*.mp3`,
-> which is **git-ignored**. The venv and all generated stems/analysis here are git-ignored too — only
-> the **scripts** in this folder are tracked.
+> which is **git-ignored**. The venv and all generated stems/analysis here are git-ignored too — only the
+> **scripts** + `requirements.txt` in this folder are tracked.
+
+## The honest reality (read this first)
+
+Source separation **cannot** cleanly pull a specific part out of a dense mix like *Fear Inoculum* — there
+is no model that isolates "Danny's mandala pad" or "that synth vs. Adam's guitar." So:
+
+| Tool | Good for | NOT good for |
+|---|---|---|
+| **Demucs stems** | broad, **bleed-tolerant family intensity** envelopes (overall drum/bass/vocal/guitar energy) | clean isolated parts; the 4-stem `other` is a junk drawer (guitar + synths + pad + bleed) |
+| **Frequency bands** (off the master) | **artifact-free** continuous drivers (sub→brilliance energy) | naming *which instrument* — it's energy by pitch range, not by player |
+| **librosa** beats/onsets/tempo | rhythmic **event frames** + a tempo ballpark | exact tempo (octave errors happen — verify by ear) |
+| **The owner's ear-annotations** (in the Treatment) | the **authoritative event track** — the one source no algorithm matches | nothing; this is ground truth |
+
+Use stems + bands as **continuous control signals** (intensity, where a little bleed doesn't matter) and
+the owner's annotations for **precise events** (a pad enters, a lyric hits).
 
 ## Environment
 
-System Python is **3.14** (too new for PyTorch wheels), so the ML tools run in a dedicated **Python
-3.12 venv** created with [`uv`], at `audio\.venv\`. GPU: **NVIDIA RTX 3080** (CUDA — torch `cu124`).
-
-```
-audio\.venv\Scripts\python.exe        # the interpreter to run everything below
-```
-
-Installed: `torch 2.6+cu124`, `torchaudio`, `demucs 4.0.1`, `librosa 0.11`, `soundfile`, `numpy`.
-Caches are redirected off the C: drive (`UV_CACHE_DIR`, `TORCH_HOME` → `F:\…`) — see the drive policy
-in project memory.
-
-## 1. Stem separation — `separate_stems.py` (Demucs)
-
-Splits a master track into **drums / bass / vocals / other**, which map onto the film's **Four
-Instruments** staging so each stem drives its own visual layer:
-
-| stem | Four Instruments → drives |
-|---|---|
-| `drums` | **world / weather** — sky, storm, lightning, impact FX |
-| `bass` | **light & mood** |
-| `vocals` | **story beats** — the lyric moments (and the clean input for lyric forced-alignment) |
-| `other` | **the Being & the energy of objects** — guitars/synths → `CHR_OneBeing` + `NG_BioPulse` |
+System Python is **3.14** (too new for PyTorch wheels), so the ML tools run in a dedicated **Python 3.12
+venv** (via [`uv`]) at `audio\.venv\`. GPU: **NVIDIA RTX 3080** (CUDA, torch `cu124`). Caches are
+redirected off C: (`UV_CACHE_DIR`, `TORCH_HOME` → `F:\…`). Rebuild from `requirements.txt`:
 
 ```bat
-audio\.venv\Scripts\python.exe audio\separate_stems.py "Fear Inoculum"
+uv venv "audio\.venv" --python 3.12
+uv pip install --python "audio\.venv\Scripts\python.exe" torch torchaudio --index-url https://download.pytorch.org/whl/cu124
+uv pip install --python "audio\.venv\Scripts\python.exe" -r audio\requirements.txt
 ```
-Output → `audio\stems\htdemucs\<track>\{drums,bass,vocals,other}.wav` (use `--model htdemucs_6s` for a
-6-stem split that also isolates guitar/piano).
 
-## 2. Frame-mapped analysis — `analyze_music.py` (librosa)
+Run everything with `audio\.venv\Scripts\python.exe`.
 
-Turns any track or stem into a JSON keyed by **film frame** (default 24 fps):
+## Scripts
 
+**`separate_stems.py`** (Demucs) — split a track into stems mapped onto the **Four Instruments**:
 ```bat
-audio\.venv\Scripts\python.exe audio\analyze_music.py "audio\stems\htdemucs\Fear Inoculum\other.wav" --fps 24
+audio\.venv\Scripts\python.exe audio\separate_stems.py "Fear Inoculum"              # htdemucs, 4-stem
+audio\.venv\Scripts\python.exe audio\separate_stems.py "Fear Inoculum" --model htdemucs_6s   # +guitar +piano
 ```
+`htdemucs_6s` is preferred here — it pulls **guitar** and **piano** out of `other` (Adam's guitar becomes
+its own envelope). Output → `audio\stems\<model>\<track>\*.wav`.
 
-Produces `audio\analysis\<name>_<fps>fps.json` with:
+**`analyze_bands.py`** (librosa) — artifact-free **frequency-band energy** envelopes off the master
+(sub/bass/low_mid/mid/high_mid/presence/brilliance), per film frame.
 
-| field | feeds |
-|---|---|
-| `tempo_bpm`, `biopulse_rate_hz` | `NG_BioPulse` Rate (Hz = BPM/60) |
-| `beats[]`, `onsets[]` (each `{t, frame}`) | ignition / impact-FX / cut frames (drums stem → `FX_Lightning` etc.) |
-| `rms_per_frame[]` (0..1 envelope) | per-frame emission / scale / `NG_BioPulse` Amplitude (guitar stem → the Being's glow) |
+**`analyze_music.py`** (librosa) — quick single-file tempo/beats/onsets + `rms_per_frame` for one track or stem.
 
-A bpy script reads this JSON and indexes by `frame` to drive animation — that's how the world ends up
-*played by the band* rather than hand-keyed.
+**`conduct.py`** — the **consolidated conductor track + visual dashboard**. Fuses per-stem energy (prefers
+6-stem), frequency bands, beats/onsets/tempo into one frame-keyed JSON, and renders a PNG dashboard
+(mel-spectrogram + beat grid · per-stem energy · band energy) you can eyeball for correctness:
+```bat
+audio\.venv\Scripts\python.exe audio\conduct.py "Fear Inoculum" --fps 24
+```
+→ `audio\analysis\<track>_conductor_24fps.json` (+ `_dashboard.png`). The JSON also carries a `caveats`
+list so downstream code doesn't treat the estimates as gospel.
+
+How a `bpy` script uses it: index the per-frame arrays by `frame` → drive `NG_BioPulse` Rate
+(`biopulse_rate_hz`) / Amplitude (a stem or band envelope), and place FX on `onsets[].frame`.
 
 ## Status & next
 
-- ✅ Demucs + librosa env stood up; **Act I (*Fear Inoculum*) separated** into 4 stems and analyzed
-  (`other`: 161.5 BPM, `drums`/`vocals`: 117.5 BPM, frame-mapped @ 24 fps).
-- ⬜ **Lyric forced-alignment** — run an aligner (WhisperX is the Windows-friendly + GPU choice over
-  aeneas) on the isolated **vocals** stem + the known lyrics to auto-generate the lyric→timecode map
-  the owner has been setting by ear, and cross-check it.
-- ⬜ A `bpy` importer that reads `analysis/*.json` to drive `NG_BioPulse` and FX timing in the style test.
+- ✅ Env (Demucs + librosa + matplotlib). **Act I (*Fear Inoculum*)** separated (4- **and** 6-stem),
+  band-analyzed, and a conductor JSON + dashboard generated (~123 BPM, 1251 beats, 7 bands @ 24 fps).
+- ⬜ **Lyric forced-alignment** on the isolated **vocals** stem (WhisperX — Windows/GPU, preferred over
+  aeneas) to auto-generate the lyric→timecode map the owner sets by ear, then cross-check it.
+- ⬜ A `bpy` importer that reads `analysis/*_conductor_*.json` to drive `NG_BioPulse` + FX in the style test.
+- ⬜ (optional) Cleaner stems via a **BS-Roformer** model (`audio-separator`) — reduces bleed; still can't
+  add instrument categories.
 
 [`uv`]: https://docs.astral.sh/uv/
