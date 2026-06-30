@@ -1,6 +1,13 @@
 # TODO — Inoculated by the Phoenix
 
-*Last updated: 2026-06-29. Status: HERO production — `MAT_LiquidStarlight` is hero; **Act I built end-to-end as first-pass hero stills**; gen-AI prompt pipeline online. **Division of labor changed:** Claude produces the art, Lance directs by prompt (Asset Spec §5 "owner hand-authors hero" assumption RETIRED — see `user-role-and-art-pipeline` in project memory + the 2026-06-29 pivot CHATLOG entry).*
+*Last updated: 2026-06-30. Status: LOOK LOCKED + full pipeline proven + free tool stack installed. The look bible (`ProjectDocs/Reference/ART_DIRECTION.md`) is locked from owner reference images; the HYBRID gen-AI pipeline (still→ControlNet→SVD/Wan motion) is proven end-to-end. **Read `ProjectDocs/RUN_GUIDE.md` before acting** (anti-repeat protocol). Division of labor unchanged: Claude produces the art, Lance directs by prompt.*
+
+## Done 2026-06-30 (look-lock + pipeline + tool-stack session)
+- [x] **Look bible LOCKED from owner reference images** (`ProjectDocs/Reference/ART_DIRECTION.md` + `images/`). Six hero looks matched: First Light (the album-lettering GOLD through pure black on the chime), **Liquid Starlight = FLOWING self-luminous light, NOT resin** (locked correction), the Egg (gem-scale skin, each scale a faceted gem, fiery RED + ancient GOLD — hero `_scratch/ref_egg_phoenix_v11.png`), Tree of Life, Plateau/Eden, Phoenix. The **GOLD THROUGH-LINE**: first photon == Phoenix fire (one being's light).
+- [x] **Full HYBRID pipeline proven end-to-end** — Blender bones → ControlNet composition-lock → film-grade still (Juggernaut) → SVD/Wan motion. New scripts: `genai/comfy_svd.py`, `comfy_controlnet.py`, `comfy_upscale.py`, `contact_sheet.py`, `dl_stack.py`. Motion reel of all six looks (`_scratch/lookreel.mp4`); the FI-012 egg rebuilt scaffold → film-grade → moving (`shot_fi012_egg.mp4`).
+- [x] **Free tool stack installed + verified** (ComfyUI 0.26, node count 983→1100): ComfyUI-Manager, controlnet_aux (depth/canny/pose preproc), IP-Adapter (+CLIP-vision), RIFE/FILM interpolation, **Wan 2.2 TI2V-5B** video, 4x-UltraSharp + RealESRGAN upscalers, **OneTrainer** (LoRA, own venv). The 3080's **10GB VRAM is the binding constraint** (caps video length/res; a VRAM upgrade is being explored).
+- [x] **`RUN_GUIDE.md`** — the anti-repeat manual: a "have I done this already?" check + script inventory + locked decisions + solved gotchas; the model consults it before spending tokens. Docs/handoffs/READMEs/memory updated to match.
+- [ ] **Next:** RE-CUT Act I film-grade through the pipeline (all ~25 beats), beat-by-beat (vertical slice first); train Egg/Tree/Phoenix LoRAs in OneTrainer for cross-film consistency.
 
 ## Done 2026-06-29 (hero / Act I session)
 - [x] **`MAT_LiquidStarlight` → HERO** (deep near-black-blue glassy cosmos, white cores + gold rims + bloom, resin flow) + `lookdev_swatch.py`.

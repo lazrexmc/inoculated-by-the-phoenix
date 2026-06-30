@@ -1,6 +1,6 @@
 # MEMORY — Durable decisions & facts
 
-*Append-only-ish. Record decisions that should survive across sessions. Last updated: 2026-06-29.*
+*Append-only-ish. Record decisions that should survive across sessions. Last updated: 2026-06-30.*
 
 ## Canon & source-of-truth
 - **`Treatment.md` is the single canonical story/canon document.** (Converted from `.docx` to
@@ -59,6 +59,30 @@
   (the Four Instruments) + librosa frame-mapped analysis (tempo→`NG_BioPulse` Rate, onsets→FX frames,
   RMS→amplitude), Python 3.12 venv on the RTX 3080. Act I separated + analyzed; next is WhisperX lyric
   forced-alignment on the vocals stem to auto-timecode the lyrics.
+
+## Production state & tooling (2026-06-30) — LOOK LOCKED + pipeline proven + tool stack in
+- **The LOOK is locked from owner reference images** — `ProjectDocs/Reference/ART_DIRECTION.md` (the look
+  bible) + `Reference/images/` (six keeper frames + contact sheet). **Read it + `RUN_GUIDE.md` before
+  generating.** Locked looks: First Light = the **album-lettering GOLD** through pure black on the chime
+  (built in `blender/act1_first_light.py`); **Liquid Starlight = FLOWING self-luminous light, NOT a
+  resin** (this corrects the earlier "resin flow" description of `MAT_LiquidStarlight`); the Egg = a
+  **mosaic of faceted gem-scales in warm gold + ruby red + ivory white**, ancient Egyptian/Mesopotamian,
+  lit from within, sealed (hero `_scratch/ref_egg_phoenix_v11.png`); Tree, Plateau/Eden, Phoenix.
+- **The GOLD THROUGH-LINE (canon):** the universe's first photon and the Phoenix's fire are the **same
+  gold** — one being's light struck at the start of the cycle and again at its rebirth.
+- **`RUN_GUIDE.md` is the anti-repeat protocol** — before any generation/script, check the look bible,
+  `_scratch/`, the script inventory, memory, and git, and report what exists *before* spending tokens.
+- **The HYBRID gen-AI pipeline is the FINAL look layer and is PROVEN END-TO-END:** Blender bones →
+  ControlNet composition-lock → film-grade still (Juggernaut) → SVD/Wan motion. Scripts in `genai/`:
+  `comfy_gen`, `comfy_img2img`, `comfy_controlnet`, `comfy_svd`, `comfy_upscale`, `contact_sheet`, `dl_*`.
+- **Free tool stack installed (ComfyUI 0.26 @ F:\genai\ComfyUI):** controlnet_aux (depth/canny/pose),
+  IP-Adapter, RIFE/FILM, **Wan 2.2 5B** video, 4x-UltraSharp/RealESRGAN upscalers, ComfyUI-Manager;
+  **OneTrainer** (`F:\genai\OneTrainer`, own venv) for LoRA training. **10GB VRAM is the binding
+  constraint** (caps video length/res; VRAM upgrade being explored). Detailed pipeline facts live in the
+  `.claude` project memory (`comfyui-pipeline`, `art-direction-references`, `production-approach`).
+- **Egg coloration is now owner-locked** to warm gem-scale gold/red/white (foreshadows the Phoenix). This
+  *updates* the older soft "Phoenix fire gold/white, red = corruption" lean — which was always a
+  preference, not a hard lock; warm red+gold now reads as the One Being's fire, not corruption.
 
 ## Hard canon rules that have bitten before (keep front of mind)
 - Phoenix fire reads gold/white; red = corruption/7empest — strong intent, held as a **preference, not a hard lock** (creativity first, filter second). Coloration canon to be firmed up once real images arrive; keep the palettes as separate material families so the distinction is easy to honor or relax.

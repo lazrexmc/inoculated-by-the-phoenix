@@ -39,13 +39,25 @@ Reference: fiery phoenix, wings spread, rising from dark cloud against a blazing
 - It is the cycle's answer to the first photon: the light, now embodied and aflame.
 
 ## 2. The Egg (CHR_Egg)
-References: 3D-printed dragon egg (faceted blue→green scales), psychedelic neon-swirl egg (magenta/
-rainbow on black), rainbow-striped egg.
-- **Faceted / scaled / patterned shell** — jewel-like, not smooth plastic. Think cut-gem or dragon
-  scale tessellation catching light.
-- **Iridescent, neon-on-dark** — saturated blue → violet → gold → green shift across the surface as
-  it/the camera turns; lit against deep darkness so the color glows.
-- SEALED every frame (canon). Glow ≠ crack. The shell is a living jewel, faintly lit from within.
+References: 3D-printed dragon egg (faceted scales — for the **texture**, not the color); psychedelic
+neon-swirl egg. **Palette REVISED 2026-06-30:** away from the cold "sapphire dragon" blues/greens →
+**fiery red + ancient gold.** (The Egg holds the Phoenix; its shell carries the Phoenix's fire.)
+- **Faceted / scaled / patterned shell** — jewel-like, not smooth plastic. Cut-gem / scale
+  tessellation catching light. *Keep the texture; lose the cold colors.*
+- **Fiery red + ancient gold** — molten reds, burnt orange, and the **antique brass-gold of the album
+  lettering** (the gold through-line — the Egg already carries the One Being's gold). **NOT**
+  sapphire / teal / emerald / cold.
+- **Egyptian gold trim** — ornate gold banding / gold-leaf detailing wrapping the shell like an
+  ancient pharaoh's sacred artifact; the "ancient relic" weight.
+- **Foreshadow, don't reveal** — the warm fiery-gold *hints* at the Phoenix within WITHOUT giving it
+  away. No literal flames / phoenix imagery; a sealed ancient ember of an egg, lit faintly from within.
+- **Every scale is its own gem-facet** (v2's dense scale layout, but each scale cut like a jewel), and
+  the gem-scales **blend in color across the surface** — gold, ruby red, ivory white — like an ancient
+  jeweled mosaic, NOT one flat hue. (Achieved via img2img + a hue-remap of the scale variety into warm
+  tones; SDXL won't tile this from a prompt alone.)
+- SEALED every frame (canon). Glow ≠ crack.
+- **Current hero render:** `_scratch/ref_egg_phoenix_v11.png` (+ hi-res `egg_v11_2x.png`); keeper
+  `images/03_egg.png`. v11 supersedes the earlier iridescent-blue egg.
 
 ## 3. Liquid Starlight (MAT_LiquidStarlight) — the shared water material
 References: a **flowing luminous river** streaming through a dark mossy forest (THE key ref); glowing

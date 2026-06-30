@@ -11,6 +11,10 @@ Produced in **Blender** (`bpy` scripting in VS Code) → **Unreal Engine 5**, wi
 - **New here (human or AI)? Start with [`ProjectDocs/CONTEXT.md`](ProjectDocs/CONTEXT.md).**
 - Onboarding a fresh LLM session? Use [`ProjectDocs/LLM_HANDOFF.md`](ProjectDocs/LLM_HANDOFF.md)
   (paste-ready prompt).
+- **Producing art/shots? Read [`ProjectDocs/RUN_GUIDE.md`](ProjectDocs/RUN_GUIDE.md) FIRST** — the
+  anti-repeat protocol (check what exists before generating/scripting), the script inventory, and the
+  solved gotchas. The **look bible** is
+  [`ProjectDocs/Reference/ART_DIRECTION.md`](ProjectDocs/Reference/ART_DIRECTION.md).
 
 ## The canon documents (source of truth)
 | File | Role |
@@ -47,14 +51,17 @@ Produced in **Blender** (`bpy` scripting in VS Code) → **Unreal Engine 5**, wi
 |---|---|
 | `blender/` | `bpy` asset scripts (Blender → UE5 pipeline). **Tier-1 foundations built** — `bootstrap`, `ENV_Tree`, `MAT_LiquidStarlight`/`NG_LiquidStarlight`, `NG_BioPulse`, `FX_Feather`+`MAT_Feather_StateRange`, `CHR_OneBeing` proxy + `RIG_OneBeing`. Verification previews in `blender/previews/`. See `blender/README.md`. |
 | `audio/` | **Music-sync pipeline** — Demucs stems (the Four Instruments) + librosa frame-mapped analysis (Python 3.12 venv) so the album *drives* the animation. See `audio/README.md`. (venv/stems/analysis are git-ignored; source MP3s are copyrighted/ignored.) |
-| `genai/` | **Prompt-driven gen-AI** — `comfy_gen.py` turns a prompt into an image via the ComfyUI server (SDXL on the RTX 3080). Lance's art-direction lever (concept art / skies / textures / matte). See `genai/README.md`. (The ComfyUI install itself lives at `F:\genai\ComfyUI`, outside the repo.) |
+| `genai/` | **The HYBRID gen-AI pipeline — the FINAL look layer.** Stills (`comfy_gen`/`comfy_img2img`), composition-lock (`comfy_controlnet`), motion (`comfy_svd` + Wan 2.2), upscaling (`comfy_upscale`), contact sheets — via the ComfyUI server on the RTX 3080. Proven end-to-end (Blender bones → ControlNet lock → film-grade still → motion). See `genai/README.md`. (ComfyUI lives at `F:\genai\ComfyUI`, outside the repo.) |
 
 ## Status
-**HERO production underway (2026-06-29).** `MAT_LiquidStarlight` is now hero, and **Act I is built
-end-to-end as first-pass hero stills** (genesis → Egg → shadow → inoculation → false peace) — see
-[`ProjectDocs/Acts/Act_I_BUILD_NOTES.md`](ProjectDocs/Acts/Act_I_BUILD_NOTES.md) and the
-`Act_I_contact_sheet.png`. A **prompt-driven gen-AI pipeline** (ComfyUI + SDXL on the RTX 3080) is online
-as Lance's art-direction lever. Day-to-day next steps live in [`ProjectDocs/TODO.md`](ProjectDocs/TODO.md).
+**LOOK LOCKED + full pipeline proven (2026-06-30).** The **look bible** is locked from owner reference
+images ([`ProjectDocs/Reference/ART_DIRECTION.md`](ProjectDocs/Reference/ART_DIRECTION.md) + `images/`) —
+six hero looks matched, unified by the **gold through-line** (the first photon and the Phoenix's fire are
+the same gold). The **HYBRID gen-AI pipeline** (Blender bones → ControlNet composition-lock → film-grade
+still → SVD/Wan motion) is **proven end-to-end**, and the free upgrade stack is installed (controlnet_aux,
+IP-Adapter, RIFE, Wan 2.2 5B, upscalers, OneTrainer for LoRA). The open frontier is the **film-grade
+re-cut of Act I**. Day-to-day next steps live in [`ProjectDocs/TODO.md`](ProjectDocs/TODO.md); the
+working manual is [`ProjectDocs/RUN_GUIDE.md`](ProjectDocs/RUN_GUIDE.md).
 
 > **Division of labor (load-bearing):** Lance directs by prompt; **Claude produces the finished hero art**
 > (procedural Blender + prompt-driven gen-AI). The Asset Spec §5 "owner hand-authors the hero" assumption

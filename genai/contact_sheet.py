@@ -42,7 +42,7 @@ if __name__ == "__main__":
     items = [
         (S + "/ref_first_light_blender.png",        "FI-001  First Light  (lettering-gold / black)"),
         (S + "/ref_liquid_starlight_river_v2.png",  "Liquid Starlight  (flowing light, not resin)"),
-        (S + "/ref_egg_iridescent_v2.png",          "The Egg  (sealed dragon-scale iridescence)"),
+        (S + "/ref_egg_phoenix_v11.png",            "The Egg  (gem-scales: gold / ruby / ivory, lit within)"),
         (S + "/ref_tree_of_life.png",               "Tree of Life  (glowing canopy + reflection)"),
         (S + "/ref_plateau_eden_v2.png",            "Plateau / Eden  (starlight river)"),
         (S + "/ref_phoenix.png",                    "The Phoenix  (gold-into-fire, rising)"),

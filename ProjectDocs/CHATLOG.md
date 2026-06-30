@@ -4,6 +4,54 @@
 
 ---
 
+## 2026-06-30 — Look locked from owner refs; full HYBRID pipeline proven; free tool stack installed
+
+**Goal:** Turn the "toddler-quality" Act I into a real film — lock the look from Lance's reference
+images, prove the gen-AI pipeline end-to-end, and install the free upgrade stack.
+
+**What happened:**
+- **Look bible LOCKED** from owner-supplied reference images (`ProjectDocs/Reference/ART_DIRECTION.md`
+  + `images/`). Six hero looks generated to target with Juggernaut-XL: First Light (the *Fear Inoculum*
+  **album-lettering gold** through pure black on the chime — built in `blender/act1_first_light.py`,
+  exact + animatable), **Liquid Starlight (FLOWING self-luminous light, NOT a resin — owner correction)**,
+  the Egg, Tree of Life, Plateau/Eden (water = liquid starlight), and the Phoenix. **The GOLD
+  THROUGH-LINE:** the universe's first photon and the Phoenix's fire are the same gold — one being's
+  light across the cycle (now canon in the art bible).
+- **The Egg, dialed in over several iterations to Lance's spec:** away from the cold "sapphire dragon"
+  palette → a **mosaic of faceted gem-scales (each scale a cut gem) in warm gold + ruby red + ivory
+  white**, ancient Egyptian/Mesopotamian, lit from within, sealed — foreshadowing the Phoenix without
+  giving it away. Final via img2img (kept v2's scale tiling) + a hue-remap that mapped the regional
+  color variety into warm tones + an img2img polish + upscale. Hero: `_scratch/ref_egg_phoenix_v11.png`.
+- **Full HYBRID pipeline PROVEN END-TO-END:** Blender bones → ControlNet composition-lock → film-grade
+  still → SVD/Wan motion. New reusable scripts: `genai/comfy_svd.py` (SVD svd_xt image→video — Phoenix
+  motion test passed), `comfy_controlnet.py` (canny/depth lock — FI-012 egg scaffold → film-grade egg
+  holding composition), `comfy_upscale.py` (4x-UltraSharp/RealESRGAN), `contact_sheet.py`,
+  `dl_stack.py`. Built a **motion reel of all six looks** (`_scratch/lookreel.mp4`) and rebuilt the
+  FI-012 egg beat scaffold → film-grade → moving (`shot_fi012_egg.mp4`).
+- **Free tool stack installed + verified** (ComfyUI 0.26, nodes 983→1100, all loaded clean):
+  ComfyUI-Manager, **comfyui_controlnet_aux** (depth/canny/pose preprocessors — fills the gap that
+  forced offline canny), **IP-Adapter** (+CLIP-ViT-H), **RIFE/FILM** interpolation, **Wan 2.2 TI2V-5B**
+  video (umt5 + wan VAE), **4x-UltraSharp + RealESRGAN** upscalers, **OneTrainer** (LoRA, own
+  torch-2.12 venv). Gotcha solved: the ComfyUI venv is a uv venv with no pip → `python -m ensurepip`.
+- **Wrote `ProjectDocs/RUN_GUIDE.md`** — the anti-repeat manual Lance asked for: a "have I done this
+  already?" check (look bible / `_scratch` / script inventory / memory / git) to run **before** spending
+  tokens, the full script inventory, the locked decisions, and the solved gotchas. Updated
+  CONTEXT/TODO/MEMORY/LLM_HANDOFF/genai-README to match.
+
+**Decisions:** look bible is locked (owner refs are the bar); liquid starlight is flowing light, not
+resin; the Egg shell is owner-locked to gem-scale warm gold/red/white (updates the earlier soft
+"gold/white, red=corruption" lean); gen-AI is the FINAL look layer, not concept; free-local first;
+10GB VRAM is the ceiling on video (upgrade being explored, e.g. vast.ai).
+
+**Lessons:** Blender 5.x compositor = `compositing_node_group` + Group Output (no `scene.node_tree`);
+Glare params are input sockets (Type = "Fog Glow"/"Streaks"). SDXL won't tile a fine texture across a
+whole egg from a prompt → use img2img + gradient/hue-map recolor (detail lives in luminance/hue).
+
+**State at end:** look locked, pipeline proven, tools in. The open frontier is the **film-grade re-cut
+of Act I** (beat-by-beat) and LoRA-training the hero assets for consistency.
+
+---
+
 ## 2026-06-29 — The pivot: Claude produces hero art; Act I built end-to-end; gen-AI pipeline online
 
 **Goal:** Bring the hero look up, stand up the prompt-driven gen-AI lever, and build all of Act I.

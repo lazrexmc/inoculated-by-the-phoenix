@@ -1,6 +1,6 @@
 # LLM HANDOFF — paste this into a fresh Codex / Claude / LLM session
 
-*Last updated: 2026-06-29. Keep this current whenever project state changes.*
+*Last updated: 2026-06-30. Keep this current whenever project state changes.*
 
 This is the onboarding prompt for a context-free AI session working on *Inoculated by the
 Phoenix*. Paste the block below. It assumes the AI has this folder open as its workspace.
@@ -12,6 +12,9 @@ You're joining an ongoing solo creative project. Before doing anything, read the
 the workspace and treat them as the source of truth, in this order:
 
   1. ProjectDocs/CONTEXT.md            ← orienting overview (read first)
+  1b. ProjectDocs/RUN_GUIDE.md         ← HOW WE WORK — read before acting: the "have I done this already?"
+                                          check, the script inventory, locked looks, and solved gotchas
+  1c. ProjectDocs/Reference/ART_DIRECTION.md  ← the LOOK BIBLE (palette, per-element look, gold through-line)
   2. Inoculated_by_the_Phoenix_Treatment.md    ← STORY / CANON (authoritative)
   3. Inoculated_by_the_Phoenix_Asset_Spec.md        ← BUILD BIBLE (how to produce assets)
   4. ProjectDocs/Lyrics_Reference.md   ← full Tool lyrics by act (source for canon/act work)
@@ -41,16 +44,25 @@ Assets are produced in Blender (scripting `bpy` in VS Code), assembled in Unreal
 heavy procedural/particle/sim work in Houdini. The docs exist to keep all work canon-correct so
 it never drifts off-myth across sessions.
 
-PRODUCTION STATE (2026-06-29) — HERO production underway
-Tier-1 foundations built; MAT_LiquidStarlight is now HERO (deep near-black-blue glassy cosmos, white/gold
-star-speckle, resin flow). ACT I is built end-to-end as first-pass hero stills (genesis -> Egg -> shadow
--> inoculation -> false peace): CHR_Egg + MAT_EggShell_Iridescent (sealed every frame of Act I),
-ENV_Plateau + MAT_Plateau_Rock, twin springs, Creator cradle, FX_Shadow_Deceiver (formless), and
-FX_InoculationGlow, assembled by blender/act1_scene.py; shot list audited to FI-001..025. See
-ProjectDocs/Acts/Act_I_BUILD_NOTES.md + Act_I_contact_sheet.png. A GEN-AI pipeline is online (the prompt
-lever): ComfyUI at F:\genai\ComfyUI (torch 2.6+cu124, RTX 3080) + SDXL, driven by genai/comfy_gen.py
-(prompt->image). All four DCCs located; the audio/ music-sync pipeline (Demucs stems + librosa, Python
-3.12 venv) drives animation from the album.
+PRODUCTION STATE (2026-06-30) — LOOK LOCKED + full pipeline proven
+The LOOK BIBLE is locked from Lance's reference images (ProjectDocs/Reference/ART_DIRECTION.md +
+images/): six hero looks matched to target — First Light (the album-lettering GOLD through pure black on
+the chime), Liquid Starlight (FLOWING self-luminous light, NOT resin — locked correction), the Egg (a
+gem-scale skin, each scale a faceted gem, in fiery RED + ancient GOLD, lit from within), Tree of Life,
+Plateau/Eden (water is liquid starlight), and the Phoenix (gold-into-fire). The GOLD THROUGH-LINE: the
+universe's first photon and the Phoenix's fire are the same gold — one being's light across the cycle.
+The HYBRID gen-AI pipeline is the FINAL look layer and is PROVEN END-TO-END: Blender bones → ControlNet
+composition-lock → film-grade still (Juggernaut) → SVD/Wan motion → a moving Act I shot (the FI-012 egg
+was rebuilt from its "toddler" scaffold to film-grade + moving). ComfyUI 0.26 at F:\genai\ComfyUI (torch
+2.6+cu124, RTX 3080) now runs: Juggernaut/SDXL stills, xinsir ControlNet (+controlnet_aux depth/canny
+preproc), IP-Adapter, SVD + Wan 2.2 5B video, RIFE/FILM interpolation, 4x-UltraSharp/RealESRGAN upscalers;
+OneTrainer (own venv) is installed for LoRA training (asset consistency). Scripts: genai/comfy_{gen,img2img,
+controlnet,svd,upscale}.py + contact_sheet.py + dl_*.py. Act I still exists as the earlier first-pass
+scaffolds/animatic; the open frontier is RE-CUTTING Act I film-grade through this pipeline. All four DCCs
+located; audio/ music-sync (Demucs + librosa, Python 3.12 venv) drives animation from the album. The 10GB
+VRAM on the 3080 is the binding constraint (caps video length/res); a VRAM upgrade is being explored.
+NOTE: the Egg's hero shell is now owner-locked to fiery red+gold (foreshadowing the Phoenix); this updates
+the earlier "Phoenix fire gold/white, red=corruption" lean, which was always a soft preference.
 
 DIVISION OF LABOR (load-bearing — supersedes Asset Spec §5)
 Lance is a proven LLM prompt-writer with NO formal art / 3D-software / UI training; he CANNOT hand-author

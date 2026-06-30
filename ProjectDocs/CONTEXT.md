@@ -1,6 +1,6 @@
 # CONTEXT — Inoculated by the Phoenix
 
-*Last updated: 2026-06-29*
+*Last updated: 2026-06-30*
 
 ## What this project is
 A **wordless, feature-length animated film** set entirely to Tool's album *Fear Inoculum*
@@ -62,6 +62,14 @@ and story work on-myth so nothing drifts across sessions.
 - Continuity between songs is the default (silent connective passages or hard cuts), not a hard rule — fades are allowed when the moment calls for it (even mid-song). The bird's growth carries unbroken Pneuma→Invincible, completing into the Eagle as Invincible opens.
 
 ## Current state
+- **LOOK LOCKED + pipeline proven + tool stack in (2026-06-30).** The **look bible**
+  (`ProjectDocs/Reference/ART_DIRECTION.md` + `images/`) is locked from owner reference images — six
+  hero looks matched, the **gold through-line** (first photon == Phoenix fire). **Liquid Starlight is
+  FLOWING self-luminous light, NOT a resin** (corrects the older description). The HYBRID gen-AI pipeline
+  (Blender bones → ControlNet lock → film-grade still → SVD/Wan motion) is **proven end-to-end**; new
+  scripts in `genai/`. Free tool stack installed (controlnet_aux, IP-Adapter, RIFE, Wan 2.2 5B,
+  upscalers, OneTrainer). **`ProjectDocs/RUN_GUIDE.md` is the read-before-acting anti-repeat manual.**
+  Open frontier: the **film-grade re-cut of Act I**. (10GB VRAM is the binding constraint on video.)
 - **Per-act working files** in `ProjectDocs/Acts/` (one per act; Story + lyrics + canon flags) —
   derived from the Treatment, verbatim-synced (1.000). **Bidirectional sync rule:** Treatment ↔ per-act
   files ↔ shot list must never drift; the Treatment is the source. See `ProjectDocs/Acts/README.md`.
